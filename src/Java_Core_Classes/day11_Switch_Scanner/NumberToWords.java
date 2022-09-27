@@ -10,6 +10,20 @@ public class NumberToWords {
 
         System.out.println(result);
 
+        System.out.println("-----------------------");
+
+        switch (num){
+            case 0:
+                result = "zero";
+                break;
+            case 1:
+                result = "one";
+                break;
+            default:
+                result = "Invalid Number";
+        }
+        System.out.println(result);
+
 
 
 

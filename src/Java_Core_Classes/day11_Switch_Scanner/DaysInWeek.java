@@ -3,14 +3,21 @@ package Java_Core_Classes.day11_Switch_Scanner;
 public class DaysInWeek {
     public static void main(String[] args) {
 
-        int number = 30;
+        int number = 30;  //long, float, double and boolean values are not accepted
+        /*
+        long number = 5L;
+        float number = 5F;
+        double number = 5D;
+        boolean number =true;
+        */
+        //byte, short, int, String, char are accepted.
         String result = "";
 
         switch (number){  //{1,2,3,4,5,6,7}not a boolean, a data must be given
 // performance is a lot faster than if
             // only compares equality
 
-            case 1:   //values must be same type for all cases, they must be also unique
+            case 1:   //values must be same type for all cases, they must be also unique, not duplicated
                 result = "Monday";
                 break;  //exits the switch after executing the case block
             case 2:
