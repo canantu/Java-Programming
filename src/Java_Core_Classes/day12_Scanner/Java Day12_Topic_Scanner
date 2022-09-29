@@ -1,0 +1,19 @@
+Scanner Class: used for getting user inputs
+                needs to be imported from "java.util"
+                syntax of import statement:  import package.class;
+                                            import java.util.Scanner;
+
+                 Declare:
+                 Scanner scan = new Scanner(System.in);
+                # whenever we use an object, we have to assign it to a variable, to make it reusable.
+                # if we create an object everytime, it consumes memory.
+
+                next() : only one word, until a space
+                nextLine(): it reads until a new line
+
+                if we use another method after nextLine method, it will ignore enter key, therefore we have to
+                clear the memory of scanner. so we add one more nextLine() method
+                # Example : nextInt() : when we enter 24 and push ENTER key, the method will only read 24 and ignore ENTER.
+                it remains in the scanner's memory.
+
+                ## If we use nextLine() after other method,
