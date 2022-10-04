@@ -1,6 +1,6 @@
 package Java_Core_Classes.day15_ForLoop;
 
-public class FormatFullName {
+public class FormatFullName_String {
     public static void main(String[] args) {
 
         String firstName = "cyDEo";
