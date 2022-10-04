@@ -1,6 +1,6 @@
 package Java_Core_Classes.day14_String;
 
-public class StringMethod3 {
+public class StringMethod3_Substring {
     public static void main(String[] args) {
 
         //substring(beginning index, ending index)

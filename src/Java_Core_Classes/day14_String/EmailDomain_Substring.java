@@ -1,6 +1,6 @@
 package Java_Core_Classes.day14_String;
 
-public class EmailDomain {
+public class EmailDomain_Substring {
 
     public static void main(String[] args) {
 
