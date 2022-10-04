@@ -8,7 +8,7 @@ public class TipCalculator {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Split or No split (Yes or No)?");
-        String split = scan.next();
+        String split = scan.next().toLowerCase();
 
         System.out.println("Enter the number of people:");
         int num = scan.nextInt();
@@ -18,32 +18,37 @@ public class TipCalculator {
 
         System.out.println("How was the service quality? \n" +
                 "(Excellent/Great/Good/Fair/Poor)");
-        String quality = scan.next();
+        String quality = scan.next().toLowerCase();
 
+
+        /*double taxRate = (quality.equals("excellent")? 0.25 : (quality.equals("great")? 0.2 :
+                (quality.equals("good")? 0.15 : (quality.equals("fair")? 0.10 :
+                        (quality.equals("poor")? 0.5;
+       */
         double totalTip = 0;
         //Poor = 5%, Fair = 10%, Good = 15%, Great = 20%, Excellent = 25%
         switch (quality){
-            case "Poor":
+            case "poor":
                 totalTip = amount * 0.05;
                 break;
-            case "Fair":
+            case "fair":
                 totalTip = amount * 0.1;
                 break;
-            case "Good":
+            case "good":
                 totalTip = amount * 0.15;
                 break;
-            case "Great":
+            case "great":
                 totalTip = amount * 0.2;
                 break;
-            case "Excellent":
+            case "excellent":
                 totalTip = amount * 0.25;
         }
 
-        if (split.equals("No")){
+        if (split.equals("no")){
             System.out.println("Number of people entered: " + num);
             System.out.println("Total to pay: " + (amount + totalTip));
             System.out.println("Total tip: " + totalTip);
-        } else if (split.equals("Yes")) {
+        } else if (split.equals("yes")) {
             System.out.println("Number of people entered: " + num);
             System.out.println("Total to pay: " + (amount + totalTip));
             System.out.println("Total tip: " + totalTip);
