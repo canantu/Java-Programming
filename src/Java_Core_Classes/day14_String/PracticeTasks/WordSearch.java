@@ -10,11 +10,11 @@ public class WordSearch {
         System.out.println("Enter a word: ");
         String word = scan.next();
 
-        if (word.charAt(0)<=57 && word.charAt(0)>=48)
+        if (word.charAt(0)<='9' && word.charAt(0)>='0')
             System.out.println("first character is digit");
-        else if (word.charAt(0)<=122 && word.charAt(0)>=97)
+        else if (word.charAt(0)<='z' && word.charAt(0)>='a')
             System.out.println("first character is lowercase letter");
-        else if (word.charAt(0)<=90 && word.charAt(0)>=65)
+        else if (word.charAt(0)<='Z' && word.charAt(0)>='A')
             System.out.println("first character is uppercase letter");
         else
             System.out.println("first character is special letter");
