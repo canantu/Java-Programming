@@ -22,5 +22,19 @@ public class StringMethod2 {
         System.out.println("sentence = " + sentence);
 
 
+        String s1 = "Java";
+        s1 = s1.replace("a", "e");
+        System.out.println("s1 = " + s1);
+
+        System.out.println("----------------------------------");
+
+        String s2 = "Java Java Java";
+        System.out.println(s2.replace("Java", "Python"));
+
+        System.out.println(s2.replaceFirst("Java", "Python"));
+
+        System.out.println(s2.replace("va", "vo"));
+
+
     }
 }
