@@ -27,6 +27,28 @@ public class Frequency_WhileLoop {
 
         System.out.println("countCat = " + countCat);
 
+        System.out.println("-----------------------------------");
+
+        String s = "java java java python python".toLowerCase();
+        int countJava = 0;
+        int countPython = 0;
+
+        while(s.contains("java") || s.contains("python")){
+
+            if(s.contains("java")){
+                s = s.replaceFirst("java", "");
+                countJava++;
+            }
+            if(s.contains("python")){
+                s = s.replaceFirst("python", "");
+                countPython++;
+            }
+
+        }
+        System.out.println("countJava = " + countJava);
+        System.out.println("countPython = " + countPython);
+
+
 
     }
 }
