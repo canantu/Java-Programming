@@ -6,7 +6,7 @@ public class FrequencyWord {
         String str = "JavaJavaJava";
 
         int frequency = 0;
-        for (int i = 0; i < str.length()-3; i++) {
+        for (int i = 0; i <= str.length()-4; i++) {
             String eachSub = str.substring(i, i+4);
             if(eachSub.equals("Java"))
                 frequency++;
