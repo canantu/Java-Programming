@@ -4,7 +4,7 @@ public class FrequencyJava {
 
     public static void main(String[] args) {
 
-        String str = "Java Java Java JAVA java canan java java tunc Java java google java ";
+        String str = "Java Java Java JAVA java canan ";
         int count = 0;
         int c = 0;
 
