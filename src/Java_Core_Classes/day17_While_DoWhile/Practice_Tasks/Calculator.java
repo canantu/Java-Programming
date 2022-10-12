@@ -14,51 +14,25 @@ public class Calculator {
         System.out.println("Enter a valid math operator (+, -, *, /): ");
         char op = scan.next().charAt(0);
 
-        boolean isValidOperator = op == '+' || op == '-' || op == '*' || op == '/';
 
-        if(isValidOperator){
+        while (!(op == '+' || op == '-' || op == '*' || op == '/')){
+            System.out.println("Invalid operator! Enter a valid math operator (+, -, *, /): ");
+            op = scan.next().charAt(0);
+        }
 
-            switch (op){
+        switch (op){
 
-                case '+' :
-                    result = num1 + num2;
-                    break;
-                case '-':
-                    result = num1 - num2;
-                    break;
-                case '*':
-                    result = num1 * num2;
-                    break;
-                default:
-                    result = num1 / num2;
-
-            }
-
-
-
-        }else {
-
-            while (!(op == '+' || op == '-' || op == '*' || op == '/')){
-                System.out.println("Invalid operator! Enter a valid math operator (+, -, *, /): ");
-                op = scan.next().charAt(0);
-            }
-
-            switch (op){
-
-                case '+' :
-                    result = num1 + num2;
-                    break;
-                case '-':
-                    result = num1 - num2;
-                    break;
-                case '*':
-                    result = num1 * num2;
-                    break;
-                default:
-                    result = num1 / num2;
-
-            }
-
+            case '+' :
+                result = num1 + num2;
+                break;
+            case '-':
+                result = num1 - num2;
+                break;
+            case '*':
+                result = num1 * num2;
+                break;
+            default:
+                result = num1 / num2;
 
         }
 
