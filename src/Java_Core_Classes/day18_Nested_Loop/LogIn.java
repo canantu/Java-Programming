@@ -31,6 +31,8 @@ public class LogIn {
                 System.out.println("Your account is locked! Please contact support team");
             }else System.out.println("Logged in");
 
+            scan.close();
+
 
 
 

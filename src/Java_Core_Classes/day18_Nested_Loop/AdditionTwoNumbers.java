@@ -26,6 +26,7 @@ public class AdditionTwoNumbers {
                 System.out.println("Goodbye!");
                 break;  //without break statement, while(true) runs infinite times
         }
+        scan.close();
 
 
     }

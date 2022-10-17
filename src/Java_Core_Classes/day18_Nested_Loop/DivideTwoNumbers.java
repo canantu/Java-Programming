@@ -28,7 +28,7 @@ public class DivideTwoNumbers {
 
         System.out.println("division is " + count);
         System.out.println("remainder is " + max);
-
+        scan.close();
 
     }
 }

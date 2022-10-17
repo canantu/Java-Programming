@@ -40,6 +40,7 @@ public class LogIn2 {
                 System.out.println("Your account is locked! Please contact support team");
 
         }
+        scan.close();
 
 
 
