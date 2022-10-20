@@ -2,9 +2,10 @@ package Java_Core_Classes.day19_LoopPractices;
 
 public class CharactersAppearedTwice {
     public static void main(String[] args) {
-
         String str = "aabccddeee";
         String result = "";
+
+
 
 
         for (int i = 0; i < str.length(); i++) {
@@ -19,9 +20,8 @@ public class CharactersAppearedTwice {
                     count++;
 
             }
-            if ((count == 2) && !result.contains(""+ch)){
+            if ((count == 2) && !result.contains(""+ch))
                 result += ch;
-            }
 
 
         }
