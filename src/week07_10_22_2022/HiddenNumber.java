@@ -10,7 +10,7 @@ public class HiddenNumber {
         Random random = new Random();
         Scanner scan = new Scanner(System.in);
 
-        int hiddenNumber = random.nextInt(10) + 1;
+        int hiddenNumber = random.nextInt(100) + 1;  // 1 to 100
 
         int guess = 0;
         boolean flag = true;
