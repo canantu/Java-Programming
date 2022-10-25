@@ -18,6 +18,7 @@ public class HighestFrequency {
             if (count > max)
                 max = count;
         }
+        String result = "";
 
         for (int i = 0; i < chars.length; i++) {
             char element = chars[i];
@@ -27,11 +28,8 @@ public class HighestFrequency {
                 if (chars[j] == element)
                     count++;
             }
-
-            String maxFreq = "";
-
-            if (count == max){
-                System.out.println(element);
+            if (count == max && (!result.contains(""+element))){
+                System.out.println(result += element);
             }
 
         }
