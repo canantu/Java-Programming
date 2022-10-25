@@ -25,8 +25,8 @@ public class MinAndMax {
                 max = numbers[i];
         }
         System.out.println(Arrays.toString(numbers));
-        System.out.println(min);
-        System.out.println(max);
+        System.out.println("min= " + min);
+        System.out.println("max= " + max);
 
     }
 }
