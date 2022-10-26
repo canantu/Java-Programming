@@ -22,6 +22,8 @@ public class MergeTwoArrays {
             index++;
         }
 
+
+
         System.out.println(Arrays.toString(merged));
 
 
