@@ -6,7 +6,7 @@ public class ZerosToEnd {
 
     public static void main(String[] args) {
 
-        int numbers[] = {10, 0, 5, 0, 1, 0};
+        int numbers[] = {10, 0, 5, 0, -1, 0};
         int temp[] = new int[numbers.length];
         int index = 0;
 
