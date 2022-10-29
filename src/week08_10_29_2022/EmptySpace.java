@@ -10,7 +10,5 @@ public class EmptySpace {
             System.out.println(each);
         }
 
-
-
     }
 }
