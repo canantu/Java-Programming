@@ -7,7 +7,8 @@ public class FirstAndLastChar {
         String[] str = { "Anna", "Mike", "Aliya", "Donald", "Muhtar", "Remus", "Mehmet","Asya"};
         int count = 0;
         for (String s : str) {
-            if (s.toLowerCase().charAt(0) == s.toLowerCase().charAt(s.length() -1))
+            s = s.toLowerCase();
+            if (s.charAt(0) == s.charAt(s.length() -1))
                 count++;
         }
 
