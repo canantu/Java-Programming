@@ -11,7 +11,7 @@ public class SortArray {
         for (int i = 0; i < numbers.length; i++) {
             for (int j = i+1; j < numbers.length; j++) {
                 int temp = 0;  //everytime temp must be empty
-                if (numbers[i] > numbers[j]){
+                if (numbers[i] > numbers[j]){ //ascending order
                      temp = numbers[i];
                      numbers[i] = numbers[j];
                      numbers[j] = temp;
