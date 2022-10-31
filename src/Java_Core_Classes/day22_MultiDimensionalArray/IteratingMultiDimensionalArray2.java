@@ -15,5 +15,14 @@ public class IteratingMultiDimensionalArray2 {
             System.out.println();
         }
 
+        System.out.println("=======================================");
+
+        for (int i = 0; i < arr2D.length; i++) {
+            for (int j = arr2D[i].length - 1; j >= 0; j--) {
+                System.out.print(arr2D[i][j] + " ");
+            }
+            System.out.println();
+        }
+
     }
 }
