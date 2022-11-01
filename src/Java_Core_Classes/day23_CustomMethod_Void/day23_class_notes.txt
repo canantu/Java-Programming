@@ -34,3 +34,9 @@ Return Type: void, any data type
 Method Name: can be any name
 Parameter: any data type
 
+Custom Methods:
+    1. void methods
+    2. void methods with arguments
+    3. return methods
+    4. returns with argument
+    5. overloading
