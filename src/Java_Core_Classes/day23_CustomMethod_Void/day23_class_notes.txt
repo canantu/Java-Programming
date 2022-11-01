@@ -40,3 +40,6 @@ Custom Methods:
     3. return methods
     4. returns with argument
     5. overloading
+
+
+Task: create a function that can print all numbers between x and y
