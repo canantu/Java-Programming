@@ -1,0 +1,36 @@
+Arrays: utility class for array.  in “java.util” package
+
+	toString()
+	deepToString()
+	sort()
+	equals()
+	copyOf()
+	copyOfRange()
+
+String Methods:
+	toCharArray()
+	split()
+
+for each loop: you have to have a data structure
+				already iterated
+				iteration order is fixed
+				for(int each : numbers)  {
+				}
+
+
+Method: Function
+
+	public static void main(String[] args){
+}
+
+declaring a method:
+
+Access Modifier - Specifier - Return Type - Method Name (parameter) {
+}
+
+Access Modifier : public, protected, default, private
+Specifier: static, final, abstract, synchronized
+Return Type: void, any data type
+Method Name: can be any name
+Parameter: any data type
+
