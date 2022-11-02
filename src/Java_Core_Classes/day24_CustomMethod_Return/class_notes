@@ -26,11 +26,11 @@ method: grouping code fragments ===> creating a function
 			                             MUST       MUSt
 		Access-Modifier   specifier   return-type  name  (Parameter){
 
-					code fargments
+					code fragments
 
 		}
 
-		Acess modifier: public
+		Access modifier: public
 				public: ALWAYS ACCESSIBLE
 
 		Specifier: static
@@ -56,7 +56,7 @@ What's return method?
 
 
 return method: return type is not void
-				MUST return a vlaue
+				MUST return a value
 
 
 return statement: used for exiting the method
@@ -64,7 +64,7 @@ return statement: used for exiting the method
 
 
 branching statements:
-	continue: skiping the current iteration
+	continue: skipping the current iteration
 	break: exits the loop or switch
 	return: exiting the method (one method, current method)
 	System.exit(0): exits the system (EVERY THING WILL BE TERMINATED)
@@ -73,7 +73,7 @@ branching statements:
 
 
 Task:
-	1. create a method that can remove duplciated characters from a string and returns the new value
+	1. create a method that can remove duplicated characters from a string and returns the new value
 					"aaabbcccc" ===> "abc"
 
 	2. create a method that can return the maximum number from an array of integers
@@ -84,7 +84,7 @@ Task:
 					{1,2,3,4,5} === > {5,4,3,2,1}
 
 
-	5. create a method that can merge two arrays and returnj the new array
+	5. create a method that can merge two arrays and return the new array
 				arr1 = {1,2,3}
 				arr2 = {4,5}
 
