@@ -6,6 +6,11 @@ public class BreakfastTasks {
 
         showInitials("canan", "canan");
         displayDomain("canan.canan@gmail.com");
+        String[] emails = {"josh@gmail.com", "jim@yahoo.com", "elminur@cydeo.com", "gulsen@gmail.com"};
+
+        for (String email : emails) {
+            displayDomain(email);
+        }
 
     }
 
@@ -16,9 +21,10 @@ public class BreakfastTasks {
 
     }
     public static void displayDomain(String email){
-        String domain = email.substring(email.indexOf("@") + 1, email.indexOf(".com"));
+        String domain = email.substring(email.indexOf("@") + 1, email.lastIndexOf("."));
         System.out.println(domain);
     }
+
 
 
 
