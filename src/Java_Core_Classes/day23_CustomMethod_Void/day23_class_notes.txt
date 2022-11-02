@@ -19,7 +19,7 @@ for each loop: you have to have a data structure
 
 
 Method: Function
-
+    advantage: improves the re-usability of our codes
 	public static void main(String[] args){
 }
 
@@ -28,10 +28,10 @@ declaring a method:
 Access Modifier - Specifier - Return Type - Method Name (parameter) {
 }
 
-Access Modifier : public, protected, default, private
-Specifier: static, final, abstract, synchronized
-Return Type: void, any data type
-Method Name: can be any name
+Access Modifier : public = always accessible, protected, default, private
+Specifier: static = method can be called through its class name, final, abstract, synchronized
+Return Type: void = does not return a value, any data type
+Method Name: can be any name, meaningful, descriptive
 Parameter: any data type
 
 Custom Methods:
