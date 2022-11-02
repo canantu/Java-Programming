@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day20 Arrays Practice Tasks">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaProgrammingReviews_EU10.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day21_ForEachLoop/ArraysUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week02_09_17_2022/Review_Week02" afterDir="false" />
+    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day24 Return Methods">
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day24_CustomMethod_Return/ReturnMethodPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +46,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "inlay.hints"
@@ -63,13 +57,13 @@
       <recent name="$PROJECT_DIR$/src/week01_09_10_2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArraysUtility">
-    <configuration name="ArraysUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day21_ForEachLoop.ArraysUtility" />
+  <component name="RunManager" selected="Application.ReturnMethodPractice">
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day23_CustomMethod_Void.PracticeTasks.Anagram" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day21_ForEachLoop.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day23_CustomMethod_Void.PracticeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day20_Arrays.PracticeTasks.CommonElements" />
+    <configuration name="BreakfastTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day24_CustomMethod_Return.BreakfastTasks" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day20_Arrays.PracticeTasks.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day24_CustomMethod_Return.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighestFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day20_Arrays.HighestFrequency" />
+    <configuration name="ReturnMethodIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day24_CustomMethod_Return.ReturnMethodIntro" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day20_Arrays.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day24_CustomMethod_Return.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZerosToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day20_Arrays.PracticeTasks.ZerosToEnd" />
+    <configuration name="ReturnMethodPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day24_CustomMethod_Return.ReturnMethodPractice" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day20_Arrays.PracticeTasks.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day24_CustomMethod_Return.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day21_ForEachLoop.test" />
+    <configuration name="printName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day23_CustomMethod_Void.PracticeTasks.printName" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day21_ForEachLoop.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day23_CustomMethod_Void.PracticeTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArraysUtility" />
-        <item itemvalue="Application.HighestFrequency" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.CommonElements" />
-        <item itemvalue="Application.ZerosToEnd" />
+        <item itemvalue="Application.ReturnMethodPractice" />
+        <item itemvalue="Application.ReturnMethodIntro" />
+        <item itemvalue="Application.BreakfastTasks" />
+        <item itemvalue="Application.Anagram" />
+        <item itemvalue="Application.printName" />
       </list>
     </recent_temporary>
   </component>
@@ -161,265 +155,9 @@
       <workItem from="1665817608201" duration="27491000" />
       <workItem from="1666179751103" duration="3679000" />
       <workItem from="1666448564577" duration="31846000" />
-    </task>
-    <task id="LOCAL-00047" summary="day17  continue loop">
-      <created>1665489448820</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1665489448820</updated>
-    </task>
-    <task id="LOCAL-00048" summary="day17  continue loop">
-      <created>1665490906604</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1665490906604</updated>
-    </task>
-    <task id="LOCAL-00049" summary="day16   loop">
-      <created>1665557599579</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1665557599579</updated>
-    </task>
-    <task id="LOCAL-00050" summary="day17 practice tasks">
-      <created>1665559858124</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1665559858125</updated>
-    </task>
-    <task id="LOCAL-00051" summary="day17 practice tasks">
-      <created>1665562205148</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1665562205148</updated>
-    </task>
-    <task id="LOCAL-00052" summary="day17 practice tasks">
-      <created>1665564250994</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1665564250994</updated>
-    </task>
-    <task id="LOCAL-00053" summary="day17 group task decrypter">
-      <created>1665565672073</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1665565672074</updated>
-    </task>
-    <task id="LOCAL-00054" summary="day17 group task">
-      <created>1665700948152</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1665700948153</updated>
-    </task>
-    <task id="LOCAL-00055" summary="week06 while loop review">
-      <created>1665850865142</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1665850865145</updated>
-    </task>
-    <task id="LOCAL-00056" summary="week06 while loop review">
-      <created>1665852123733</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1665852123733</updated>
-    </task>
-    <task id="LOCAL-00057" summary="week06 replit task">
-      <created>1665997856890</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1665997856892</updated>
-    </task>
-    <task id="LOCAL-00058" summary="day18 Nested Loops">
-      <created>1666000131987</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1666000131987</updated>
-    </task>
-    <task id="LOCAL-00059" summary="day18 Nested Loops">
-      <created>1666001244149</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1666001244149</updated>
-    </task>
-    <task id="LOCAL-00060" summary="day18 Nested Loops">
-      <created>1666001861347</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1666001861347</updated>
-    </task>
-    <task id="LOCAL-00061" summary="day18 Nested Loops">
-      <created>1666002135437</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1666002135438</updated>
-    </task>
-    <task id="LOCAL-00062" summary="day18 Nested Loops Practice Tasks">
-      <created>1666013976220</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1666013976221</updated>
-    </task>
-    <task id="LOCAL-00063" summary="replit tasks">
-      <created>1666013999364</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1666013999364</updated>
-    </task>
-    <task id="LOCAL-00064" summary="day 18 nested loops">
-      <created>1666014012571</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1666014012571</updated>
-    </task>
-    <task id="LOCAL-00065" summary="day 18 practice tasks">
-      <created>1666014457430</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1666014457430</updated>
-    </task>
-    <task id="LOCAL-00066" summary="day 19 loops practice">
-      <created>1666079541950</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1666079541950</updated>
-    </task>
-    <task id="LOCAL-00067" summary="day 19 loops practice tasks">
-      <created>1666246994830</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1666246994831</updated>
-    </task>
-    <task id="LOCAL-00068" summary="day 19 loops">
-      <created>1666247013794</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1666247013794</updated>
-    </task>
-    <task id="LOCAL-00069" summary="Office Hour 1">
-      <created>1666247043989</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1666247043990</updated>
-    </task>
-    <task id="LOCAL-00070" summary="Week 07 Recap Tasks">
-      <created>1666450441737</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1666450441738</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Week 07 Recap Tasks">
-      <created>1666452210947</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1666452210947</updated>
-    </task>
-    <task id="LOCAL-00072" summary="Week 07 Recap Tasks">
-      <created>1666452408234</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1666452408234</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Week 07 Recap Tasks">
-      <created>1666459462271</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1666459462271</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Week 07 Recap Tasks">
-      <created>1666468962339</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1666468962346</updated>
-    </task>
-    <task id="LOCAL-00075" summary="group study">
-      <created>1666536290313</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1666536290314</updated>
-    </task>
-    <task id="LOCAL-00076" summary="day20 Arrays">
-      <created>1666613171352</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1666613171352</updated>
-    </task>
-    <task id="LOCAL-00077" summary="day20 Arrays">
-      <created>1666614344096</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1666614344096</updated>
-    </task>
-    <task id="LOCAL-00078" summary="day20 Arrays">
-      <created>1666617375742</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1666617375742</updated>
-    </task>
-    <task id="LOCAL-00079" summary="Task solution">
-      <created>1666617405308</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1666617405308</updated>
-    </task>
-    <task id="LOCAL-00080" summary="day20 Arrays">
-      <created>1666684499532</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1666684499549</updated>
-    </task>
-    <task id="LOCAL-00081" summary="day20 Arrays">
-      <created>1666685204464</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1666685204465</updated>
-    </task>
-    <task id="LOCAL-00082" summary="day20 Arrays">
-      <created>1666686242184</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1666686242184</updated>
-    </task>
-    <task id="LOCAL-00083" summary="day20 Arrays">
-      <created>1666686280757</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1666686280757</updated>
+      <workItem from="1667245313861" duration="7107000" />
+      <workItem from="1667312060086" duration="10523000" />
+      <workItem from="1667412320433" duration="6740000" />
     </task>
     <task id="LOCAL-00084" summary="day20 Arrays">
       <created>1666686649953</created>
@@ -505,7 +243,266 @@
       <option name="project" value="LOCAL" />
       <updated>1666694997608</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="week08 Arrays">
+      <created>1667251084580</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1667251084580</updated>
+    </task>
+    <task id="LOCAL-00097" summary="day22 Multi-dimensional array">
+      <created>1667251114676</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1667251114676</updated>
+    </task>
+    <task id="LOCAL-00098" summary="day22 Multi-dimensional array">
+      <created>1667252154761</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1667252154761</updated>
+    </task>
+    <task id="LOCAL-00099" summary="day22 Multi-dimensional array">
+      <created>1667254424399</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1667254424399</updated>
+    </task>
+    <task id="LOCAL-00100" summary="day22 Multi-dimensional array">
+      <created>1667254934264</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1667254934264</updated>
+    </task>
+    <task id="LOCAL-00101" summary="day22 Multi-dimensional array">
+      <created>1667255058618</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1667255058618</updated>
+    </task>
+    <task id="LOCAL-00102" summary="day22 Multi-dimensional array">
+      <created>1667255384749</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1667255384749</updated>
+    </task>
+    <task id="LOCAL-00103" summary="day22 Multi-dimensional array">
+      <created>1667255711681</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1667255711681</updated>
+    </task>
+    <task id="LOCAL-00104" summary="day22 Multi-dimensional array">
+      <created>1667256879893</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1667256879893</updated>
+    </task>
+    <task id="LOCAL-00105" summary="day23 Custom Method Void">
+      <created>1667313971670</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1667313971671</updated>
+    </task>
+    <task id="LOCAL-00106" summary="day21">
+      <created>1667315271127</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1667315271128</updated>
+    </task>
+    <task id="LOCAL-00107" summary="day23">
+      <created>1667315291823</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1667315291823</updated>
+    </task>
+    <task id="LOCAL-00108" summary="day22">
+      <created>1667315311326</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1667315311326</updated>
+    </task>
+    <task id="LOCAL-00109" summary="day22">
+      <created>1667315326557</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1667315326557</updated>
+    </task>
+    <task id="LOCAL-00110" summary="day23 Custom Methods">
+      <created>1667315611046</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1667315611046</updated>
+    </task>
+    <task id="LOCAL-00111" summary="day23 Custom Methods">
+      <created>1667316156385</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1667316156385</updated>
+    </task>
+    <task id="LOCAL-00112" summary="day23 Custom Methods">
+      <created>1667330414950</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1667330414950</updated>
+    </task>
+    <task id="LOCAL-00113" summary="day23 Custom Methods">
+      <created>1667330424011</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1667330424011</updated>
+    </task>
+    <task id="LOCAL-00114" summary="day22 Multi-dimensional practice tasks">
+      <created>1667332175250</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1667332175250</updated>
+    </task>
+    <task id="LOCAL-00115" summary="day22 Multi-dimensional practice tasks">
+      <created>1667332607642</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1667332607642</updated>
+    </task>
+    <task id="LOCAL-00116" summary="day22 Multi-dimensional practice tasks">
+      <created>1667333401147</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1667333401147</updated>
+    </task>
+    <task id="LOCAL-00117" summary="day23 Custom methods">
+      <created>1667333553090</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1667333553090</updated>
+    </task>
+    <task id="LOCAL-00118" summary="day23 Custom methods">
+      <created>1667333658024</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1667333658024</updated>
+    </task>
+    <task id="LOCAL-00119" summary="day23 Custom methods">
+      <created>1667333807381</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1667333807381</updated>
+    </task>
+    <task id="LOCAL-00120" summary="day23 Custom methods">
+      <created>1667334015389</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1667334015389</updated>
+    </task>
+    <task id="LOCAL-00121" summary="day23 Custom methods">
+      <created>1667334225639</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1667334225639</updated>
+    </task>
+    <task id="LOCAL-00122" summary="day23 Custom methods">
+      <created>1667334351233</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1667334351233</updated>
+    </task>
+    <task id="LOCAL-00123" summary="day23 Custom methods">
+      <created>1667334476949</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1667334476950</updated>
+    </task>
+    <task id="LOCAL-00124" summary="day23 Custom methods">
+      <created>1667335412132</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1667335412132</updated>
+    </task>
+    <task id="LOCAL-00125" summary="day23 Custom methods">
+      <created>1667335708699</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1667335708699</updated>
+    </task>
+    <task id="LOCAL-00126" summary="day23 Custom methods">
+      <created>1667335978418</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1667335978418</updated>
+    </task>
+    <task id="LOCAL-00127" summary="day23 Custom methods">
+      <created>1667336437586</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1667336437586</updated>
+    </task>
+    <task id="LOCAL-00128" summary="day24 Return Method">
+      <created>1667421105964</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1667421105964</updated>
+    </task>
+    <task id="LOCAL-00129" summary="day23 Custom Methods">
+      <created>1667421148331</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1667421148331</updated>
+    </task>
+    <task id="LOCAL-00130" summary="day24 Return Methods">
+      <created>1667421917424</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1667421917424</updated>
+    </task>
+    <task id="LOCAL-00131" summary="day24 Return Methods">
+      <created>1667423027495</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1667423027495</updated>
+    </task>
+    <task id="LOCAL-00132" summary="day24 Return Methods">
+      <created>1667423712290</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1667423712291</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,17 +520,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day16 for loop &amp; string practice" />
-    <MESSAGE value="day17 for loop" />
-    <MESSAGE value="day17 While Loop" />
-    <MESSAGE value="day17  break loop" />
-    <MESSAGE value="day17  continue loop" />
-    <MESSAGE value="day16   loop" />
-    <MESSAGE value="day17 practice tasks" />
-    <MESSAGE value="day17 group task decrypter" />
-    <MESSAGE value="day17 group task" />
-    <MESSAGE value="week06 while loop review" />
-    <MESSAGE value="week06 replit task" />
     <MESSAGE value="day18 Nested Loops" />
     <MESSAGE value="day18 Nested Loops Practice Tasks" />
     <MESSAGE value="replit tasks" />
@@ -548,7 +534,18 @@
     <MESSAGE value="Task solution" />
     <MESSAGE value="day20 Arrays" />
     <MESSAGE value="day20 Arrays Practice Tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="day20 Arrays Practice Tasks" />
+    <MESSAGE value="week08 Arrays" />
+    <MESSAGE value="day22 Multi-dimensional array" />
+    <MESSAGE value="day23 Custom Method Void" />
+    <MESSAGE value="day21" />
+    <MESSAGE value="day23" />
+    <MESSAGE value="day22" />
+    <MESSAGE value="day22 Multi-dimensional practice tasks" />
+    <MESSAGE value="day23 Custom methods" />
+    <MESSAGE value="day24 Return Method" />
+    <MESSAGE value="day23 Custom Methods" />
+    <MESSAGE value="day24 Return Methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="day24 Return Methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
