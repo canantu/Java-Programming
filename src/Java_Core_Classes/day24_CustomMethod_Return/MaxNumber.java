@@ -1,7 +1,7 @@
 package Java_Core_Classes.day24_CustomMethod_Return;
 //in order to import class: import packagename.classname;
 // to call method: classname.method()
-public class maxNumber {
+public class MaxNumber {
     public static void main(String[] args) {
         int[] num = {1,3,5,2,9,6,4};
         int max = max(num);

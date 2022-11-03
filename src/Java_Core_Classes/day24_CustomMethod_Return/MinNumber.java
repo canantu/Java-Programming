@@ -1,6 +1,6 @@
 package Java_Core_Classes.day24_CustomMethod_Return;
 
-public class minNumber {
+public class MinNumber {
     public static void main(String[] args) {
         int[] num = {1,3,5,2,9,6,4};
         int min = min(num);
