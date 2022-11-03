@@ -2,7 +2,9 @@ package Java_Core_Classes.day24_CustomMethod_Return;
 
 public class ReturnMethodPractice4 {
     public static void main(String[] args) {
-        System.out.println(removeDuplicates("canan"));
+        String str = "caffhaoödnc  auwcc xkdanan";
+        str = removeDuplicates(str);
+        System.out.println(str);
     }
 
     public static String removeDuplicates(String str){
