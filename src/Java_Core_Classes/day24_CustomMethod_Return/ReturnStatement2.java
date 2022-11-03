@@ -4,17 +4,20 @@ public class ReturnStatement2 {
 
     public static void main(String[] args) {
 
+        nameOfMonth(12);
     }
 
-    public static void showMonth(int number){
-        String month = "";
+    public static void nameOfMonth(int number){
 
-        if(number >=1 && number <= 12)
-            month = (number == 1)? "Jan" : (number == 2)? "Feb" :(number == 3)? "March" :(number == 4)? "Apr" :
-                    (number == 5)? "May" :(number == 6)? "June" :(number == 7)? "July" :(number == 8)? "Aug" :
-                            (number == 9)? "Sep" :(number == 10)? "Oct" :(number == 11)? "Nov" :"Dec";
+        if (number < 1 || number > 12){
+            System.out.println("Invalid");
+            return; //if the condition is met, don't run remaining codes
+        }
 
-        else month = "Invalid";
+        String month = (number == 1)? "Jan" : (number == 2)? "Feb" : (number == 3)? "March" : (number == 4)? "Apr" :
+                       (number == 5)? "May" : (number == 6)? "June" : (number == 7)? "July" : (number == 8)? "Aug" :
+                               (number == 9)? "Sep" : (number == 10)? "Oct" : (number == 11)? "Nov" : "Dec";
+
         System.out.println("month = " + month);
 
     }
