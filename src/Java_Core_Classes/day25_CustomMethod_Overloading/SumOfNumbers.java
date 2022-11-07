@@ -6,10 +6,8 @@ public class SumOfNumbers {
         System.out.println(sum(3,4,5));
         System.out.println(sum(4.7, 5.6));
         System.out.println(sum(4.7, 5.6, 7.3));
-
-
     }
-
+//parameters must be different each time for overloading
     public static int sum(int a, int b){
         return a +b;
     }
@@ -23,7 +21,7 @@ public class SumOfNumbers {
     }
 
     public static double sum(double a, double b, double c){
-        return a + b + c;
+        return sum(a,b) + c;
     }
 
 }
