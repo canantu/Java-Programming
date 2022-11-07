@@ -60,7 +60,7 @@ public class AddElementToArray {
         return newArray;
     }
 
-
+//the benefit is you don't need to memorize too many method names for the same functionality
 
 
 
