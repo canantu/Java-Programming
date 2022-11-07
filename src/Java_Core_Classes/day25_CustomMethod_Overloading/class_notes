@@ -4,11 +4,11 @@ package name: day25_CustomMethod_Overloading
 Warmup tasks:
 Task1:
     1. create a method that can find the sum of two numbers
-    method name: sumOf2Numbers
+        method name: sumOf2Numbers
     2. create a method that can find the sum of three numbers
-    method name: sumOf3Numbers
+        method name: sumOf3Numbers
     3. create a method that can find the sum of four numbers
-    method name: sumOf4Numbers
+        method name: sumOf4Numbers
 
 Task2:
     1. create a return method called addInteger that can add an Integer  after the  last index of an integer array
