@@ -5,6 +5,9 @@ public class SumOfNumbers {
         System.out.println(sum(3,5));
         System.out.println(sum(3,4,5));
         System.out.println(sum(4.7, 5.6));
+        System.out.println(sum(4.7, 5.6, 7.3));
+
+
     }
 
     public static int sum(int a, int b){
@@ -16,6 +19,11 @@ public class SumOfNumbers {
     }
 
     public static double sum(double a, double b){
-        return a +b;
+        return a + b;
     }
+
+    public static double sum(double a, double b, double c){
+        return a + b + c;
+    }
+
 }
