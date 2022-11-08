@@ -382,4 +382,44 @@ public class ArraysUtility {
 
     }
 
+    //replaces the element of an array at the given index and returns the array
+    public static int[] replace(int[] array, int index, int newElement){
+        if (index < 0 || index > array.length-1){
+            System.err.println("Invalid Index " + index);
+            System.exit(0);
+        }
+        array[index] = newElement;
+        return array;
+    }
+
+    //replaces the element of an array at the given index and returns the array
+    public static double[] replace(double[] array, int index, double newElement){
+        if (index < 0 || index > array.length-1){
+            System.err.println("Invalid Index " + index);
+            System.exit(0);
+        }
+        array[index] = newElement;
+        return array;
+    }
+
+    //replaces the element of an array at the given index and returns the array
+    public static char[] replace(char[] array, int index, char newElement){
+        if (index < 0 || index > array.length-1){
+            System.err.println("Invalid Index " + index);
+            System.exit(0);
+        }
+        array[index] = newElement;
+        return array;
+    }
+
+    //replaces the element of an array at the given index and returns the array
+    public static String[] replace(String[] array, int index, String newElement){
+        if (index < 0 || index > array.length-1){
+            System.err.println("Invalid Index " + index);
+            System.exit(0);
+        }
+        array[index] = newElement;
+        return array;
+    }
+
 }
