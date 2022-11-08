@@ -2,10 +2,15 @@ package Java_Core_Classes.day26_CustomMethodsPractice;
 
 import utilities.ArraysUtility;
 
+import java.util.Arrays;
+
 public class RemoveElements2 {
     public static void main(String[] args) {
-
+        int[] array = {1,2,3,4,5};
+        array = removeElement(array, 0);
+        System.out.println(Arrays.toString(array));
     }
+    //removes the element of a given index from an array and returns new array
     public static int[] removeElement(int[] array, int index){
 
         if (index < 0 || index > array.length-1){
