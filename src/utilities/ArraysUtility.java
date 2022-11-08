@@ -98,6 +98,129 @@ public class ArraysUtility {
 
     }
 
+    // adds the given element into the array and returns a new array
+    public static int[] addElement(int[] arr, int num){
 
+        int[] newArray = new int[arr.length + 1];
+        for (int i = 0; i < arr.length; i++) {
+            newArray[i] = arr[i];
+        }
+        newArray[newArray.length-1] = num;
+        return newArray;
+    }
+    // adds the given element into the array and returns a new array
+    public static double[] addElement(double[] arr, double num){
+
+        double[] newArray = new double[arr.length + 1];
+
+        int i= 0;
+        for (double each : arr) newArray[i++] = each;
+        newArray[i] = num;
+        return newArray;
+    }
+    // adds the given element into the array and returns a new array
+    public static String[] addElement(String[] arr, String str){
+
+        String[] newArray = new String[arr.length + 1];
+
+        int i= 0;
+        for (String each : arr) newArray[i++] = each;
+        newArray[i] = str;
+        return newArray;
+    }
+    // adds the given element into the array and returns a new array
+    public static char[] addElement(char[] arr, char ch){
+
+        char[] newArray = new char[arr.length + 1];
+
+        int i= 0;
+        for (char each : arr) newArray[i++] = each;
+        newArray[i] = ch;
+        return newArray;
+    }
+
+    //returns the frequency of a given element in an array
+    public static int frequencyOfElement(int[] array, int element){
+        int freq = 0;
+        for (int each : array) {
+            if (each == element)
+                freq++;
+        }
+        return freq;
+    }
+
+    //returns the frequency of a given element in an array
+    public static int frequencyOfElement(double[] array, double element){
+        int freq = 0;
+        for (double each : array) {
+            if (each == element)
+                freq++;
+        }
+        return freq;
+    }
+
+    //returns the frequency of a given element in an array
+    public static int frequencyOfElement(char[] array, char element){
+        int freq = 0;
+        for (char each : array) {
+            if (each == element)
+                freq++;
+        }
+        return freq;
+    }
+
+    //returns the frequency of a given element in an array
+    public static int frequencyOfElement(String[] array, String element){
+        int freq = 0;
+        for (String each : array) {
+            if (each.equals(element))
+                freq++;
+        }
+        return freq;
+    }
+
+    //returns an array that includes all unique elements in an array
+    public static int[] uniqueElement(int[] array){
+
+        int[] result = {};
+        for (int each : array) {
+            if (frequencyOfElement(array, each) == 1)
+                result = addElement(result, each);
+        }
+        return result;
+    }
+
+    //returns an array that includes all unique elements in an array
+    public static double[] uniqueElement(double[] array){
+
+        double[] result = {};
+        for (double each : array) {
+            if (frequencyOfElement(array, each) == 1)
+                result = addElement(result, each);
+        }
+        return result;
+    }
+
+    //returns an array that includes all unique elements in an array
+    public static char[] uniqueElement(char[] array){
+
+        char[] result = {};
+        for (char each : array) {
+            if (frequencyOfElement(array, each) == 1)
+                result = addElement(result, each);
+        }
+        return result;
+    }
+
+    //returns an array that includes all unique elements in an array
+    public static String[] uniqueElement(String[] array){
+
+        String[] result = {};
+        for (String each : array) {
+            if (frequencyOfElement(array, each) == 1)
+                result = addElement(result, each);
+        }
+        return result;
+    }
 
 }
