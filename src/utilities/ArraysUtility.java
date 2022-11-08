@@ -290,11 +290,48 @@ public class ArraysUtility {
 
     //merges given two arrays and returns the new array
     public static int[] merge(int[] arr1, int[] arr2){
-        int[] merged = {};
+        int[] merged = {};  //fixed sized array object
         for (int each : arr1) {
             merged = addElement(merged, each);
         }
         for (int each : arr2) {
+            merged = addElement(merged, each);
+        }
+        return merged;
+
+    }
+    //merges given two arrays and returns the new array
+    public static double[] merge(double[] arr1, double[] arr2){
+        double[] merged = {};
+        for (double each : arr1) {
+            merged = addElement(merged, each);
+        }
+        for (double each : arr2) {
+            merged = addElement(merged, each);
+        }
+        return merged;
+
+    }
+    //merges given two arrays and returns the new array
+    public static char[] merge(char[] arr1, char[] arr2){
+        char[] merged = {};
+        for (char each : arr1) {
+            merged = addElement(merged, each);
+        }
+        for (char each : arr2) {
+            merged = addElement(merged, each);
+        }
+        return merged;
+
+    }
+
+    //merges given two arrays and returns the new array
+    public static String[] merge(String[] arr1, String[] arr2){
+        String[] merged = {};
+        for (String each : arr1) {
+            merged = addElement(merged, each);
+        }
+        for (String each : arr2) {
             merged = addElement(merged, each);
         }
         return merged;
