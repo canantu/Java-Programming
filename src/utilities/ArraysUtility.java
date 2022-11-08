@@ -288,6 +288,17 @@ public class ArraysUtility {
         return result;
     }
 
-    //merges
+    //merges given two arrays and returns the new array
+    public static int[] merge(int[] arr1, int[] arr2){
+        int[] merged = {};
+        for (int each : arr1) {
+            merged = addElement(merged, each);
+        }
+        for (int each : arr2) {
+            merged = addElement(merged, each);
+        }
+        return merged;
+
+    }
 
 }
