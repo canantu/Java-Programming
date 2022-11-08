@@ -1,7 +1,6 @@
 package Java_Core_Classes.day25_CustomMethod_Overloading;
 
 import utilities.ArraysUtility;
-import utilities.StringUtility;
 
 public class Test2 {
     public static void main(String[] args) {
@@ -34,5 +33,7 @@ public class Test2 {
         System.out.println(ArraysUtility.contains(arr3, 'a'));//arr3 = {'c', 'a', 'n', 'a', 'n'};
 
         System.out.println(ArraysUtility.contains(arr2, 1.4));//arr2 = {1.5,2.6,3.7,4.8,5.9};
+
+        System.out.println(ArraysUtility.contains(arr4, "ali"));//arr4 = {"canan", "can", "ali"};
     }
 }
