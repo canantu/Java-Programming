@@ -16,5 +16,17 @@ public class Test2 {
 
         String[] arr4 = {"canan", "can", "ali"};
         ArraysUtility.printEachElement(arr4);
+
+        int[] arr5 = {14,22,13,41,35};
+        System.out.println(ArraysUtility.max(arr5));
+
+        double[] arr6 = {151.5,22.6,33.7,14.8,75.9};
+        System.out.println(ArraysUtility.max(arr6));
+
+        int[] arr7 = {14,22,13,41,35};
+        System.out.println(ArraysUtility.min(arr7));
+
+        double[] arr8 = {151.5,22.6,33.7,14.8,75.9};
+        System.out.println(ArraysUtility.min(arr8));
     }
 }
