@@ -43,4 +43,41 @@ public class ArraysUtility {
         Arrays.sort(numbers);
         return numbers[0];
     }
+
+    //checks if the given integer is contained in the given array and returns boolean
+    public static boolean contains(int[] array, int element){
+        boolean result = false;
+        for (int each : array) {
+            if (each == element)
+                result = true;
+        }
+
+        return result;
+
+    }
+    //checks if the given char is contained in the given char array and returns boolean
+    public static boolean contains(char[] array, char element){
+        boolean result = false;
+        for (char each : array) {
+            if (each == element)
+                result = true;
+        }
+
+        return result;
+
+    }
+
+    //checks if the given double is contained in the given double array and returns boolean
+    public static boolean contains(double[] array, double element){
+        boolean result = false;
+        for (double each : array) {
+            if (each == element)
+                result = true;
+        }
+
+        return result;
+
+    }
+
+
 }

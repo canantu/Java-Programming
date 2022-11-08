@@ -28,5 +28,11 @@ public class Test2 {
 
         double[] arr8 = {151.5,22.6,33.7,14.8,75.9};
         System.out.println(ArraysUtility.min(arr8));
+
+        System.out.println(ArraysUtility.contains(arr1, 5)); //arr1 = {1,2,3,4,5};
+
+        System.out.println(ArraysUtility.contains(arr3, 'a'));//arr3 = {'c', 'a', 'n', 'a', 'n'};
+
+        System.out.println(ArraysUtility.contains(arr2, 1.4));//arr2 = {1.5,2.6,3.7,4.8,5.9};
     }
 }
