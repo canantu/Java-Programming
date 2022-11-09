@@ -5,7 +5,7 @@ public class PasswordValidation {
 
         String password = "CANAN";
         if (password.length()< 8 && !password.contains(" ")){
-            System.out.println("Password should be minimum 8 character long");
+            System.out.println("Password should be minimum 8 characters long!");
         }
         int count1 = 0;
         for(char each : password.toCharArray()){
