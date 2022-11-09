@@ -10,6 +10,11 @@ public class RemoveDuplicates {
         int[] array = {1,2,2,3,4,5,5,5, 10, 10};
         array = removeDuplicates(array);
         System.out.println(Arrays.toString(array));
+
+
+        String[] array1 = {"java", "java", "python", "python", "C#"};
+        array1  =removeDuplicates(array1);
+        System.out.println(Arrays.toString(array1));
     }
     //removes the duplicates of an array and returns a new array
     public static int[] removeDuplicates(int[] array){
