@@ -25,6 +25,11 @@ public class StrongPassword {
             else if (Character.isDigit(each))
                 r5 = true;
             else r4 = true;   //else special character
+
+            /*  to avoid unnecessary loops
+            if (r1 && r2 && r3 && r4)
+                break;
+             */
         }
 
         boolean isStrongPassword = r1 && r2 && r3 && r4 && r5;
