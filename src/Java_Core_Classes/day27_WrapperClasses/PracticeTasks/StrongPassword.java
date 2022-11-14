@@ -4,7 +4,12 @@ public class StrongPassword {
     public static void main(String[] args) {
 
         String password = "Cydeo1990@";
+        System.out.println(isStrongPassword(password));
 
+
+    }
+
+    public static boolean isStrongPassword(String password){
         boolean r1 = password.length() >= 8 && !password.contains(" ");
         boolean r2 = false;  //has uppercase
         boolean r3 = false;  // has lowercase
@@ -23,11 +28,7 @@ public class StrongPassword {
         }
 
         boolean isStrongPassword = r1 && r2 && r3 && r4 && r5;
-        if (isStrongPassword)
-            System.out.println("Password is successfully created!");
-        else System.out.println("Not a strong password ");
-
-
+        return isStrongPassword;
 
     }
 }
