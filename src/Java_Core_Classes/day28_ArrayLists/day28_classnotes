@@ -26,6 +26,18 @@ ArrayList Methods:
 
         set(index, Data): replace the old element on the given index with the new Data
 
-        remove(int index): removes the element at the given index
+        remove(int index): removes the element at the given index, returns boolean
 
         remove(Object): removes the given object from the list --overloaded method
+
+        clear(): removes all the element of the ArrayList, the size will be zero
+
+        indexOf(): returns the index of the given element starting from the beginning
+
+        lasIndexOf(): return the index of the given element starting from the end of the list
+
+        contains(): returns true if the element is contained in the list, otherwise false
+
+        equals(ArrayList): returns true if two arraylists are equal (same elements in same order)
+
+        isEmpty(): checks if
