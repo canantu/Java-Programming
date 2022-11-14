@@ -65,5 +65,34 @@ public class ArrayListMethods1 {
         list.set(3, "C++"); //replace the element, does not change the size
         System.out.println(list);
 
+
+        System.out.println("....................................");
+
+        ArrayList<String> employees = new ArrayList<>();
+        employees.add("Canan");
+        employees.add("Ali");
+        employees.add("Can");
+        employees.add("Aliye");
+        employees.add("Alis");
+        employees.add("Cafer");
+        employees.add("Alim");
+
+        System.out.println(employees);
+
+        boolean r1 = employees.remove("Alis"); //method is called by object name
+        System.out.println(employees);
+        System.out.println("r1 = " + r1);
+
+        employees.remove(1);  // is called either by index number or by object name
+        System.out.println(employees);
+
+        employees.remove(employees.size() - 1);
+        System.out.println(employees);
+
+        employees.clear();   //if the list is already empty, calling the remove method causes IndexOutOfBound exception
+        System.out.println(employees);
+
+
+
     }
 }

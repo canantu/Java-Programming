@@ -25,3 +25,7 @@ ArrayList Methods:
         get(index): returns the element at the given index
 
         set(index, Data): replace the old element on the given index with the new Data
+
+        remove(int index): removes the element at the given index
+
+        remove(Object): removes the given object from the list --overloaded method
