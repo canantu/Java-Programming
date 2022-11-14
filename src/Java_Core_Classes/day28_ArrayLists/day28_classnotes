@@ -1,0 +1,27 @@
+Data Structure:
+    Array: size is fixed, supports both primitives & non primitives
+    Collection: size is dynamic, does not support primitives
+    Map:
+
+ArrayList:  - is a part of Collection (also size is dynamic and does not support primitives)
+            - internally uses Array (has index numbers)
+
+            import java.util.ArrayList;
+
+            - size is automatically adjusted
+
+            declaration:
+            ArrayList <DataType> name = new ArrayList <DataType> ();
+
+            - no primitive data type!!
+
+ArrayList Methods:
+        add(Data): adds the data after the last index of the ArrayList
+
+        add(index, Data): inserts the data in the given index
+
+        size(): shows the length of the list
+
+        get(index): returns the element at the given index
+
+        set(index, Data): replace the old element on the given index with the new Data
