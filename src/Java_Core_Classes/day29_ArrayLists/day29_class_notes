@@ -26,3 +26,20 @@ Collections : utility class of collection
     min(): returns the min element
     replaceAll():
     frequency():
+
+Array vs ArrayList:
+        - both has index numbers
+
+    ArrayList:
+        - size is not fixed
+        - only supports non-primitives
+        - can not be multi dimensional
+        - has lots of utility methods and easier to manage
+
+
+
+    Array:
+        - size is fixed
+        - support both primitives and non primitives
+        - can be multidimensional
+        - not have utility methods, user has to implement them
