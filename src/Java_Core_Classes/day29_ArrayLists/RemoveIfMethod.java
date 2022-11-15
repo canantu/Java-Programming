@@ -24,16 +24,14 @@ public class RemoveIfMethod {
         System.out.println(list);
 
         System.out.println("--------------------------------------");
-        ArrayList<Integer> list2 = new ArrayList<>();
-        list2.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+        ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
         list2.removeIf(p-> p % 2 == 0); //lambda expression
         System.out.println(list2);
 
 
         System.out.println("--------------------------------------");
 
-        ArrayList<String> list3 = new ArrayList<>();
-        list3.addAll(Arrays.asList("Java", "Python", "Javascript", "C#", "C++", "Java", "Java"));
+        ArrayList<String> list3 = new ArrayList<>(Arrays.asList("Java", "Python", "Javascript", "C#", "C++", "Java", "Java"));
         list3.removeIf(p -> p.startsWith("J"));
         System.out.println(list3);
 

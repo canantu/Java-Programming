@@ -11,3 +11,9 @@ Bulk Operations: argument MUST be a collection type
 
 Arrays:
     asList(array of values) ===> returns the arrays as a collection type
+
+Remove Functions:
+    remove(): when we remove one element. DO NOt use it in the loop
+    removeAll(): when we remove multiple elements (if we know what elements to remove)
+    retainAll(): when we want to retain/keep multiple elements (if we know what elements to retain/keep)
+    removeIf(): when we remove the elements based on a condition (if we don't know which elements to remove)
