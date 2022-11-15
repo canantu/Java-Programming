@@ -24,3 +24,5 @@ Collections : utility class of collection
     swap(): swap the elements of two indexes
     max(): returns the max element
     min(): returns the min element
+    replaceAll():
+    frequency():
