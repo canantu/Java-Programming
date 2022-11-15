@@ -14,7 +14,7 @@ public class ArrayListPractice1 {
         System.out.println(list);
 
         //converting ArrayList back to array
-        countries = list.toArray(new String[0]); //any number can be given as size, it gets the size of list
+        countries = list.toArray(new String[0]); //any number can be given as size, it eventually gets the size of list
 
         System.out.println(Arrays.toString(countries));
 
