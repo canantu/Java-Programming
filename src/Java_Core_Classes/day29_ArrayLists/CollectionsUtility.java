@@ -13,8 +13,7 @@ public class CollectionsUtility {
         System.out.println(list);
 
         System.out.println("--------------------------------------");
-        ArrayList<Character> list2 = new ArrayList<>();
-        list2.addAll(Arrays.asList('A', 'B', 'C', 'D', 'E'));
+        ArrayList<Character> list2 = new ArrayList<>(Arrays.asList('A', 'B', 'C', 'D', 'E'));
 
         System.out.println(list2);
         Collections.reverse(list2);
@@ -22,8 +21,7 @@ public class CollectionsUtility {
 
         System.out.println("--------------------------------------");
 
-        ArrayList<Integer> list3 = new ArrayList<>();
-        list3.addAll(Arrays.asList(10,20,30,40,50,60,70));
+        ArrayList<Integer> list3 = new ArrayList<>(Arrays.asList(10, 20, 30, 40, 50, 60, 70));
 
         System.out.println(list3);
         Collections.swap(list3, 1,4);
