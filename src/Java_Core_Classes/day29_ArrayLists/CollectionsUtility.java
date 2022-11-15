@@ -27,6 +27,15 @@ public class CollectionsUtility {
         Collections.swap(list3, 1,4);
         System.out.println(list3);
 
+        System.out.println("--------------------------------------");
+
+        int max = Collections.max(list3);
+        System.out.println("max = " + max);
+
+        int min = Collections.min(list3);
+        System.out.println("min = " + min);
+
+
 
 
     }

@@ -22,3 +22,5 @@ Collections : utility class of collection
     sort(): sorts the collections in ascending order
     reverse(): reverses the collection
     swap(): swap the elements of two indexes
+    max(): returns the max element
+    min(): returns the min element
