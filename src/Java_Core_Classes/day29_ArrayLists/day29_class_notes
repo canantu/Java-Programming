@@ -1,2 +1,13 @@
 1. Write a program that can return the first unique elements from an arraylist
     * Do not use indexOf & lastIndexOf methods
+
+2. Write a program that can find the maximum, minimum and average number from an arrayList of integers
+
+Bulk Operations: argument MUST be a collection type
+    addAll(CollectionType): adds collection of values to the arrayList
+    removeAll(CollectionType): removes all the matching elements (of collection type) from the arrayList
+    retainAll(CollectionType): retains all the matching elements (of collection type) from the arrayList
+    containsAll(CollectionType): checks multiple values if they exist in the arraylist
+
+Arrays:
+    asList(array of values) ===> returns the arrays as a collection type
