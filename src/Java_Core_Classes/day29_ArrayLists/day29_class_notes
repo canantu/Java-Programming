@@ -17,3 +17,8 @@ Remove Functions:
     removeAll(): when we remove multiple elements (if we know what elements to remove)
     retainAll(): when we want to retain/keep multiple elements (if we know what elements to retain/keep)
     removeIf(): when we remove the elements based on a condition (if we don't know which elements to remove)
+
+Collections : utility class of collection
+    sort(): sorts the collections in ascending order
+    reverse(): reverses the collection
+    swap(): swap the elements of two indexes
