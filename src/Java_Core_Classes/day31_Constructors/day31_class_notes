@@ -36,23 +36,20 @@ BankAccount Task:
         5. withdraw(): decreases the balance by the given amount
 
 Regular methods:
+    Access-Modifiers  Specifier  ReturnType methodName(Parameter){}
 
-Access-Modifiers  Specifier  ReturnType
+Constructor: A Special method, constructor name must be same with class name. no specifier, no return type
 
-methodName(Parameter){}
+    syntax:
+        Access-Modifiers  ClassName(Parameter){}
 
-Constructor: A Special method
-
-syntax:
-Access-Modifiers  ClassName(Parameter){}
-
-used for creating objects
-
-Execution depends on the object
+* Constructor is used for creating objects
+* Execution depends on the object
 
 Pizza Task:
 Attributes:
     size, numberofCheeseTopping, numberOfPepperoniTopping
+
 Add a constructor that can set all the fields
 Actions:
     calcCost(): returns the totalCost of the pizza
