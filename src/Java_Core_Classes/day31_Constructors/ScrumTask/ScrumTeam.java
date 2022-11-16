@@ -12,7 +12,7 @@ public class ScrumTeam {
     ArrayList<Developer> developersList = new ArrayList<>();
     public int daysOfSprint;
 
-    public ScrumTeam(String PO, String BA, String SM, ArrayList<Tester> testersList, ArrayList<Developer> developersList, int daysOfSprint) {
+    public ScrumTeam(String PO, String BA, String SM,int daysOfSprint) {
         this.PO = PO;
         this.BA = BA;
         this.SM = SM;
