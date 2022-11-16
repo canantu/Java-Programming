@@ -32,7 +32,6 @@ BankAccount Task:
         1. setInfo(): sets the accountHolder and accountNumber attributes
         2. toString()
         3. checkBalance():displays the available balance
-
         4. deposit(): increases the balance by the given amount
         5. withdraw(): decreases the balance by the given amount
 
