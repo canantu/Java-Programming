@@ -33,12 +33,12 @@ BankAccount Task:
         2. toString()
         3. checkBalance():displays the available balance
 
-        2. deposit(): increases the balance by the given amount
-        3. withdraw(): decreases the balance by the given amount
+        4. deposit(): increases the balance by the given amount
+        5. withdraw(): decreases the balance by the given amount
 
-regular methods:
+Regular methods:
 
-Access-Modifiers  Specier  ReturnType
+Access-Modifiers  Specifier  ReturnType
 
 methodName(Parameter){}
 
