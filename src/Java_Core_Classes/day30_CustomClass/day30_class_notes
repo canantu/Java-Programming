@@ -9,3 +9,20 @@ Custom Class:
 * every object has its own memory
 
 - this keyword used for calling the instance variables
+
+Employee Class:
+    Attributes:
+        name, id, gender, jobtitle, salary, isFullTime(boolean)
+
+    Actions:
+        toString():
+        setInfo():
+        work():
+
+CapitalOne Class:
+    1. create 5 employee
+    2. store those 5 employee objects into an array
+    3. how many employees are full time?
+    4. what is the min salary?
+    5. what is the max salary?
+
