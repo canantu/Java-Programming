@@ -30,5 +30,12 @@ public class Car {
         System.out.println("Driving " + brand + " " + model);
     }
 
+    public void start(){
+        System.out.println(brand + " " + model + " has started.");
+    }
+
+    public void stop(){
+        System.out.println(brand + " " + model + " has stopped.");
+    }
 
 }
