@@ -1,0 +1,9 @@
+Custom Class:
+    1. Instance variables & instance methods: every separate object has its own attribute and method
+    2. toString()
+    3. Constructors
+    4. statics
+    ....
+
+* no main method in custom class
+* every object has its own memory
