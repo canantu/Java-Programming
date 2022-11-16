@@ -1,5 +1,8 @@
 package Java_Core_Classes.day30_CustomClass;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class StudentObjects {
     public static void main(String[] args) {
 
@@ -19,6 +22,31 @@ public class StudentObjects {
         Student student5 = new Student();
         student5.setInfo("Alim", 'M', 50, 127, 'D');
 
+        Student[] students = {student1, student2, student3, student4, student5};
+
+        for (Student student : students) {
+            System.out.println(student);
+        }
+
+        System.out.println("----------------------------------------");
+
+        ArrayList<Student> earlyBirds = new ArrayList<>(Arrays.asList(students));
+
+        ArrayList<Student> angryBirds = new ArrayList<>(Arrays.asList(students));
+
+
+        /*
+        for (Student student : students) {
+            if (student.grade == 'A')
+                earlyBirds.add(student);
+            else angryBirds.add(student);
+        }
+*/
+        earlyBirds.removeIf(p-> p.grade != 'A');
+        angryBirds.removeIf(p-> p.grade == 'A');
+
+        System.out.println(earlyBirds);
+        System.out.println(angryBirds);
 
 
 
