@@ -26,17 +26,22 @@ public class MyOffers {
 
         ArrayList<Offer> fullTimeOffers = new ArrayList<>(Arrays.asList(myOffers));
         fullTimeOffers.removeIf(p-> !p.isFullTime);
+        System.out.println("Number of full time offers is "+ fullTimeOffers.size());
 
         ArrayList<Offer> localOffers = new ArrayList<>(Arrays.asList(myOffers));
-        localOffers.removeIf(p-> !p.isWFH);
+        localOffers.removeIf(p-> !p.location.equals("Bruchsal"));
+        System.out.println("Number of local offers is " + localOffers.size());
 
         ArrayList<Offer> offersWithBenefits = new ArrayList<>(Arrays.asList(myOffers));
         offersWithBenefits.removeIf(p-> !p.hasBenefit);
+        System.out.println("Number of offers with benefits is " + offersWithBenefits.size());
+
 
         ArrayList<Offer> sdetOffers = new ArrayList<>(Arrays.asList(myOffers));
         sdetOffers.removeIf(p->p.jobTitle != "SDET");
 
-
+        ArrayList<Offer> offersWith100K = new ArrayList<>(Arrays.asList(myOffers));
+        offersWith100K.removeIf(p->p.salary< 100000);
 
 
 
