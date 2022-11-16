@@ -7,3 +7,5 @@ Custom Class:
 
 * no main method in custom class
 * every object has its own memory
+
+- this keyword used for calling the instance variables
