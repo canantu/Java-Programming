@@ -1,0 +1,60 @@
+- STLC - Test Closure Step
+
+
+1. Test strategy document
+2. Test plan document
+3. Test case document: QA, scenario, env, steps, test data, expected result,
+                        actual result, test result: fail / pass, evidence: screenshot or videos
+
+4. Environment Setup:
+5. Test Execution: expected result vs actual result
+                    if expected =! actual : bug life cycle starts
+                    1- confirm it is a valid bug?
+                        - test with multiple data
+                        - test multiple QA environments
+                        - ask other QA to check
+                        - dev can help to confirm
+                    2- Bug report doc -> assign, opened, fixed / deferred / rejected: 1-invalid bug
+                                                                                      2-duplicated
+
+
+6. Test Closure: for 1 US = 1 or more TC -> 1 test execution -> pass/fail
+                    DOD criteria: if all the possible test cases created? 1TC - 1 AC
+                                  if each AC is tested or not?
+                                  if any test case tested by manually, automatically or both?
+                                  manual-> test case ticket on jira is created + test execution +
+                                  ticket is created + test status (fail / pass)
+                                  if there is a bug, what is the bug status?
+
+                    Sprint level: Jira Xray
+                    Old version -> test closure report -> RTM (traceability matrix)
+                    ex: sprint23--> 12 user stories
+                                    how many TC?
+                                    12 Test execution -> test status
+                                    how many bug reports?
+
+======================================================
+
+Jira Intro:
+-project management app
+    - docs: us, tc, bug, epic
+    - tasks:  ex: install intellij, create framework (extra things other than test activities)
+    - communication: by comments
+    - reports created (burn-down charts, sprint report, release report)
+    - doc/task tracking: especially bugs, us etc.
+    - link issues and keep track
+
+jira -> story, bug, test, test execution, epic, etc. --> ticket, issue
+
+2001 -> initial release
+        plugin: extra features
+        jira - zephyr plugin:  30 reports, story, bug, etc. (basic module)
+        jira - xray plugin: 100+ reports, story, bug, test, test execution, epic, etc. (advance module)
+
+
+
+
+
+
+
+
