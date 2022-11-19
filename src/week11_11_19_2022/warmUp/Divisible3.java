@@ -16,6 +16,10 @@ public class Divisible3 {
             if (each % 3 == 0)
                 divList.add(each);
         }
+
+        //list.removeIf(p-> p % 3 != 0); we can also use removeIf method
         return divList;
     }
+
+
 }
