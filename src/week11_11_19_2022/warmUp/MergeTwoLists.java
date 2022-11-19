@@ -9,15 +9,21 @@ public class MergeTwoLists {
         ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(1,2,3));
         ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(4,5,6));
 
-        System.out.println(mergeLists(list1, list2));
+        System.out.println(Arrays.toString(mergeLists(list1, list2)));
     }
 
-    public static ArrayList<Integer> mergeLists(ArrayList<Integer> list1,  ArrayList<Integer> list2){
+    public static int[] mergeLists(ArrayList<Integer> list1,  ArrayList<Integer> list2){
 
+        int[] result = new int[list1.size()+ list2.size()];
+
+        int index = 0;
+        for (Integer each : list1) {
+            result[index++] = each;
+        }
         for (Integer each : list2) {
-            list1.add(each);
+            result[index++] = each;
         }
 
-        return list1;
+        return result;
     }
 }
