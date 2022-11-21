@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day33 Statics">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day33_Statics/StudentTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MyDogs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,14 +169,7 @@
       <workItem from="1668602678813" duration="15782000" />
       <workItem from="1668717465597" duration="1307000" />
       <workItem from="1668771881384" duration="16330000" />
-      <workItem from="1668934116641" duration="10144000" />
-    </task>
-    <task id="LOCAL-00263" summary="day29 Replit Tasks">
-      <created>1668552777555</created>
-      <option name="number" value="00263" />
-      <option name="presentableId" value="LOCAL-00263" />
-      <option name="project" value="LOCAL" />
-      <updated>1668552777556</updated>
+      <workItem from="1668934116641" duration="10899000" />
     </task>
     <task id="LOCAL-00264" summary="day29 Replit Tasks">
       <created>1668553702387</created>
@@ -514,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669028777386</updated>
     </task>
-    <option name="localTasksCounter" value="312" />
+    <task id="LOCAL-00312" summary="day33 Statics">
+      <created>1669029842313</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1669029842314</updated>
+    </task>
+    <option name="localTasksCounter" value="313" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
