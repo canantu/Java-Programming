@@ -4,28 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day31 practice tasks">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day31_Constructors/PracticeTasks/Carpet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day31_Constructors/PracticeTasks/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day31_Constructors/PracticeTasks/MainCarpet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day31_Constructors/PracticeTasks/MainItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day31_Constructors/PracticeTasks/MainMovie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day31_Constructors/PracticeTasks/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day31_Constructors/PracticeTasks/Restaurant/Chef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day31_Constructors/PracticeTasks/Restaurant/LocalRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day31_Constructors/PracticeTasks/Restaurant/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day31_Constructors/PracticeTasks/Restaurant/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day31_Constructors/PracticeTasks/SalaryCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QA_Classes/STLC _TestClosure" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11_11_19_2022/ArrayListIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11_11_19_2022/class notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11_11_19_2022/warmUp/BMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11_11_19_2022/warmUp/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11_11_19_2022/warmUp/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week11_11_19_2022/warmUp/Student.java" afterDir="false" />
+    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day33 Statics">
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day33_Statics/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day33_Statics/StudentObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day33_Statics/day33_class_notes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week11_11_19_2022/warmUp/Divisible3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week11_11_19_2022/warmUp/Divisible3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week11_11_19_2022/warmUp/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week11_11_19_2022/warmUp/MergeTwoLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +59,13 @@
       <recent name="$PROJECT_DIR$/src/week01_09_10_2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LocalRestaurant">
-    <configuration name="LocalRestaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day31_Constructors.PracticeTasks.Restaurant.LocalRestaurant" />
+  <component name="RunManager" selected="Application.StudentObjects">
+    <configuration name="CarObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day32_Constructor.CarObjects" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day31_Constructors.PracticeTasks.Restaurant.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day32_Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day31_Constructors.PracticeTasks.MainAddress" />
+    <configuration name="ConstructorCalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day32_Constructor.ConstructorCalls" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day31_Constructors.PracticeTasks.Restaurant.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day32_Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCarpet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day31_Constructors.PracticeTasks.MainCarpet" />
+    <configuration name="School" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week11_11_19_2022.warmUp.School" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day31_Constructors.PracticeTasks.Restaurant.*" />
+          <option name="PATTERN" value="week11_11_19_2022.warmUp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainItem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day31_Constructors.PracticeTasks.MainItem" />
+    <configuration name="StudentObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day33_Statics.StudentObjects" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day31_Constructors.PracticeTasks.Restaurant.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day33_Statics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainMovie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day31_Constructors.PracticeTasks.MainMovie" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day32_Constructor.Test" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day31_Constructors.PracticeTasks.Restaurant.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day32_Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LocalRestaurant" />
-        <item itemvalue="Application.MainCarpet" />
-        <item itemvalue="Application.MainItem" />
-        <item itemvalue="Application.MainMovie" />
-        <item itemvalue="Application.MainAddress" />
+        <item itemvalue="Application.StudentObjects" />
+        <item itemvalue="Application.School" />
+        <item itemvalue="Application.CarObjects" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ConstructorCalls" />
       </list>
     </recent_temporary>
   </component>
@@ -188,126 +171,8 @@
       <workItem from="1668581432341" duration="6484000" />
       <workItem from="1668602678813" duration="15782000" />
       <workItem from="1668717465597" duration="1307000" />
-      <workItem from="1668771881384" duration="16099000" />
-    </task>
-    <task id="LOCAL-00245" summary="day29 Array List">
-      <created>1668516167678</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
-      <option name="project" value="LOCAL" />
-      <updated>1668516167678</updated>
-    </task>
-    <task id="LOCAL-00246" summary="day29 Array List">
-      <created>1668516747856</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
-      <option name="project" value="LOCAL" />
-      <updated>1668516747856</updated>
-    </task>
-    <task id="LOCAL-00247" summary="day29 Array List">
-      <created>1668516787284</created>
-      <option name="number" value="00247" />
-      <option name="presentableId" value="LOCAL-00247" />
-      <option name="project" value="LOCAL" />
-      <updated>1668516787284</updated>
-    </task>
-    <task id="LOCAL-00248" summary="day29 Array List">
-      <created>1668516977754</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
-      <option name="project" value="LOCAL" />
-      <updated>1668516977754</updated>
-    </task>
-    <task id="LOCAL-00249" summary="day29 Array List">
-      <created>1668518409700</created>
-      <option name="number" value="00249" />
-      <option name="presentableId" value="LOCAL-00249" />
-      <option name="project" value="LOCAL" />
-      <updated>1668518409700</updated>
-    </task>
-    <task id="LOCAL-00250" summary="day29 Array List">
-      <created>1668545056135</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1668545056136</updated>
-    </task>
-    <task id="LOCAL-00251" summary="day29 Array List">
-      <created>1668545572978</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1668545572978</updated>
-    </task>
-    <task id="LOCAL-00252" summary="day29 Array List">
-      <created>1668546586926</created>
-      <option name="number" value="00252" />
-      <option name="presentableId" value="LOCAL-00252" />
-      <option name="project" value="LOCAL" />
-      <updated>1668546586926</updated>
-    </task>
-    <task id="LOCAL-00253" summary="day29 Array List">
-      <created>1668547116502</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
-      <option name="project" value="LOCAL" />
-      <updated>1668547116502</updated>
-    </task>
-    <task id="LOCAL-00254" summary="day29 Array List">
-      <created>1668547154869</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
-      <option name="project" value="LOCAL" />
-      <updated>1668547154869</updated>
-    </task>
-    <task id="LOCAL-00255" summary="day29 Array List">
-      <created>1668547734115</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
-      <option name="project" value="LOCAL" />
-      <updated>1668547734115</updated>
-    </task>
-    <task id="LOCAL-00256" summary="day29 Array List">
-      <created>1668548446400</created>
-      <option name="number" value="00256" />
-      <option name="presentableId" value="LOCAL-00256" />
-      <option name="project" value="LOCAL" />
-      <updated>1668548446400</updated>
-    </task>
-    <task id="LOCAL-00257" summary="day29 Array List">
-      <created>1668549041888</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
-      <option name="project" value="LOCAL" />
-      <updated>1668549041889</updated>
-    </task>
-    <task id="LOCAL-00258" summary="day29 Replit Tasks">
-      <created>1668549398348</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1668549398348</updated>
-    </task>
-    <task id="LOCAL-00259" summary="day29 Replit Tasks">
-      <created>1668550794672</created>
-      <option name="number" value="00259" />
-      <option name="presentableId" value="LOCAL-00259" />
-      <option name="project" value="LOCAL" />
-      <updated>1668550794672</updated>
-    </task>
-    <task id="LOCAL-00260" summary="day29 Replit Tasks">
-      <created>1668551247016</created>
-      <option name="number" value="00260" />
-      <option name="presentableId" value="LOCAL-00260" />
-      <option name="project" value="LOCAL" />
-      <updated>1668551247016</updated>
-    </task>
-    <task id="LOCAL-00261" summary="day29 Replit Tasks">
-      <created>1668551529396</created>
-      <option name="number" value="00261" />
-      <option name="presentableId" value="LOCAL-00261" />
-      <option name="project" value="LOCAL" />
-      <updated>1668551529397</updated>
+      <workItem from="1668771881384" duration="16330000" />
+      <workItem from="1668934116641" duration="9637000" />
     </task>
     <task id="LOCAL-00262" summary="day29 Replit Tasks">
       <created>1668551981885</created>
@@ -533,7 +398,126 @@
       <option name="project" value="LOCAL" />
       <updated>1668892904677</updated>
     </task>
-    <option name="localTasksCounter" value="294" />
+    <task id="LOCAL-00294" summary="day31 practice tasks">
+      <created>1668893033372</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1668893033372</updated>
+    </task>
+    <task id="LOCAL-00295" summary="day31 practice tasks">
+      <created>1668893068508</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1668893068508</updated>
+    </task>
+    <task id="LOCAL-00296" summary="day31 practice tasks">
+      <created>1668893079406</created>
+      <option name="number" value="00296" />
+      <option name="presentableId" value="LOCAL-00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1668893079406</updated>
+    </task>
+    <task id="LOCAL-00297" summary="week 11 custom class">
+      <created>1668893104144</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1668893104144</updated>
+    </task>
+    <task id="LOCAL-00298" summary="week 11 custom class">
+      <created>1668893113854</created>
+      <option name="number" value="00298" />
+      <option name="presentableId" value="LOCAL-00298" />
+      <option name="project" value="LOCAL" />
+      <updated>1668893113855</updated>
+    </task>
+    <task id="LOCAL-00299" summary="week 11 custom class">
+      <created>1668893121664</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1668893121664</updated>
+    </task>
+    <task id="LOCAL-00300" summary="week 11 custom class">
+      <created>1668893128665</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1668893128665</updated>
+    </task>
+    <task id="LOCAL-00301" summary="week 11 custom class">
+      <created>1668893140793</created>
+      <option name="number" value="00301" />
+      <option name="presentableId" value="LOCAL-00301" />
+      <option name="project" value="LOCAL" />
+      <updated>1668893140794</updated>
+    </task>
+    <task id="LOCAL-00302" summary="week 11 custom class">
+      <created>1668893157852</created>
+      <option name="number" value="00302" />
+      <option name="presentableId" value="LOCAL-00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1668893157852</updated>
+    </task>
+    <task id="LOCAL-00303" summary="week 11 custom class">
+      <created>1668893169653</created>
+      <option name="number" value="00303" />
+      <option name="presentableId" value="LOCAL-00303" />
+      <option name="project" value="LOCAL" />
+      <updated>1668893169653</updated>
+    </task>
+    <task id="LOCAL-00304" summary="week 11 custom class">
+      <created>1668893190282</created>
+      <option name="number" value="00304" />
+      <option name="presentableId" value="LOCAL-00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1668893190282</updated>
+    </task>
+    <task id="LOCAL-00305" summary="day32 Constructor">
+      <created>1669020712637</created>
+      <option name="number" value="00305" />
+      <option name="presentableId" value="LOCAL-00305" />
+      <option name="project" value="LOCAL" />
+      <updated>1669020712638</updated>
+    </task>
+    <task id="LOCAL-00306" summary="day32 Constructor">
+      <created>1669023721364</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1669023721365</updated>
+    </task>
+    <task id="LOCAL-00307" summary="day32 Constructor">
+      <created>1669024276839</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1669024276842</updated>
+    </task>
+    <task id="LOCAL-00308" summary="day32 Constructor">
+      <created>1669024778897</created>
+      <option name="number" value="00308" />
+      <option name="presentableId" value="LOCAL-00308" />
+      <option name="project" value="LOCAL" />
+      <updated>1669024778897</updated>
+    </task>
+    <task id="LOCAL-00309" summary="day32 Constructor">
+      <created>1669025770158</created>
+      <option name="number" value="00309" />
+      <option name="presentableId" value="LOCAL-00309" />
+      <option name="project" value="LOCAL" />
+      <updated>1669025770158</updated>
+    </task>
+    <task id="LOCAL-00310" summary="week11 arraylist">
+      <created>1669026574155</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1669026574155</updated>
+    </task>
+    <option name="localTasksCounter" value="311" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,10 +535,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day23" />
-    <MESSAGE value="day22" />
-    <MESSAGE value="day22 Multi-dimensional practice tasks" />
-    <MESSAGE value="day23 Custom methods" />
     <MESSAGE value="day24 Return Method" />
     <MESSAGE value="day23 Custom Methods" />
     <MESSAGE value="day24 Return Methods" />
@@ -576,7 +556,11 @@
     <MESSAGE value="day31 Constructors" />
     <MESSAGE value="week11 warmup tasks" />
     <MESSAGE value="day31 practice tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="day31 practice tasks" />
+    <MESSAGE value="week 11 custom class" />
+    <MESSAGE value="day32 Constructor" />
+    <MESSAGE value="week11 arraylist" />
+    <MESSAGE value="day33 Statics" />
+    <option name="LAST_COMMIT_MESSAGE" value="day33 Statics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
