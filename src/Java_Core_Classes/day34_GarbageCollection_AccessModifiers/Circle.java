@@ -13,6 +13,7 @@ public class Circle {
     public static ArrayList<Integer> numbers;
     // public static Sheet sheet1; we will need these type of declarations to reach test data stored in an Excel sheet
 
+    //static block gets executed automatically at the beginning
     static {
         pi = 3.14;
         name = "Circle";
