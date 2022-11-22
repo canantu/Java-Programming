@@ -88,6 +88,8 @@ public class ArrayListMethods2 {
         // bulk operation: collection type
         numbers.addAll(Arrays.asList(1,2,3,4,5,6,7));
         System.out.println(numbers);
+        numbers.addAll(Arrays.asList(1,2,3,4,5));
+
 
 
     }

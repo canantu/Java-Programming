@@ -9,5 +9,6 @@ public class ArrayListIntro {
 
         System.out.println(numbers); // no need to call toString method to print it
         System.out.println(names);
+
     }
 }

@@ -43,7 +43,7 @@ public class CollectionsUtility {
         System.out.println(list4);
         System.out.println("--------------------------------------");
 
-        int freq = Collections.frequency(list4, 1000);
+        int freq = Collections.frequency(list4, 100);
         System.out.println("freq = " + freq);
         System.out.println("--------------------------------------");
 
