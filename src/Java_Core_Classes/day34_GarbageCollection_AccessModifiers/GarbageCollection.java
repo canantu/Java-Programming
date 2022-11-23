@@ -3,7 +3,6 @@ package Java_Core_Classes.day34_GarbageCollection_AccessModifiers;
 import Java_Core_Classes.day30_CustomClass.Dog;
 import Java_Core_Classes.day31_Constructors.Student;
 import Java_Core_Classes.day32_Constructor.Car;
-import Java_Core_Classes.day33_Statics.Iphone;
 
 import java.util.ArrayList;
 import java.util.Arrays;
