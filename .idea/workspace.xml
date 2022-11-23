@@ -61,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/week01_09_10_2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccessModifiersTest2">
+  <component name="RunManager" selected="Application.AccessModifiersTest">
     <configuration name="AccessModifiers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day34_GarbageCollection_AccessModifiers.AccessModifiers" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -129,8 +129,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AccessModifiersTest2" />
         <item itemvalue="Application.AccessModifiersTest" />
+        <item itemvalue="Application.AccessModifiersTest2" />
         <item itemvalue="Application.AccessModifiers" />
         <item itemvalue="Application.GarbageCollection" />
         <item itemvalue="Application.Test" />

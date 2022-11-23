@@ -45,7 +45,10 @@ Garbage Collector:  - responsible for collecting the unreferenced objects from j
 Access Modifiers: define the accessibility
 
         public > protected > default > private
+
         private: ONLY reachable within the same class
         default: ONLY reachable within the same package
         public: ALWAYS reachable
 
+* there can be only one public class in a java file and it has to match with file name.
+* the other classes can be default
