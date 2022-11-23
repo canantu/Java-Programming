@@ -13,5 +13,9 @@ public class AccessModifiersTest2 {
 
         // private and default are not accessible outside the package
         // only public data is accessible outside the package
+
+        AccessModifiers.method1();
+        // AccessModifiers.method2(); default method is not visible outside the package
+        // AccessModifiers.method3(); private method is not visible outside the class
     }
 }
