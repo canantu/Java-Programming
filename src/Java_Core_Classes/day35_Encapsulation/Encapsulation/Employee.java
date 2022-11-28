@@ -7,24 +7,30 @@ public class Employee {
     private char gender;
     private double salary;
 
+    public Employee(String name, int age, char gender, double salary) {
+        setName(name);
+        setAge(age);
+        setGender(gender);
+        setSalary(salary);
+    }
+
     public void setName(String name){
-        if (name.isEmpty()){
+        if (name.isEmpty() || name.isBlank()){
             return;  // if err message is sent, the program should exit. return exits the method
             //and remaining statements are not executed
         }
-        this.name = name;
+        this.name = name.trim().toUpperCase().charAt(0) + name.trim().substring(1).toLowerCase();
     }
 
     public void setGender(char gender){
         if (!(gender == 'M' || gender == 'F')){
-            System.err.println("Invalid gender: " + gender);
-            System.exit(0);
+            return;
         }
         this.gender = gender;
     }
 
     public void setAge(int age){
-        if (age <= 16|| age > 90){
+        if (age < 16|| age > 90){
             return;
         }
         this.age = age;
@@ -32,8 +38,7 @@ public class Employee {
 
     public void setSalary(double salary){
         if (salary <= 0){
-            System.err.println("invalid salary: " + salary);
-            System.exit(0);
+            return;
         }
         this.salary = salary;
     }
@@ -54,5 +59,12 @@ public class Employee {
         return salary;
     }
 
-
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", salary=" + salary +
+                '}';
+    }
 }
