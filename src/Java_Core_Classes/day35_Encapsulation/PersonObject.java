@@ -7,5 +7,7 @@ public class PersonObject {
         person1.eat();
         person1.drink();
         System.out.println(person1);
+
+        Person.printPlanetName();
     }
 }
