@@ -40,26 +40,39 @@ static variables, it is better to define static methods)
             toString()
 Task:
 1. Create an Employee Class:
-private variables:
-name, gender, age, salary
-Encapsulate all the private fields
-1. Name can not be empty
-2. gender can not anything other than
-female or male
-3. age can not be less than 16, and
-greater than 90
-4. salary can not be zero or negative
+        private variables: name, gender, age, salary
+
+    Encapsulate all the private fields
+        1. Name can not be empty
+        2. gender can not anything other than female or male
+        3. age can not be less than 16, and greater than 90
+        4. salary can not be zero or negative
+
+
+
 2. Create a class named Circle
-privtae variables:
-radius
-public variable:
-pi
- Encapsulate all the private fields
- 1. radius of the circle can
-not be zero or negative
-Add a constructor that can set the raidus of
-coircle when circle object is created
-Methods:
-calcArea()
-calcPerimeter()
-toString()
+        private variables: radius
+        public variable: pi
+
+    Encapsulate all the private fields
+    1. radius of the circle can not be zero or negative
+    Add a constructor that can set the radius of circle when circle object is created
+
+    Methods:
+        calcArea()
+        calcPerimeter()
+        toString()
+
+
+Encapsulation:
+- hide data
+- only class methods access data
+- to hide, we use private for instance variables, use public for methods
+- if you have data, you have to make sure the confidentiality, integrity and availability of the data.
+- by setter and getter methods we can access data and update it
+- getter and setters are public instance methods
+- getter is for reading
+- setter is for writing (modifying)
+- encapsulation is for only instance variables
+- code is a lot more secure, gives developer more control over variables
+- control means type of the data can be controlled with conditions
