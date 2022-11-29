@@ -10,7 +10,7 @@ public class Student {
     private char grade;
     private String schoolName;
 
-    public static boolean isStudent = true;
+    private static boolean isStudent = true;
     public static boolean isHuman = true;
 
     public Student(String name, int age, char gender, char grade, String schoolName) {
@@ -87,6 +87,7 @@ public class Student {
                 ", grade=" + grade +
                 ", schoolName='" + schoolName + '\'' +
                 ", isStudent='" + isStudent + '\'' +
+                ", isHuman='" + isHuman + '\'' +
                 '}';
     }
 }
