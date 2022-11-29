@@ -39,45 +39,84 @@ Encapsulation:  hiding the filed by giving private access modifiers
 
 
 Inheritance Topic:
-Is A relation
-extends keyword
-super keyword & constructor
-Types of Inheritance
-Is A relation vs Has A relation
-Method Overriding
+        Is A relation
+        extends keyword
+        super keyword & constructor
+        Types of Inheritance
+        Is A relation vs Has A relation
+        Method Overriding
+
 Today:
-Is A relation
-extends keyword
+        Is A relation
+        extends keyword
+
+        is-a relation: inheriting features from an other class
+        - why we need?  - efficient coding, less code, using general methods and variables
+                        - create one time, use multiple times
+                        - less memory usage
+                        - increase re-usability
+                        - easy to maintain (only in one place fixing the issues)
+                        - easy to manage and organize
+
+        Animal - Cat : Cat is a Animal
+        Animal - Dog : Dog is a Animal
+        Animal - Fish : Fish is a Animal
+
+        public class Dog extends Animal{
+                    .....
+        }
+
+        - Animal is parent class (super-class)
+        - Dog is child class (sub-class)
+
+        - Parent Class: gives the features
+        - Child Class: inherits the features from parent class
+
+        - child class can also has its own features that are not present in parent class (methods and variables)
+        - parent class should only contain common features
+        - child class must inherit all features from parent class
+        - only all accessible variables & methods are inherited
+        - private methods and variables can not be inherited
+        - constructors can not be inherited, because it has the same name with the class it belongs
+        - child class must call parent's constructor
+
+
+
+
 Tomorrow:
-super keyword & constructor
-Types of Inheritance
+        super keyword & constructor
+        Types of Inheritance
+
 Next Thursday:
-Is A relation vs Has A relation
-Method Overriding
+        Is A relation vs Has A relation
+        Method Overriding
+
 Next Friday:
-implement both Inheritance and Encapsulation
+        implement both Inheritance and Encapsulation
+
 Task:
-Animal:
-name, breed, gender, size, age, color
-setInfo(), eat(), drink(), move(), sleep(), toString()
-Dog extends Animal:
-bark()
-Cat extends Animal:
-scratch()
-Tiger extends Animal:
-roar()
-Fish extends Animal:
-swim()
+            Animal: name, breed, gender, size, age, color
+                    setInfo(), eat(), drink(), move(), sleep(), toString()
+
+            Dog extends Animal:
+                bark()
+            Cat extends Animal:
+                scratch()
+            Tiger extends Animal:
+                roar()
+            Fish extends Animal:
+                swim()
 ...
 import vs extends:
-import: borrowing
-extends: owning
-inherit ->pass it through
-import -> let using
+        import: borrowing
+        extends: owning
+        inherit ->pass it through
+        import -> let using
+
 lunch task:
-Employee:
-name, gender, age, jobTitle, id, salary, companyName
-setInfo(), work(), toString()
-Tester
-Developer
-Driver
+    Employee:
+        name, gender, age, jobTitle, id, salary, companyName
+        setInfo(), work(), toString()
+        Tester
+        Developer
+        Driver
