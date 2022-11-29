@@ -10,6 +10,17 @@ public class Student {
     private char grade;
     private String schoolName;
 
+    public static boolean isStudent = true;
+    public static boolean isHuman = true;
+
+    public Student(String name, int age, char gender, char grade, String schoolName) {
+        setName(name);
+        setAge(age);
+        setGender(gender);
+        setGrade(grade);
+        setSchoolName(schoolName);
+    }
+
     public String getName() {
         return name;
     }
@@ -52,7 +63,6 @@ public class Student {
             return;
         }
         this.grade = grade;
-
     }
 
 
@@ -64,6 +74,11 @@ public class Student {
         this.schoolName = schoolName;
     }
 
+    public void study(){
+        System.out.println(name + " is studying");
+    }
+
+
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
@@ -71,6 +86,7 @@ public class Student {
                 ", gender=" + gender +
                 ", grade=" + grade +
                 ", schoolName='" + schoolName + '\'' +
+                ", isStudent='" + isStudent + '\'' +
                 '}';
     }
 }
