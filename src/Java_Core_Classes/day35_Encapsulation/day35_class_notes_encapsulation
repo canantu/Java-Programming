@@ -65,7 +65,7 @@ Task:
 
 
 Encapsulation:
-- hide data
+- its purpose is hiding the data with private access modifier, to do so we increase the control over data
 - only class methods access data
 - to hide, we use private for instance variables, use public for methods
 - if you have data, you have to make sure the confidentiality, integrity and availability of the data.

@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day 35 Encapsulation">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day35_Encapsulation/Practice_Tasks/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day35_Encapsulation/Practice_Tasks/ItemObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/Encapsulation/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/Encapsulation/StudentObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/day36_class_notes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaProgrammingReviews_EU10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaProgrammingReviews_EU10.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QA_Classes/STLC _TestClosure" beforeDir="false" afterPath="$PROJECT_DIR$/src/QA_Classes/STLC _TestClosure" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day35_Encapsulation/day35_class_notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day35_Encapsulation/day35_class_notes_encapsulation" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/week01_09_10_2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.StudentObjects">
     <configuration name="CarpetObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day35_Encapsulation.Practice_Tasks.CarpetObject" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day35_Encapsulation.Practice_Tasks.SquareObject" />
+    <configuration name="StudentObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day36_Inheritance.Encapsulation.StudentObjects" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day35_Encapsulation.Practice_Tasks.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day36_Inheritance.Encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentObjects" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.ItemObject" />
         <item itemvalue="Application.CarpetObject" />
         <item itemvalue="Application.RectangleObject" />
-        <item itemvalue="Application.SquareObject" />
       </list>
     </recent_temporary>
   </component>
@@ -176,14 +176,7 @@
       <workItem from="1668934116641" duration="18574000" />
       <workItem from="1669116077260" duration="16715000" />
       <workItem from="1669465898102" duration="12781000" />
-      <workItem from="1669635244510" duration="10571000" />
-    </task>
-    <task id="LOCAL-00303" summary="week 11 custom class">
-      <created>1668893169653</created>
-      <option name="number" value="00303" />
-      <option name="presentableId" value="LOCAL-00303" />
-      <option name="project" value="LOCAL" />
-      <updated>1668893169653</updated>
+      <workItem from="1669635244510" duration="13677000" />
     </task>
     <task id="LOCAL-00304" summary="week 11 custom class">
       <created>1668893190282</created>
@@ -521,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669644632251</updated>
     </task>
-    <option name="localTasksCounter" value="352" />
+    <task id="LOCAL-00352" summary="day 35 Encapsulation">
+      <created>1669706259295</created>
+      <option name="number" value="00352" />
+      <option name="presentableId" value="LOCAL-00352" />
+      <option name="project" value="LOCAL" />
+      <updated>1669706259296</updated>
+    </task>
+    <option name="localTasksCounter" value="353" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
