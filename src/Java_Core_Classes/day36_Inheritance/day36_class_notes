@@ -79,6 +79,7 @@ Today:
         - private methods and variables can not be inherited
         - constructors can not be inherited, because it has the same name with the class it belongs
         - child class must call parent's constructor
+        - parent class can not extend its child class
 
 
 

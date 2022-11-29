@@ -8,4 +8,8 @@ public class Tiger extends Animal {
         System.out.println(name + " is roaring");
     }
 
+    public void hunt(){
+        System.out.println(name + " is hunting");
+    }
+
 }

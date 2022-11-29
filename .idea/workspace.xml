@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day 36 Inheritance Intro">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/animalTask/AnimalObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/animalTask/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/animalTask/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/animalTask/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/animalTask/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/animalTask/AnimalObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/animalTask/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/animalTask/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/animalTask/Tiger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/day36_class_notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/day36_class_notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <recent name="$PROJECT_DIR$/src/week01_09_10_2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentObjects">
+  <component name="RunManager" selected="Application.Zoo">
     <configuration name="CarpetObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day35_Encapsulation.Practice_Tasks.CarpetObject" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day35_Encapsulation.Practice_Tasks.RectangleObject" />
+    <configuration name="StudentObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day36_Inheritance.Encapsulation.StudentObjects" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day35_Encapsulation.Practice_Tasks.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day36_Inheritance.Encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day36_Inheritance.Encapsulation.StudentObjects" />
+    <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day36_Inheritance.animalTask.Zoo" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day36_Inheritance.Encapsulation.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day36_Inheritance.animalTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zoo" />
         <item itemvalue="Application.StudentObjects" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.ItemObject" />
         <item itemvalue="Application.CarpetObject" />
-        <item itemvalue="Application.RectangleObject" />
       </list>
     </recent_temporary>
   </component>
@@ -175,14 +175,7 @@
       <workItem from="1668934116641" duration="18574000" />
       <workItem from="1669116077260" duration="16715000" />
       <workItem from="1669465898102" duration="12781000" />
-      <workItem from="1669635244510" duration="17575000" />
-    </task>
-    <task id="LOCAL-00308" summary="day32 Constructor">
-      <created>1669024778897</created>
-      <option name="number" value="00308" />
-      <option name="presentableId" value="LOCAL-00308" />
-      <option name="project" value="LOCAL" />
-      <updated>1669024778897</updated>
+      <workItem from="1669635244510" duration="18329000" />
     </task>
     <task id="LOCAL-00309" summary="day32 Constructor">
       <created>1669025770158</created>
@@ -520,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669713291337</updated>
     </task>
-    <option name="localTasksCounter" value="357" />
+    <task id="LOCAL-00357" summary="day 36 Inheritance Intro">
+      <created>1669714388191</created>
+      <option name="number" value="00357" />
+      <option name="presentableId" value="LOCAL-00357" />
+      <option name="project" value="LOCAL" />
+      <updated>1669714388191</updated>
+    </task>
+    <option name="localTasksCounter" value="358" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
