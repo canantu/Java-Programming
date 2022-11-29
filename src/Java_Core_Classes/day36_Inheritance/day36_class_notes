@@ -106,12 +106,15 @@ Task:
                 roar()
             Fish extends Animal:
                 swim()
+
+** this keyword: in setInfo() method, if the local variable name and parameter name are same, we have to use this keyword.
+
 ...
 import vs extends:
-        import: borrowing
-        extends: owning
-        inherit ->pass it through
-        import -> let using
+        import: borrowing (does not own those properties)
+        extends: owning (property of the new class)
+        inherit -> pass it through
+        import -> let it using
 
 lunch task:
     Employee:

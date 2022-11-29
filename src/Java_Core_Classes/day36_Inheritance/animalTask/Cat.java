@@ -9,4 +9,9 @@ public class Cat extends Animal {
         System.out.println(name + " is scratching");
     }
 
+    public void meow()
+    {
+        System.out.println(name + " is meowing");
+    }
+
 }

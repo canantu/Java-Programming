@@ -6,6 +6,15 @@ public class Animal {
     public char gender;
     public int age;
 
+    public void setInfo(String name, String breed, String size, String color, char gender, int age) {
+        this.name = name;
+        this.breed = breed;
+        this.size = size;
+        this.color = color;
+        this.gender = gender;
+        this.age = age;
+    }
+
     public void eat(){
         System.out.println(name + " is eating");
     }
