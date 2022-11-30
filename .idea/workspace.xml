@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day 35 Encapsulation Practice Tasks">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/PracticeTasks/bookTask/AudioBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/PracticeTasks/bookTask/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/PracticeTasks/bookTask/Ebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/PracticeTasks/bookTask/Library.java" afterDir="false" />
+    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day 36 Inheritance Practice Tasks">
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/AmazonInc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/BusinessAnalyst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/ProductOwner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/ScrumMaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/ScrumTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/employeeTask/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/employeeTask/Developer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +65,13 @@
       <recent name="$PROJECT_DIR$/src/week01_09_10_2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Library">
-    <configuration name="AnimalObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.animalTask.AnimalObjects" />
+  <component name="RunManager" selected="Application.AmazonInc">
+    <configuration name="AmazonInc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.scrumTeamTask.AmazonInc" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day37_Inheritance.animalTask.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day37_Inheritance.scrumTeamTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AmazonInc" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Application.PizzaObject" />
         <item itemvalue="Application.PhoneShop" />
         <item itemvalue="Application.ConstructorPractice" />
-        <item itemvalue="Application.AnimalObjects" />
       </list>
     </recent_temporary>
   </component>
@@ -177,14 +181,7 @@
       <workItem from="1668934116641" duration="18574000" />
       <workItem from="1669116077260" duration="16715000" />
       <workItem from="1669465898102" duration="12781000" />
-      <workItem from="1669635244510" duration="29200000" />
-    </task>
-    <task id="LOCAL-00317" summary="day33 Statics Practice Tasks">
-      <created>1669117997239</created>
-      <option name="number" value="00317" />
-      <option name="presentableId" value="LOCAL-00317" />
-      <option name="project" value="LOCAL" />
-      <updated>1669117997239</updated>
+      <workItem from="1669635244510" duration="32161000" />
     </task>
     <task id="LOCAL-00318" summary="day33 Statics Practice Tasks">
       <created>1669118285497</created>
@@ -522,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669803233573</updated>
     </task>
-    <option name="localTasksCounter" value="366" />
+    <task id="LOCAL-00366" summary="day 36 Inheritance Practice Tasks">
+      <created>1669803890715</created>
+      <option name="number" value="00366" />
+      <option name="presentableId" value="LOCAL-00366" />
+      <option name="project" value="LOCAL" />
+      <updated>1669803890715</updated>
+    </task>
+    <option name="localTasksCounter" value="367" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +544,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day27 Wrapper Classes" />
     <MESSAGE value="week 10 Wrapper Classes" />
     <MESSAGE value="day28 Array List" />
     <MESSAGE value="day28 Array List Practice Tasks" />
@@ -565,7 +568,8 @@
     <MESSAGE value="day 36 Inheritance Intro" />
     <MESSAGE value="day 36 Inheritance" />
     <MESSAGE value="day 35 Encapsulation Practice Tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 35 Encapsulation Practice Tasks" />
+    <MESSAGE value="day 36 Inheritance Practice Tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 36 Inheritance Practice Tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
