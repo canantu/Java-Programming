@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day 36 Inheritance">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day35_Encapsulation/Practice_Tasks/Pizza.java" afterDir="false" />
+    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day 35 Encapsulation Practice Tasks">
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/PracticeTasks/bookTask/AudioBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/PracticeTasks/bookTask/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/PracticeTasks/bookTask/Ebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/PracticeTasks/bookTask/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/employeeTask/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/employeeTask/Developer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/week01_09_10_2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PizzaObject">
+  <component name="RunManager" selected="Application.Library">
     <configuration name="AnimalObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.animalTask.AnimalObjects" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -83,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Employees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day36_Inheritance.employeeTask.Employees" />
+    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day36_Inheritance.PracticeTasks.bookTask.Library" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day36_Inheritance.employeeTask.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day36_Inheritance.PracticeTasks.bookTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Library" />
         <item itemvalue="Application.PizzaObject" />
         <item itemvalue="Application.PhoneShop" />
         <item itemvalue="Application.ConstructorPractice" />
         <item itemvalue="Application.AnimalObjects" />
-        <item itemvalue="Application.Employees" />
       </list>
     </recent_temporary>
   </component>
@@ -172,14 +177,7 @@
       <workItem from="1668934116641" duration="18574000" />
       <workItem from="1669116077260" duration="16715000" />
       <workItem from="1669465898102" duration="12781000" />
-      <workItem from="1669635244510" duration="28521000" />
-    </task>
-    <task id="LOCAL-00316" summary="day33 Statics">
-      <created>1669117725247</created>
-      <option name="number" value="00316" />
-      <option name="presentableId" value="LOCAL-00316" />
-      <option name="project" value="LOCAL" />
-      <updated>1669117725247</updated>
+      <workItem from="1669635244510" duration="29200000" />
     </task>
     <task id="LOCAL-00317" summary="day33 Statics Practice Tasks">
       <created>1669117997239</created>
@@ -517,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669802333999</updated>
     </task>
-    <option name="localTasksCounter" value="365" />
+    <task id="LOCAL-00365" summary="day 35 Encapsulation Practice Tasks">
+      <created>1669803233573</created>
+      <option name="number" value="00365" />
+      <option name="presentableId" value="LOCAL-00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1669803233573</updated>
+    </task>
+    <option name="localTasksCounter" value="366" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day27 Arrays Utility" />
     <MESSAGE value="day27 Wrapper Classes" />
     <MESSAGE value="week 10 Wrapper Classes" />
     <MESSAGE value="day28 Array List" />
@@ -560,7 +564,8 @@
     <MESSAGE value="day 35 Encapsulation" />
     <MESSAGE value="day 36 Inheritance Intro" />
     <MESSAGE value="day 36 Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 36 Inheritance" />
+    <MESSAGE value="day 35 Encapsulation Practice Tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 35 Encapsulation Practice Tasks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
