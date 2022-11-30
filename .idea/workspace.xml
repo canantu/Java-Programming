@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day 36 Inheritance Intro">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/ConstructorPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/Phone.java" afterDir="false" />
+    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day 36 Inheritance">
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/Iphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/Nokia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/PhoneShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/Samsung.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/day37_class_notes_Inheritance" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/day37_class_notes_Inheritance" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/Phone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src/week01_09_10_2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConstructorPractice">
+  <component name="RunManager" selected="Application.PhoneShop">
     <configuration name="AnimalObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.animalTask.AnimalObjects" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -99,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day36_Inheritance.Encapsulation.StudentObjects" />
+    <configuration name="PhoneShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.phoneTask.PhoneShop" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day36_Inheritance.Encapsulation.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day37_Inheritance.phoneTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhoneShop" />
         <item itemvalue="Application.ConstructorPractice" />
         <item itemvalue="Application.AnimalObjects" />
         <item itemvalue="Application.Employees" />
         <item itemvalue="Application.Zoo" />
-        <item itemvalue="Application.StudentObjects" />
       </list>
     </recent_temporary>
   </component>
@@ -175,14 +178,7 @@
       <workItem from="1668934116641" duration="18574000" />
       <workItem from="1669116077260" duration="16715000" />
       <workItem from="1669465898102" duration="12781000" />
-      <workItem from="1669635244510" duration="25312000" />
-    </task>
-    <task id="LOCAL-00313" summary="day33 Statics">
-      <created>1669030092230</created>
-      <option name="number" value="00313" />
-      <option name="presentableId" value="LOCAL-00313" />
-      <option name="project" value="LOCAL" />
-      <updated>1669030092230</updated>
+      <workItem from="1669635244510" duration="27504000" />
     </task>
     <task id="LOCAL-00314" summary="day33 Statics">
       <created>1669116173472</created>
@@ -520,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669725619231</updated>
     </task>
-    <option name="localTasksCounter" value="362" />
+    <task id="LOCAL-00362" summary="day 36 Inheritance">
+      <created>1669799766930</created>
+      <option name="number" value="00362" />
+      <option name="presentableId" value="LOCAL-00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1669799766930</updated>
+    </task>
+    <option name="localTasksCounter" value="363" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +541,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day25 Custom Method Overloading Practice Tasks" />
     <MESSAGE value="day27 Arrays Utility" />
     <MESSAGE value="day27 Wrapper Classes" />
     <MESSAGE value="week 10 Wrapper Classes" />
@@ -563,7 +565,8 @@
     <MESSAGE value="week 12 Statics Review" />
     <MESSAGE value="day 35 Encapsulation" />
     <MESSAGE value="day 36 Inheritance Intro" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 36 Inheritance Intro" />
+    <MESSAGE value="day 36 Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 36 Inheritance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
