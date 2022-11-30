@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day 36 Inheritance">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/Nokia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/PhoneShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/Samsung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/day37_class_notes_Inheritance" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/day37_class_notes_Inheritance" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/PhoneShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/PhoneShop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,14 +172,7 @@
       <workItem from="1668934116641" duration="18574000" />
       <workItem from="1669116077260" duration="16715000" />
       <workItem from="1669465898102" duration="12781000" />
-      <workItem from="1669635244510" duration="27504000" />
-    </task>
-    <task id="LOCAL-00314" summary="day33 Statics">
-      <created>1669116173472</created>
-      <option name="number" value="00314" />
-      <option name="presentableId" value="LOCAL-00314" />
-      <option name="project" value="LOCAL" />
-      <updated>1669116173473</updated>
+      <workItem from="1669635244510" duration="27852000" />
     </task>
     <task id="LOCAL-00315" summary="review">
       <created>1669116198576</created>
@@ -523,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669799766930</updated>
     </task>
-    <option name="localTasksCounter" value="363" />
+    <task id="LOCAL-00363" summary="day 36 Inheritance">
+      <created>1669802161035</created>
+      <option name="number" value="00363" />
+      <option name="presentableId" value="LOCAL-00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1669802161036</updated>
+    </task>
+    <option name="localTasksCounter" value="364" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

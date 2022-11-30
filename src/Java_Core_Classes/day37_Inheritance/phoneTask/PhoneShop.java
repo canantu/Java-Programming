@@ -21,5 +21,14 @@ public class PhoneShop {
         nokia.selfDefense();
         System.out.println(nokia);
 
+        System.out.println("============================================");
+
+        System.out.println(Phone.hasBattery);
+        System.out.println(Iphone.hasBattery);
+        System.out.println(Samsung.hasBattery);
+        System.out.println(Nokia.hasBattery);
+
+
+
     }
 }

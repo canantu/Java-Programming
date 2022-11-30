@@ -152,3 +152,5 @@ Task:
 it is unnecessary memory usage. to we use static block.
 *** constructor is not inherited. because every class should have a constructor with the same name of the class.
 either implicitly called or explicitly by the user.
+
+*** static methods are also inherited and they are also by objects called. not only by class name.
