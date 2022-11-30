@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day 36 Inheritance">
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/PhoneShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/PhoneShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day35_Encapsulation/Practice_Tasks/Pizza.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <recent name="$PROJECT_DIR$/src/week01_09_10_2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PhoneShop">
+  <component name="RunManager" selected="Application.PizzaObject">
     <configuration name="AnimalObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.animalTask.AnimalObjects" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day36_Inheritance.animalTask.Zoo" />
+    <configuration name="PizzaObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day35_Encapsulation.Practice_Tasks.PizzaObject" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day36_Inheritance.animalTask.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day35_Encapsulation.Practice_Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PizzaObject" />
         <item itemvalue="Application.PhoneShop" />
         <item itemvalue="Application.ConstructorPractice" />
         <item itemvalue="Application.AnimalObjects" />
         <item itemvalue="Application.Employees" />
-        <item itemvalue="Application.Zoo" />
       </list>
     </recent_temporary>
   </component>
@@ -172,14 +172,7 @@
       <workItem from="1668934116641" duration="18574000" />
       <workItem from="1669116077260" duration="16715000" />
       <workItem from="1669465898102" duration="12781000" />
-      <workItem from="1669635244510" duration="27852000" />
-    </task>
-    <task id="LOCAL-00315" summary="review">
-      <created>1669116198576</created>
-      <option name="number" value="00315" />
-      <option name="presentableId" value="LOCAL-00315" />
-      <option name="project" value="LOCAL" />
-      <updated>1669116198577</updated>
+      <workItem from="1669635244510" duration="28521000" />
     </task>
     <task id="LOCAL-00316" summary="day33 Statics">
       <created>1669117725247</created>
@@ -517,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669802161036</updated>
     </task>
-    <option name="localTasksCounter" value="364" />
+    <task id="LOCAL-00364" summary="day 36 Inheritance">
+      <created>1669802333999</created>
+      <option name="number" value="00364" />
+      <option name="presentableId" value="LOCAL-00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1669802333999</updated>
+    </task>
+    <option name="localTasksCounter" value="365" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
