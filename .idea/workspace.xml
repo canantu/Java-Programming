@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="week13 review">
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/encapsulation/TeacherObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week13_12_03_2022/encapsulation/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week13_12_03_2022/encapsulation/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/inheritance/AppObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/inheritance/Discord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/inheritance/Instagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/inheritance/MobileApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/day36_class_notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day36_Inheritance/day36_class_notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +38,7 @@
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -60,13 +65,26 @@
       <recent name="week13_12_03_2022.accessModifiers.pac2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TeacherObject">
-    <configuration name="AmazonInc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.scrumTeamTask.AmazonInc" />
+  <component name="RunManager" selected="Application.AppObjects">
+    <configuration name="AppObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week13_12_03_2022.inheritance.AppObjects" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day37_Inheritance.scrumTeamTask.*" />
+          <option name="PATTERN" value="week13_12_03_2022.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MobileApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week13_12_03_2022.inheritance.MobileApp" />
+      <module name="JavaProgrammingReviews_EU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week13_12_03_2022.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,26 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.test" />
-      <module name="JavaProgrammingReviews_EU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day37_Inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppObjects" />
+        <item itemvalue="Application.MobileApp" />
         <item itemvalue="Application.TeacherObject" />
         <item itemvalue="Application.StudentObject" />
         <item itemvalue="Application.School" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.AmazonInc" />
       </list>
     </recent_temporary>
   </component>
@@ -176,14 +181,7 @@
       <workItem from="1668934116641" duration="18574000" />
       <workItem from="1669116077260" duration="16715000" />
       <workItem from="1669465898102" duration="12781000" />
-      <workItem from="1669635244510" duration="43695000" />
-    </task>
-    <task id="LOCAL-00321" summary="day33 Statics Practice Tasks">
-      <created>1669119571007</created>
-      <option name="number" value="00321" />
-      <option name="presentableId" value="LOCAL-00321" />
-      <option name="project" value="LOCAL" />
-      <updated>1669119571007</updated>
+      <workItem from="1669635244510" duration="46331000" />
     </task>
     <task id="LOCAL-00322" summary="day33 Statics Practice Tasks">
       <created>1669119834133</created>
@@ -521,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670089851228</updated>
     </task>
-    <option name="localTasksCounter" value="370" />
+    <task id="LOCAL-00370" summary="week13 review">
+      <created>1670090253741</created>
+      <option name="number" value="00370" />
+      <option name="presentableId" value="LOCAL-00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1670090253741</updated>
+    </task>
+    <option name="localTasksCounter" value="371" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

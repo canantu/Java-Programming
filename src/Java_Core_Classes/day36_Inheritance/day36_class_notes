@@ -15,7 +15,7 @@ warmup tasks:
             study()
             toString()
 
-Encapsulation:  hiding the filed by giving private access modifiers
+Encapsulation:  hiding the field by giving private access modifiers
                 use getter/setter to read/write the private data
                 (to read the data, we need getter. in the method we add conditions, restrict the user)
                 (getters and setters should be accessible all the time, should be public)
