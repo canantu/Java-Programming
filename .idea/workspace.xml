@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day 37 Inheritance">
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/warmup/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/warmup/Teacher.java" afterDir="false" />
+    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="week13 review warm up">
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/GarbageCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac1/DefaultTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac1/PrivateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac1/PublicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac2/DefaultTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac2/PublicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/encapsulation/Encapsulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/encapsulation/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/encapsulation/StudentObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week13_12_03_2022/warmup/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week13_12_03_2022/warmup/School.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +67,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/week01_09_10_2022" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="week13_12_03_2022.accessModifiers.pac2" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.School">
+  <component name="RunManager" selected="Application.StudentObject">
     <configuration name="AmazonInc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.scrumTeamTask.AmazonInc" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -85,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day35_Encapsulation.Practice_Tasks.PizzaObject" />
+    <configuration name="School" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week13_12_03_2022.warmup.School" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day35_Encapsulation.Practice_Tasks.*" />
+          <option name="PATTERN" value="week13_12_03_2022.warmup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="School" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week13_12_03_2022.warmup.School" />
+    <configuration name="StudentObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week13_12_03_2022.encapsulation.StudentObject" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week13_12_03_2022.warmup.*" />
+          <option name="PATTERN" value="week13_12_03_2022.encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentObject" />
         <item itemvalue="Application.School" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.AmazonInc" />
         <item itemvalue="Application.Library" />
-        <item itemvalue="Application.PizzaObject" />
       </list>
     </recent_temporary>
   </component>
@@ -174,14 +187,7 @@
       <workItem from="1668934116641" duration="18574000" />
       <workItem from="1669116077260" duration="16715000" />
       <workItem from="1669465898102" duration="12781000" />
-      <workItem from="1669635244510" duration="40009000" />
-    </task>
-    <task id="LOCAL-00319" summary="day33 Statics Practice Tasks">
-      <created>1669118957896</created>
-      <option name="number" value="00319" />
-      <option name="presentableId" value="LOCAL-00319" />
-      <option name="project" value="LOCAL" />
-      <updated>1669118957896</updated>
+      <workItem from="1669635244510" duration="43159000" />
     </task>
     <task id="LOCAL-00320" summary="day33 Statics Practice Tasks">
       <created>1669119297621</created>
@@ -519,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669842606980</updated>
     </task>
-    <option name="localTasksCounter" value="368" />
+    <task id="LOCAL-00368" summary="week13 review warm up">
+      <created>1670084797815</created>
+      <option name="number" value="00368" />
+      <option name="presentableId" value="LOCAL-00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1670084797816</updated>
+    </task>
+    <option name="localTasksCounter" value="369" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day28 Array List" />
     <MESSAGE value="day28 Array List Practice Tasks" />
     <MESSAGE value="day29 Array List" />
     <MESSAGE value="day29 Replit Tasks" />
@@ -562,7 +574,8 @@
     <MESSAGE value="day 35 Encapsulation Practice Tasks" />
     <MESSAGE value="day 36 Inheritance Practice Tasks" />
     <MESSAGE value="day 37 Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 37 Inheritance" />
+    <MESSAGE value="week13 review warm up" />
+    <option name="LAST_COMMIT_MESSAGE" value="week13 review warm up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

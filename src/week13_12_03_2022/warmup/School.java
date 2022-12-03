@@ -8,8 +8,8 @@ public class School {
     static ArrayList<Teacher> teachers = new ArrayList<>();
     //global variable, is defined outside a method or block, in order to reach it from every other methods in a class
 
-
     static {
+
         Teacher teacher1 = new Teacher("Muhtar", "Abc", 'M', LocalDate.of(1987, 12,12), 1234567890);
         Teacher teacher2 = new Teacher("Gürhan", "Abc", 'M', LocalDate.of(1977, 12,12), 1234567891);
         Teacher teacher3 = new Teacher("Aysun", "Abc", 'F', LocalDate.of(1967, 12,12), 1234567892);
@@ -26,8 +26,24 @@ public class School {
         ArrayList<Teacher> result = getTeachersNameStartWith("M");
         System.out.println(result);
 
+        System.out.println("***************************************");
+        ArrayList<Teacher> females = getTeachersByGender('F');
+        System.out.println(females);
+
+
     }
 
+    private static ArrayList<Teacher> getTeachersByGender(char gender) {
+
+        ArrayList<Teacher> list = new ArrayList<>();
+
+        for (Teacher teacher : teachers) {
+            if (teacher.gender == 'F')
+                list.add(teacher);
+        }
+
+        return list;
+    }
     private static ArrayList<Teacher> getTeachersNameStartWith(String prefix) {
 
         ArrayList<Teacher> list = new ArrayList<>();
@@ -42,9 +58,6 @@ public class School {
 
     }
 
-    public static void getFemaleTeachers(){
-
-    }
 
 
 
