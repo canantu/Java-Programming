@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="week13 review warm up">
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/GarbageCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac1/DefaultTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac1/PrivateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac1/PublicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac2/DefaultTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac2/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/accessModifiers/pac2/PublicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/encapsulation/Encapsulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/encapsulation/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/encapsulation/StudentObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week13_12_03_2022/warmup/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week13_12_03_2022/warmup/School.java" afterDir="false" />
+    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="week13 review">
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/encapsulation/TeacherObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week13_12_03_2022/encapsulation/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week13_12_03_2022/encapsulation/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,26 +60,13 @@
       <recent name="week13_12_03_2022.accessModifiers.pac2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentObject">
+  <component name="RunManager" selected="Application.TeacherObject">
     <configuration name="AmazonInc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.scrumTeamTask.AmazonInc" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Java_Core_Classes.day37_Inheritance.scrumTeamTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day36_Inheritance.PracticeTasks.bookTask.Library" />
-      <module name="JavaProgrammingReviews_EU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day36_Inheritance.PracticeTasks.bookTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,6 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TeacherObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week13_12_03_2022.encapsulation.TeacherObject" />
+      <module name="JavaProgrammingReviews_EU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week13_12_03_2022.encapsulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.test" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -139,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TeacherObject" />
         <item itemvalue="Application.StudentObject" />
         <item itemvalue="Application.School" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.AmazonInc" />
-        <item itemvalue="Application.Library" />
       </list>
     </recent_temporary>
   </component>
@@ -187,14 +176,7 @@
       <workItem from="1668934116641" duration="18574000" />
       <workItem from="1669116077260" duration="16715000" />
       <workItem from="1669465898102" duration="12781000" />
-      <workItem from="1669635244510" duration="43159000" />
-    </task>
-    <task id="LOCAL-00320" summary="day33 Statics Practice Tasks">
-      <created>1669119297621</created>
-      <option name="number" value="00320" />
-      <option name="presentableId" value="LOCAL-00320" />
-      <option name="project" value="LOCAL" />
-      <updated>1669119297621</updated>
+      <workItem from="1669635244510" duration="43695000" />
     </task>
     <task id="LOCAL-00321" summary="day33 Statics Practice Tasks">
       <created>1669119571007</created>
@@ -532,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670084797816</updated>
     </task>
-    <option name="localTasksCounter" value="369" />
+    <task id="LOCAL-00369" summary="week13 review">
+      <created>1670089851228</created>
+      <option name="number" value="00369" />
+      <option name="presentableId" value="LOCAL-00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1670089851228</updated>
+    </task>
+    <option name="localTasksCounter" value="370" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day28 Array List Practice Tasks" />
     <MESSAGE value="day29 Array List" />
     <MESSAGE value="day29 Replit Tasks" />
     <MESSAGE value="day30 Custom Classes" />
@@ -575,7 +563,8 @@
     <MESSAGE value="day 36 Inheritance Practice Tasks" />
     <MESSAGE value="day 37 Inheritance" />
     <MESSAGE value="week13 review warm up" />
-    <option name="LAST_COMMIT_MESSAGE" value="week13 review warm up" />
+    <MESSAGE value="week13 review" />
+    <option name="LAST_COMMIT_MESSAGE" value="week13 review" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
