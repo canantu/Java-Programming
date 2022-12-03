@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day 36 Inheritance Practice Tasks">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/AmazonInc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/BusinessAnalyst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/ProductOwner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/ScrumMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/ScrumTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/scrumTeamTask/Tester.java" afterDir="false" />
+    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day 37 Inheritance">
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/warmup/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week13_12_03_2022/warmup/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,26 +58,13 @@
       <recent name="$PROJECT_DIR$/src/week01_09_10_2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AmazonInc">
+  <component name="RunManager" selected="Application.School">
     <configuration name="AmazonInc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.scrumTeamTask.AmazonInc" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Java_Core_Classes.day37_Inheritance.scrumTeamTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConstructorPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.ConstructorPractice" />
-      <module name="JavaProgrammingReviews_EU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day37_Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,19 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.phoneTask.PhoneShop" />
-      <module name="JavaProgrammingReviews_EU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day37_Inheritance.phoneTask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PizzaObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day35_Encapsulation.Practice_Tasks.PizzaObject" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -131,13 +98,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="School" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week13_12_03_2022.warmup.School" />
+      <module name="JavaProgrammingReviews_EU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week13_12_03_2022.warmup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day37_Inheritance.test" />
+      <module name="JavaProgrammingReviews_EU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Core_Classes.day37_Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.School" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.AmazonInc" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Application.PizzaObject" />
-        <item itemvalue="Application.PhoneShop" />
-        <item itemvalue="Application.ConstructorPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -181,14 +174,7 @@
       <workItem from="1668934116641" duration="18574000" />
       <workItem from="1669116077260" duration="16715000" />
       <workItem from="1669465898102" duration="12781000" />
-      <workItem from="1669635244510" duration="32161000" />
-    </task>
-    <task id="LOCAL-00318" summary="day33 Statics Practice Tasks">
-      <created>1669118285497</created>
-      <option name="number" value="00318" />
-      <option name="presentableId" value="LOCAL-00318" />
-      <option name="project" value="LOCAL" />
-      <updated>1669118285497</updated>
+      <workItem from="1669635244510" duration="40009000" />
     </task>
     <task id="LOCAL-00319" summary="day33 Statics Practice Tasks">
       <created>1669118957896</created>
@@ -526,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669803890715</updated>
     </task>
-    <option name="localTasksCounter" value="367" />
+    <task id="LOCAL-00367" summary="day 37 Inheritance">
+      <created>1669842606980</created>
+      <option name="number" value="00367" />
+      <option name="presentableId" value="LOCAL-00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1669842606980</updated>
+    </task>
+    <option name="localTasksCounter" value="368" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +537,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="week 10 Wrapper Classes" />
     <MESSAGE value="day28 Array List" />
     <MESSAGE value="day28 Array List Practice Tasks" />
     <MESSAGE value="day29 Array List" />
@@ -569,7 +561,8 @@
     <MESSAGE value="day 36 Inheritance" />
     <MESSAGE value="day 35 Encapsulation Practice Tasks" />
     <MESSAGE value="day 36 Inheritance Practice Tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 36 Inheritance Practice Tasks" />
+    <MESSAGE value="day 37 Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 37 Inheritance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
