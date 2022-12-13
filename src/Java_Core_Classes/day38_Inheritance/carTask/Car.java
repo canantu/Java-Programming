@@ -16,11 +16,11 @@ public class Car {
     }
 
     public void start(){
-        System.out.println(brand + " is started");
+        System.out.println(brand +" " + model + " is started");
     }
 
     public void drive(){
-        System.out.println(brand + " is driving");
+        System.out.println(brand + " " + model + " is driving");
     }
 
     public String toString() {
