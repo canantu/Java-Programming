@@ -59,16 +59,25 @@ IS A relation vs HAS A relation:
 
 Method Overloading:
     multiple different methods having the same name.
-    parameters MUST be different
+    parameters MUST be different (return type can be different )
     ANY method can be overloaded
+    it happens within one class
+
 
 Method Overriding:
-    Access Modifiers:
-        public > protected > default > private
-    Object Class: presented in "java.lang" package.
-      parent of all the classes.
-      implicitly extended to all classes
+        Access Modifiers:
+            public > protected > default > private (ordered according to visibility, more to less)
+        overridden method (new method) must have more visibility
+        private methods can not be overridden
+        static methods can not be overridden
+        only instance methods can be overridden
+        happens in the child classes
+        return type, method name and parameters must be same
 
+
+Object Class: presented in "java.lang" package.
+    parent of all the classes.
+    implicitly extended to all classes
 
 
 Tomorrow:
@@ -79,17 +88,20 @@ Car:
     start(){car started}
 Toyota extends Car:
     start():
-    twist the key to Ignition
+        twist the key to Ignition
 Audi extends Car:
     start():
-    push start button
+        push start button
 Tesla extends Car:
     start():
-    say "Start"
+        say "Start"
 BMW extends Car:
     start():
-    Call mechanic
-    Jump start
+        Call mechanic
+        Jump start
+
+every car has different implementation for start method, so we change implementation in each child class.
+we override it. it is memory efficient,
 -----------------------------
 Shape:
 variable:

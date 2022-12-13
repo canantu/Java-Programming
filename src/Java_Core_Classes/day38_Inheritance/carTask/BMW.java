@@ -6,6 +6,11 @@ public class BMW extends Car{
         super("BMW", model, color, year, miles, price);
     }
 
+    public void start(){
+
+        System.out.println("Call mechanic and jump start");
+
+    }
     public void breakDown(){
         System.out.println(brand + model + " breaks down every 100 miles");
     }

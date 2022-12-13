@@ -5,7 +5,10 @@ public class Tesla extends Car{
     public Tesla(String model, String color, int year, int miles, double price) {
         super("Tesla", model, color, year, miles, price);
     }
-
+    @Override
+    public void start(){
+        System.out.println("Call start");
+    }
     public void autoPilot(){
         System.out.println(brand + model + " is auto-piloting");
     }
