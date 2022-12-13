@@ -75,9 +75,9 @@ Method Overriding:
         return type, method name and parameters must be same
 
 
-Object Class: presented in "java.lang" package.
-    parent of all the classes.
-    implicitly extended to all classes
+Object Class:   presented in "java.lang" package.
+                parent of all the classes.
+                implicitly extended to all classes
 
 
 Tomorrow:
@@ -104,22 +104,23 @@ every car has different implementation for start method, so we change implementa
 we override it. it is memory efficient,
 -----------------------------
 Shape:
-variable:
-name
-Add A constructor to set the filed
-Methods:
-area(){return 0}
-perimeter{return 0}
-toString(): name, area, perimeter
+    variable:
+        name
+    Add A constructor to set the filed
+    Methods:
+    area(){return 0}
+    perimeter{return 0}
+    toString(): name, area, perimeter
+
 Circle
-r
-pi
-toString(): name, r, pi, area, perimeter
+    r, pi
+    toString(): name, r, pi, area, perimeter
+
 Square
-s
-toString(): name, s, area, perimeter
+    s
+    toString(): name, s, area, perimeter
+
 Rectangle
-l
-w
-toString(): name, l, w, area, perimeter
+    l, w
+    toString(): name, l, w, area, perimeter
 ....
