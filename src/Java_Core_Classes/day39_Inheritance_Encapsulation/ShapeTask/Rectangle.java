@@ -51,8 +51,8 @@ public class Rectangle extends Shape {
                 "name= 'Rectangle'" +
                 ", length=" + length +
                 ", width=" + width +
-                ", area='" + area() + '\'' +
-                ", perimeter='" + perimeter() + '\'' +
+                ", area=" + area() +
+                ", perimeter=" + perimeter() +
                 '}';
     }
 }

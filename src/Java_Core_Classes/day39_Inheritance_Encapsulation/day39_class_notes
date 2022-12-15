@@ -4,27 +4,25 @@ Topics: Recap:  OOP Encapsulation
 
 package name: day39_Recap
 
-Method Overriding: giving different implementations to the method
-MUST happen in the child
-class
-return-type, method name,
-parameter MUST be same
-Access modifier need to be
-same or more visible
-public > protected > default
-Method we can not override:
-private, static, final
-ONLY the instance methods
-(not final & not private) can be overriden
-@Overriden annotation must
-be applicable
-
 next Thursday:
         protected access modifier
         final keyword
 next Friday:
         Exceptions & Exception handling
 -------------------------------------
+Method Overriding:  giving different implementations to the method
+                    MUST happen in the child class
+                    return-type, method name,parameter MUST be same
+                    Access modifier need to be same or more visible
+
+                    public > protected > default
+
+                    Method we can not override:
+                        private, static, final
+
+                    ONLY the instance methods (not final & not private) can be overridden
+                    @Overridden annotation must be applicable
+
 Shape:
     variables:
         name
@@ -79,10 +77,12 @@ Circle extends Shape:
 
 
 OOP:
-Encapsulation
-Inheritance
-Abstraction
-Polymorphism
+    Encapsulation
+    Inheritance
+    Abstraction
+    Polymorphism
+
+
 class A{
 method(){
 sout(A);
