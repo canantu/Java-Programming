@@ -1,4 +1,4 @@
-package Java_Core_Classes.day38_Inheritance.Practice_Tasks;
+package Java_Core_Classes.day38_Inheritance.Practice_Tasks.BrowserTask;
 
 public class FirefoxBrowser extends Browser{
 
