@@ -1,0 +1,3 @@
+// we can only override instance methods
+// we can not override private methods, because we can not access them
+//

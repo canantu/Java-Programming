@@ -8,4 +8,3 @@ public class Akbank extends Bank{
     }
 }
 
-// we can only override instance methods

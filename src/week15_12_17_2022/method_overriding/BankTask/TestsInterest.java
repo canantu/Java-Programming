@@ -11,5 +11,8 @@ public class TestsInterest {
         System.out.println("*********************");
         Akbank akbank = new Akbank();
         akbank.calculateInterest();
+
+        GarantiBank garantiBank = new GarantiBank();
+        garantiBank.calculateInterest();
     }
 }
