@@ -7,3 +7,5 @@ public class Akbank extends Bank{
         System.out.println(getCapital()*7/100);
     }
 }
+
+// we can only override instance methods
