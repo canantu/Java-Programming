@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="week15 Overriding">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/EncapsulationReview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/day40_classNotes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/MethodOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/MethodOverloading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/ShapeTask/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/ShapeTask/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/ShapeTask/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/ShapeTask/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/ShapeTask/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/ShapeTask/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/ShapeTask/ShapeObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/ShapeTask/ShapeObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/ShapeTask/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/ShapeTask/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/day39_class_notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/day39_class_notes" afterDir="false" />
+    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day40 Recap">
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/day40_classNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/day40_classNotes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,21 +190,7 @@
       <workItem from="1671090709915" duration="7241000" />
       <workItem from="1671181193302" duration="67000" />
       <workItem from="1671291828238" duration="4682000" />
-      <workItem from="1671616811542" duration="878000" />
-    </task>
-    <task id="LOCAL-00345" summary="day 35 Encapsulation">
-      <created>1669639980275</created>
-      <option name="number" value="00345" />
-      <option name="presentableId" value="LOCAL-00345" />
-      <option name="project" value="LOCAL" />
-      <updated>1669639980275</updated>
-    </task>
-    <task id="LOCAL-00346" summary="day 35 Encapsulation">
-      <created>1669642086538</created>
-      <option name="number" value="00346" />
-      <option name="presentableId" value="LOCAL-00346" />
-      <option name="project" value="LOCAL" />
-      <updated>1669642086538</updated>
+      <workItem from="1671616811542" duration="1361000" />
     </task>
     <task id="LOCAL-00347" summary="day 35 Encapsulation">
       <created>1669643254117</created>
@@ -544,7 +521,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671299530485</updated>
     </task>
-    <option name="localTasksCounter" value="394" />
+    <task id="LOCAL-00394" summary="day39 Recap">
+      <created>1671617951172</created>
+      <option name="number" value="00394" />
+      <option name="presentableId" value="LOCAL-00394" />
+      <option name="project" value="LOCAL" />
+      <updated>1671617951173</updated>
+    </task>
+    <task id="LOCAL-00395" summary="day40 Recap">
+      <created>1671617990879</created>
+      <option name="number" value="00395" />
+      <option name="presentableId" value="LOCAL-00395" />
+      <option name="project" value="LOCAL" />
+      <updated>1671617990879</updated>
+    </task>
+    <option name="localTasksCounter" value="396" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day31 practice tasks" />
     <MESSAGE value="week 11 custom class" />
     <MESSAGE value="day32 Constructor" />
     <MESSAGE value="week11 arraylist" />
@@ -617,9 +607,10 @@
     <MESSAGE value="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit 63edb57b" />
     <MESSAGE value="day38 Inheritance" />
     <MESSAGE value="day38 Overriding&#10;Practice Tasks" />
-    <MESSAGE value="day39 Recap" />
     <MESSAGE value="week15 Overriding" />
-    <option name="LAST_COMMIT_MESSAGE" value="week15 Overriding" />
+    <MESSAGE value="day39 Recap" />
+    <MESSAGE value="day40 Recap" />
+    <option name="LAST_COMMIT_MESSAGE" value="day40 Recap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

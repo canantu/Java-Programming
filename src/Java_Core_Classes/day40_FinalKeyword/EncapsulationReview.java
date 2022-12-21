@@ -1,9 +1,7 @@
 package Java_Core_Classes.day40_FinalKeyword;
 
-import Java_Core_Classes.Recap.ShapeTask.Circle;
-import Java_Core_Classes.Recap.ShapeTask.Square;
-
-import java.security.spec.RSAOtherPrimeInfo;
+import Java_Core_Classes.day39_Recap.ShapeTask.Circle;
+import Java_Core_Classes.day39_Recap.ShapeTask.Square;
 
 public class EncapsulationReview {
     private Circle circle;
