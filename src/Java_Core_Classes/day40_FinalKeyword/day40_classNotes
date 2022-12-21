@@ -26,3 +26,12 @@ protected access modifier:  Always visible within the same package
 
 Final Keyword:  - Unchangeable
                 - can be applied to variables, methods and classes
+                - once a class is declared as final, you do not need to declare methods or variables in that class as final
+                - all methods in java can be overloaded, final is not a obstacle to overload a method
+                - final methods can not be overridden
+                - final classes can not be inherited
+                - overloading happens in the same class
+                - overriding happens in the sub class
+                - variables become constant, only once initialized
+                - a final instance method can be called through the object
+                - final classes are immutable
