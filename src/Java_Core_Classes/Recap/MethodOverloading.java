@@ -1,4 +1,4 @@
-package Java_Core_Classes.day39_Inheritance_Encapsulation;
+package Java_Core_Classes.Recap;
 
 public class MethodOverloading {
     public void method1(){

@@ -1,4 +1,4 @@
-package Java_Core_Classes.day39_Inheritance_Encapsulation.ShapeTask;
+package Java_Core_Classes.Recap.ShapeTask;
 
 public class Circle extends Shape{
 

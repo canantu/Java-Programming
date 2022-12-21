@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="">
+    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="week15 Overriding">
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/EncapsulationReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/day40_classNotes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week13_12_03_2022/inheritance/AppObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week13_12_03_2022/inheritance/AppObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/MethodOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/MethodOverloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/ShapeTask/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/ShapeTask/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/ShapeTask/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/ShapeTask/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/ShapeTask/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/ShapeTask/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/ShapeTask/ShapeObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/ShapeTask/ShapeObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/ShapeTask/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/ShapeTask/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day39_Inheritance_Encapsulation/day39_class_notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/Recap/day39_class_notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +31,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
@@ -39,8 +48,8 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -67,13 +76,13 @@
       <recent name="week13_12_03_2022.accessModifiers.pac2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppObjects">
-    <configuration name="AppObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week13_12_03_2022.inheritance.AppObjects" />
+  <component name="RunManager" selected="Application.TestSalary">
+    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week15_12_17_2022.method_overriding.AnimalTask.AnimalTest" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week13_12_03_2022.inheritance.*" />
+          <option name="PATTERN" value="week15_12_17_2022.method_overriding.AnimalTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MobileApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week13_12_03_2022.inheritance.MobileApp" />
+    <configuration name="ScrumTeam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day38_Inheritance.Practice_Tasks.Employee_Task.ScrumTeam" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week13_12_03_2022.inheritance.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day38_Inheritance.Practice_Tasks.Employee_Task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="School" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week13_12_03_2022.warmup.School" />
+    <configuration name="ShapeObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.Recap.ShapeTask.ShapeObjects" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week13_12_03_2022.warmup.*" />
+          <option name="PATTERN" value="Java_Core_Classes.Recap.ShapeTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week13_12_03_2022.encapsulation.StudentObject" />
+    <configuration name="TestSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week15_12_17_2022.method_overriding.EmployeeTask.TestSalary" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week13_12_03_2022.encapsulation.*" />
+          <option name="PATTERN" value="week15_12_17_2022.method_overriding.EmployeeTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeacherObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week13_12_03_2022.encapsulation.TeacherObject" />
+    <configuration name="TestsInterest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week15_12_17_2022.method_overriding.BankTask.TestsInterest" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week13_12_03_2022.encapsulation.*" />
+          <option name="PATTERN" value="week15_12_17_2022.method_overriding.BankTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppObjects" />
-        <item itemvalue="Application.MobileApp" />
-        <item itemvalue="Application.TeacherObject" />
-        <item itemvalue="Application.StudentObject" />
-        <item itemvalue="Application.School" />
+        <item itemvalue="Application.TestSalary" />
+        <item itemvalue="Application.AnimalTest" />
+        <item itemvalue="Application.TestsInterest" />
+        <item itemvalue="Application.Java_Core_Classes.day39_Inheritance_Encapsulation.ShapeTask.ShapeObjects" />
+        <item itemvalue="Application.ScrumTeam" />
       </list>
     </recent_temporary>
   </component>
@@ -184,160 +193,13 @@
       <workItem from="1669116077260" duration="16715000" />
       <workItem from="1669465898102" duration="12781000" />
       <workItem from="1669635244510" duration="47025000" />
-    </task>
-    <task id="LOCAL-00323" summary="Office Hour Tasks">
-      <created>1669119973763</created>
-      <option name="number" value="00323" />
-      <option name="presentableId" value="LOCAL-00323" />
-      <option name="project" value="LOCAL" />
-      <updated>1669119973763</updated>
-    </task>
-    <task id="LOCAL-00324" summary="day34 Garbage Collection- Access Modifiers">
-      <created>1669154730211</created>
-      <option name="number" value="00324" />
-      <option name="presentableId" value="LOCAL-00324" />
-      <option name="project" value="LOCAL" />
-      <updated>1669154730211</updated>
-    </task>
-    <task id="LOCAL-00325" summary="day34 Garbage Collection- Access Modifiers">
-      <created>1669155956886</created>
-      <option name="number" value="00325" />
-      <option name="presentableId" value="LOCAL-00325" />
-      <option name="project" value="LOCAL" />
-      <updated>1669155956886</updated>
-    </task>
-    <task id="LOCAL-00326" summary="day34 Garbage Collection- Access Modifiers">
-      <created>1669157566044</created>
-      <option name="number" value="00326" />
-      <option name="presentableId" value="LOCAL-00326" />
-      <option name="project" value="LOCAL" />
-      <updated>1669157566044</updated>
-    </task>
-    <task id="LOCAL-00327" summary="day34 Garbage Collection- Access Modifiers">
-      <created>1669158221136</created>
-      <option name="number" value="00327" />
-      <option name="presentableId" value="LOCAL-00327" />
-      <option name="project" value="LOCAL" />
-      <updated>1669158221136</updated>
-    </task>
-    <task id="LOCAL-00328" summary="day34 Garbage Collection- Access Modifiers">
-      <created>1669208599872</created>
-      <option name="number" value="00328" />
-      <option name="presentableId" value="LOCAL-00328" />
-      <option name="project" value="LOCAL" />
-      <updated>1669208599872</updated>
-    </task>
-    <task id="LOCAL-00329" summary="day34 Garbage Collection - Access Modifiers">
-      <created>1669210868522</created>
-      <option name="number" value="00329" />
-      <option name="presentableId" value="LOCAL-00329" />
-      <option name="project" value="LOCAL" />
-      <updated>1669210868522</updated>
-    </task>
-    <task id="LOCAL-00330" summary="day34 Garbage Collection - Access Modifiers">
-      <created>1669210910485</created>
-      <option name="number" value="00330" />
-      <option name="presentableId" value="LOCAL-00330" />
-      <option name="project" value="LOCAL" />
-      <updated>1669210910485</updated>
-    </task>
-    <task id="LOCAL-00331" summary="day34 Garbage Collection - Access Modifiers">
-      <created>1669211600523</created>
-      <option name="number" value="00331" />
-      <option name="presentableId" value="LOCAL-00331" />
-      <option name="project" value="LOCAL" />
-      <updated>1669211600523</updated>
-    </task>
-    <task id="LOCAL-00332" summary="day34 Garbage Collection - Access Modifiers">
-      <created>1669212755220</created>
-      <option name="number" value="00332" />
-      <option name="presentableId" value="LOCAL-00332" />
-      <option name="project" value="LOCAL" />
-      <updated>1669212755220</updated>
-    </task>
-    <task id="LOCAL-00333" summary="day34 Garbage Collection - Access Modifiers">
-      <created>1669213081988</created>
-      <option name="number" value="00333" />
-      <option name="presentableId" value="LOCAL-00333" />
-      <option name="project" value="LOCAL" />
-      <updated>1669213081988</updated>
-    </task>
-    <task id="LOCAL-00334" summary="day34 Garbage Collection - Access Modifiers">
-      <created>1669213438151</created>
-      <option name="number" value="00334" />
-      <option name="presentableId" value="LOCAL-00334" />
-      <option name="project" value="LOCAL" />
-      <updated>1669213438151</updated>
-    </task>
-    <task id="LOCAL-00335" summary="week 12 Constructor Overloading Review">
-      <created>1669476381763</created>
-      <option name="number" value="00335" />
-      <option name="presentableId" value="LOCAL-00335" />
-      <option name="project" value="LOCAL" />
-      <updated>1669476381764</updated>
-    </task>
-    <task id="LOCAL-00336" summary="week 12 Constructor Overloading Review">
-      <created>1669578275472</created>
-      <option name="number" value="00336" />
-      <option name="presentableId" value="LOCAL-00336" />
-      <option name="project" value="LOCAL" />
-      <updated>1669578275472</updated>
-    </task>
-    <task id="LOCAL-00337" summary="week 12 Constructor Overloading Review">
-      <created>1669578286564</created>
-      <option name="number" value="00337" />
-      <option name="presentableId" value="LOCAL-00337" />
-      <option name="project" value="LOCAL" />
-      <updated>1669578286565</updated>
-    </task>
-    <task id="LOCAL-00338" summary="week 12 Constructor Overloading Review">
-      <created>1669578299790</created>
-      <option name="number" value="00338" />
-      <option name="presentableId" value="LOCAL-00338" />
-      <option name="project" value="LOCAL" />
-      <updated>1669578299790</updated>
-    </task>
-    <task id="LOCAL-00339" summary="week 12 Constructor Overloading Review">
-      <created>1669578308241</created>
-      <option name="number" value="00339" />
-      <option name="presentableId" value="LOCAL-00339" />
-      <option name="project" value="LOCAL" />
-      <updated>1669578308241</updated>
-    </task>
-    <task id="LOCAL-00340" summary="week 12 Statics Review">
-      <created>1669578325234</created>
-      <option name="number" value="00340" />
-      <option name="presentableId" value="LOCAL-00340" />
-      <option name="project" value="LOCAL" />
-      <updated>1669578325234</updated>
-    </task>
-    <task id="LOCAL-00341" summary="week 12 Statics Review">
-      <created>1669578338431</created>
-      <option name="number" value="00341" />
-      <option name="presentableId" value="LOCAL-00341" />
-      <option name="project" value="LOCAL" />
-      <updated>1669578338431</updated>
-    </task>
-    <task id="LOCAL-00342" summary="week 12 Statics Review">
-      <created>1669578353697</created>
-      <option name="number" value="00342" />
-      <option name="presentableId" value="LOCAL-00342" />
-      <option name="project" value="LOCAL" />
-      <updated>1669578353697</updated>
-    </task>
-    <task id="LOCAL-00343" summary="day 35 Encapsulation">
-      <created>1669636582206</created>
-      <option name="number" value="00343" />
-      <option name="presentableId" value="LOCAL-00343" />
-      <option name="project" value="LOCAL" />
-      <updated>1669636582207</updated>
-    </task>
-    <task id="LOCAL-00344" summary="day 35 Encapsulation">
-      <created>1669637147978</created>
-      <option name="number" value="00344" />
-      <option name="presentableId" value="LOCAL-00344" />
-      <option name="project" value="LOCAL" />
-      <updated>1669637147978</updated>
+      <workItem from="1670706689128" duration="1302000" />
+      <workItem from="1670845921652" duration="956000" />
+      <workItem from="1670929972727" duration="8069000" />
+      <workItem from="1671090709915" duration="7241000" />
+      <workItem from="1671181193302" duration="67000" />
+      <workItem from="1671291828238" duration="4682000" />
+      <workItem from="1671616811542" duration="878000" />
     </task>
     <task id="LOCAL-00345" summary="day 35 Encapsulation">
       <created>1669639980275</created>
@@ -528,7 +390,161 @@
       <option name="project" value="LOCAL" />
       <updated>1670100147204</updated>
     </task>
-    <option name="localTasksCounter" value="372" />
+    <task id="LOCAL-00372" summary="week13 review">
+      <created>1670687101520</created>
+      <option name="number" value="00372" />
+      <option name="presentableId" value="LOCAL-00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1670687101520</updated>
+    </task>
+    <task id="LOCAL-00373" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit 63edb57b">
+      <created>1670687291825</created>
+      <option name="number" value="00373" />
+      <option name="presentableId" value="LOCAL-00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1670687291825</updated>
+    </task>
+    <task id="LOCAL-00374" summary="day38 Inheritance">
+      <created>1670930763668</created>
+      <option name="number" value="00374" />
+      <option name="presentableId" value="LOCAL-00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1670930763669</updated>
+    </task>
+    <task id="LOCAL-00375" summary="day38 Inheritance">
+      <created>1670930867163</created>
+      <option name="number" value="00375" />
+      <option name="presentableId" value="LOCAL-00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1670930867163</updated>
+    </task>
+    <task id="LOCAL-00376" summary="day38 Inheritance">
+      <created>1670932572980</created>
+      <option name="number" value="00376" />
+      <option name="presentableId" value="LOCAL-00376" />
+      <option name="project" value="LOCAL" />
+      <updated>1670932572980</updated>
+    </task>
+    <task id="LOCAL-00377" summary="day38 Inheritance">
+      <created>1670933477025</created>
+      <option name="number" value="00377" />
+      <option name="presentableId" value="LOCAL-00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1670933477025</updated>
+    </task>
+    <task id="LOCAL-00378" summary="day38 Inheritance">
+      <created>1670935538518</created>
+      <option name="number" value="00378" />
+      <option name="presentableId" value="LOCAL-00378" />
+      <option name="project" value="LOCAL" />
+      <updated>1670935538519</updated>
+    </task>
+    <task id="LOCAL-00379" summary="day38 Inheritance">
+      <created>1670938512897</created>
+      <option name="number" value="00379" />
+      <option name="presentableId" value="LOCAL-00379" />
+      <option name="project" value="LOCAL" />
+      <updated>1670938512897</updated>
+    </task>
+    <task id="LOCAL-00380" summary="day38 Overriding&#10;Practice Tasks">
+      <created>1671091498110</created>
+      <option name="number" value="00380" />
+      <option name="presentableId" value="LOCAL-00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1671091498110</updated>
+    </task>
+    <task id="LOCAL-00381" summary="day38 Overriding&#10;Practice Tasks">
+      <created>1671091514203</created>
+      <option name="number" value="00381" />
+      <option name="presentableId" value="LOCAL-00381" />
+      <option name="project" value="LOCAL" />
+      <updated>1671091514204</updated>
+    </task>
+    <task id="LOCAL-00382" summary="day38 Overriding&#10;Practice Tasks">
+      <created>1671092006891</created>
+      <option name="number" value="00382" />
+      <option name="presentableId" value="LOCAL-00382" />
+      <option name="project" value="LOCAL" />
+      <updated>1671092006891</updated>
+    </task>
+    <task id="LOCAL-00383" summary="day39 Recap">
+      <created>1671098937196</created>
+      <option name="number" value="00383" />
+      <option name="presentableId" value="LOCAL-00383" />
+      <option name="project" value="LOCAL" />
+      <updated>1671098937196</updated>
+    </task>
+    <task id="LOCAL-00384" summary="day39 Recap">
+      <created>1671100893406</created>
+      <option name="number" value="00384" />
+      <option name="presentableId" value="LOCAL-00384" />
+      <option name="project" value="LOCAL" />
+      <updated>1671100893406</updated>
+    </task>
+    <task id="LOCAL-00385" summary="day39 Recap">
+      <created>1671101154488</created>
+      <option name="number" value="00385" />
+      <option name="presentableId" value="LOCAL-00385" />
+      <option name="project" value="LOCAL" />
+      <updated>1671101154488</updated>
+    </task>
+    <task id="LOCAL-00386" summary="day39 Recap">
+      <created>1671101454899</created>
+      <option name="number" value="00386" />
+      <option name="presentableId" value="LOCAL-00386" />
+      <option name="project" value="LOCAL" />
+      <updated>1671101454900</updated>
+    </task>
+    <task id="LOCAL-00387" summary="day39 Recap">
+      <created>1671128183022</created>
+      <option name="number" value="00387" />
+      <option name="presentableId" value="LOCAL-00387" />
+      <option name="project" value="LOCAL" />
+      <updated>1671128183022</updated>
+    </task>
+    <task id="LOCAL-00388" summary="week15 Overriding">
+      <created>1671293370420</created>
+      <option name="number" value="00388" />
+      <option name="presentableId" value="LOCAL-00388" />
+      <option name="project" value="LOCAL" />
+      <updated>1671293370424</updated>
+    </task>
+    <task id="LOCAL-00389" summary="week15 Overriding">
+      <created>1671295163862</created>
+      <option name="number" value="00389" />
+      <option name="presentableId" value="LOCAL-00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1671295163862</updated>
+    </task>
+    <task id="LOCAL-00390" summary="week15 Overriding">
+      <created>1671295561045</created>
+      <option name="number" value="00390" />
+      <option name="presentableId" value="LOCAL-00390" />
+      <option name="project" value="LOCAL" />
+      <updated>1671295561045</updated>
+    </task>
+    <task id="LOCAL-00391" summary="week15 Overriding">
+      <created>1671297746926</created>
+      <option name="number" value="00391" />
+      <option name="presentableId" value="LOCAL-00391" />
+      <option name="project" value="LOCAL" />
+      <updated>1671297746926</updated>
+    </task>
+    <task id="LOCAL-00392" summary="week15 Overriding">
+      <created>1671298871782</created>
+      <option name="number" value="00392" />
+      <option name="presentableId" value="LOCAL-00392" />
+      <option name="project" value="LOCAL" />
+      <updated>1671298871782</updated>
+    </task>
+    <task id="LOCAL-00393" summary="week15 Overriding">
+      <created>1671299530485</created>
+      <option name="number" value="00393" />
+      <option name="presentableId" value="LOCAL-00393" />
+      <option name="project" value="LOCAL" />
+      <updated>1671299530485</updated>
+    </task>
+    <option name="localTasksCounter" value="394" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +561,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -578,11 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day29 Array List" />
-    <MESSAGE value="day29 Replit Tasks" />
-    <MESSAGE value="day30 Custom Classes" />
-    <MESSAGE value="day31 Constructors" />
-    <MESSAGE value="week11 warmup tasks" />
     <MESSAGE value="day31 practice tasks" />
     <MESSAGE value="week 11 custom class" />
     <MESSAGE value="day32 Constructor" />
@@ -603,7 +614,12 @@
     <MESSAGE value="day 37 Inheritance" />
     <MESSAGE value="week13 review warm up" />
     <MESSAGE value="week13 review" />
-    <option name="LAST_COMMIT_MESSAGE" value="week13 review" />
+    <MESSAGE value="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit 63edb57b" />
+    <MESSAGE value="day38 Inheritance" />
+    <MESSAGE value="day38 Overriding&#10;Practice Tasks" />
+    <MESSAGE value="day39 Recap" />
+    <MESSAGE value="week15 Overriding" />
+    <option name="LAST_COMMIT_MESSAGE" value="week15 Overriding" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
