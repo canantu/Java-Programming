@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day40 Recap">
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/FinalVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/day40_classNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/day40_classNotes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +71,7 @@
       <recent name="week13_12_03_2022.accessModifiers.pac2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestSalary">
+  <component name="RunManager" selected="Application.FinalVariable">
     <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week15_12_17_2022.method_overriding.AnimalTask.AnimalTest" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -81,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScrumTeam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day38_Inheritance.Practice_Tasks.Employee_Task.ScrumTeam" />
+    <configuration name="FinalVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day40_FinalKeyword.FinalVariable" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day38_Inheritance.Practice_Tasks.Employee_Task.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day40_FinalKeyword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,11 +99,11 @@
       </method>
     </configuration>
     <configuration name="ShapeObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.Recap.ShapeTask.ShapeObjects" />
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day39_Recap.ShapeTask.ShapeObjects" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.Recap.ShapeTask.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day39_Recap.ShapeTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FinalVariable" />
         <item itemvalue="Application.TestSalary" />
         <item itemvalue="Application.AnimalTest" />
         <item itemvalue="Application.TestsInterest" />
         <item itemvalue="Application.Java_Core_Classes.day39_Inheritance_Encapsulation.ShapeTask.ShapeObjects" />
-        <item itemvalue="Application.ScrumTeam" />
       </list>
     </recent_temporary>
   </component>
@@ -190,14 +194,7 @@
       <workItem from="1671090709915" duration="7241000" />
       <workItem from="1671181193302" duration="67000" />
       <workItem from="1671291828238" duration="4682000" />
-      <workItem from="1671616811542" duration="1361000" />
-    </task>
-    <task id="LOCAL-00347" summary="day 35 Encapsulation">
-      <created>1669643254117</created>
-      <option name="number" value="00347" />
-      <option name="presentableId" value="LOCAL-00347" />
-      <option name="project" value="LOCAL" />
-      <updated>1669643254117</updated>
+      <workItem from="1671616811542" duration="4582000" />
     </task>
     <task id="LOCAL-00348" summary="day 35 Encapsulation">
       <created>1669643643050</created>
@@ -535,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671617990879</updated>
     </task>
-    <option name="localTasksCounter" value="396" />
+    <task id="LOCAL-00396" summary="day40 Recap">
+      <created>1671619203633</created>
+      <option name="number" value="00396" />
+      <option name="presentableId" value="LOCAL-00396" />
+      <option name="project" value="LOCAL" />
+      <updated>1671619203633</updated>
+    </task>
+    <option name="localTasksCounter" value="397" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
