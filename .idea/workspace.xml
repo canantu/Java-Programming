@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day40 Recap">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day41_Exceptions/Checked_vs_Unchecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day41_Exceptions/TryCatchBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day41_Exceptions/day41_class_Notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/Iphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day37_Inheritance/phoneTask/Iphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/day40_classNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day40_FinalKeyword/day40_classNotes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +70,13 @@
       <recent name="week13_12_03_2022.accessModifiers.pac2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Zoo">
-    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week15_12_17_2022.method_overriding.AnimalTask.AnimalTest" />
+  <component name="RunManager" selected="Application.TryCatchBlock">
+    <configuration name="Checked_vs_Unchecked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day41_Exceptions.Checked_vs_Unchecked" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week15_12_17_2022.method_overriding.AnimalTask.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day41_Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestsInterest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week15_12_17_2022.method_overriding.BankTask.TestsInterest" />
+    <configuration name="TryCatchBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day41_Exceptions.TryCatchBlock" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week15_12_17_2022.method_overriding.BankTask.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day41_Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TryCatchBlock" />
+        <item itemvalue="Application.Checked_vs_Unchecked" />
         <item itemvalue="Application.Zoo" />
         <item itemvalue="Application.FinalVariable" />
         <item itemvalue="Application.TestSalary" />
-        <item itemvalue="Application.AnimalTest" />
-        <item itemvalue="Application.TestsInterest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,14 +193,7 @@
       <workItem from="1671090709915" duration="7241000" />
       <workItem from="1671181193302" duration="67000" />
       <workItem from="1671291828238" duration="4682000" />
-      <workItem from="1671616811542" duration="5693000" />
-    </task>
-    <task id="LOCAL-00349" summary="day 35 Encapsulation">
-      <created>1669643862916</created>
-      <option name="number" value="00349" />
-      <option name="presentableId" value="LOCAL-00349" />
-      <option name="project" value="LOCAL" />
-      <updated>1669643862916</updated>
+      <workItem from="1671616811542" duration="11729000" />
     </task>
     <task id="LOCAL-00350" summary="day 35 Encapsulation">
       <created>1669644119075</created>
@@ -540,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671621636309</updated>
     </task>
-    <option name="localTasksCounter" value="398" />
+    <task id="LOCAL-00398" summary="day40 Recap">
+      <created>1671622960205</created>
+      <option name="number" value="00398" />
+      <option name="presentableId" value="LOCAL-00398" />
+      <option name="project" value="LOCAL" />
+      <updated>1671622960205</updated>
+    </task>
+    <option name="localTasksCounter" value="399" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
