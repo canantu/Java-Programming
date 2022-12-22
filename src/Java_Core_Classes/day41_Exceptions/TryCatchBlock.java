@@ -59,6 +59,7 @@ public class TryCatchBlock {
 
         System.out.println("-----------checked exception---------------");
 
+
         try {
             FileInputStream file = new FileInputStream("File Path");
         } catch (FileNotFoundException e) {

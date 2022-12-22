@@ -42,14 +42,18 @@ Exception Handling:
                 e.printStackTrace();
             }
 
-2. Multi-catch block: parent exception type can not be placed before the child exception type
+2. Multi-catch block:   - parent exception type can not be placed before the child exception type
+                        - if handled by the first exception, remaining catch blocks will never be executed
 
-3. finally block:   always gets executed regardless of the exception is being handled or not handled
-                    to stop the execution of the finally block: Syste.exit(0)
+3. finally block:   - always gets executed regardless of the exception is being handled or not handled
+                    - to stop the execution of the "finally block": System.exit(0)
 
 
 Interview Question:
         - final vs finally vs finalize
+
+        - final is used with variables, methods and classes to make them unchangeable
+
 
 
 next Thursday:
