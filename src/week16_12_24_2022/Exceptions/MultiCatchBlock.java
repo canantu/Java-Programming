@@ -10,7 +10,10 @@ public class MultiCatchBlock {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             System.out.println("checked exception");
+        } catch (IllegalArgumentException e){
+            System.out.println(" illegal argument");
         }
+
 
 
         try{

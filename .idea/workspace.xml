@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day41 Exceptions">
-      <change afterPath="$PROJECT_DIR$/src/week16_12_24_2022/final_keyword/final_with_variable/JuniorTester1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week16_12_24_2022/final_keyword/final_with_variable/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week16_12_24_2022/final_keyword/final_with_variable/SeniorTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week16_12_24_2022/final_keyword/final_with_variable/TestPerson.java" afterDir="false" />
+    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="week16 Review - Final Keyword - Exceptions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,9 +67,9 @@
       <recent name="week13_12_03_2022.accessModifiers.pac2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestPerson">
-    <configuration name="Checked_vs_Unchecked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day41_Exceptions.Checked_vs_Unchecked" />
+  <component name="RunManager" selected="Application.MultiCatchBlock">
+    <configuration name="FinallyBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day41_Exceptions.FinallyBlock" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinallyBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day41_Exceptions.FinallyBlock" />
+    <configuration name="MultiCatchBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week16_12_24_2022.Exceptions.MultiCatchBlock" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day41_Exceptions.*" />
+          <option name="PATTERN" value="week16_12_24_2022.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week16_12_24_2022.final_keyword.final_with_variable.TestPerson" />
+    <configuration name="RunTimeExceptionsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week16_12_24_2022.Exceptions.RunTimeExceptionsExample" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week16_12_24_2022.final_keyword.final_with_variable.*" />
+          <option name="PATTERN" value="week16_12_24_2022.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryCatchBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day41_Exceptions.TryCatchBlock" />
+    <configuration name="TestPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week16_12_24_2022.final_keyword.final_with_variable.TestPerson" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day41_Exceptions.*" />
+          <option name="PATTERN" value="week16_12_24_2022.final_keyword.final_with_method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiCatchBlock" />
+        <item itemvalue="Application.MultiCatchBlocks" />
+        <item itemvalue="Application.RunTimeExceptionsExample" />
         <item itemvalue="Application.TestPerson" />
         <item itemvalue="Application.FinallyBlock" />
-        <item itemvalue="Application.MultiCatchBlocks" />
-        <item itemvalue="Application.TryCatchBlock" />
-        <item itemvalue="Application.Checked_vs_Unchecked" />
       </list>
     </recent_temporary>
   </component>
@@ -196,21 +192,7 @@
       <workItem from="1671291828238" duration="4682000" />
       <workItem from="1671616811542" duration="13597000" />
       <workItem from="1671713188177" duration="3319000" />
-      <workItem from="1671720473738" duration="2836000" />
-    </task>
-    <task id="LOCAL-00353" summary="day 35 Encapsulation">
-      <created>1669710171274</created>
-      <option name="number" value="00353" />
-      <option name="presentableId" value="LOCAL-00353" />
-      <option name="project" value="LOCAL" />
-      <updated>1669710171274</updated>
-    </task>
-    <task id="LOCAL-00354" summary="day 35 Encapsulation">
-      <created>1669711163977</created>
-      <option name="number" value="00354" />
-      <option name="presentableId" value="LOCAL-00354" />
-      <option name="project" value="LOCAL" />
-      <updated>1669711163977</updated>
+      <workItem from="1671720473738" duration="9947000" />
     </task>
     <task id="LOCAL-00355" summary="day 36 Inheritance Intro">
       <created>1669711410282</created>
@@ -541,7 +523,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671719522529</updated>
     </task>
-    <option name="localTasksCounter" value="402" />
+    <task id="LOCAL-00402" summary="week14 Review - Final Keyword">
+      <created>1671898671301</created>
+      <option name="number" value="00402" />
+      <option name="presentableId" value="LOCAL-00402" />
+      <option name="project" value="LOCAL" />
+      <updated>1671898671302</updated>
+    </task>
+    <task id="LOCAL-00403" summary="week16 Review - Final Keyword - Exceptions">
+      <created>1671907099699</created>
+      <option name="number" value="00403" />
+      <option name="presentableId" value="LOCAL-00403" />
+      <option name="project" value="LOCAL" />
+      <updated>1671907099700</updated>
+    </task>
+    <option name="localTasksCounter" value="404" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,8 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="week11 arraylist" />
-    <MESSAGE value="review" />
     <MESSAGE value="day33 Statics" />
     <MESSAGE value="day33 Statics Practice Tasks" />
     <MESSAGE value="Office Hour Tasks" />
@@ -616,7 +610,9 @@
     <MESSAGE value="day40 Recap" />
     <MESSAGE value="day41 Recap" />
     <MESSAGE value="day41 Exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="day41 Exceptions" />
+    <MESSAGE value="week14 Review - Final Keyword" />
+    <MESSAGE value="week16 Review - Final Keyword - Exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="week16 Review - Final Keyword - Exceptions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
