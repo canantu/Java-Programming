@@ -30,6 +30,7 @@ Abstraction Topics:
         abstract class vs interface
 
 Abstraction: focusing on the essentials without worrying about the small details(implementations) of the method
+                   - abstract classes are meant to be parent class, not to create object
 
         abstract class Device{
             turnOff();
