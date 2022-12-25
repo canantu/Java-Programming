@@ -30,6 +30,7 @@ Abstraction Topics:
         abstract class vs interface
 
 Abstraction: focusing on the essentials without worrying about the small details(implementations) of the method
+
         abstract class Device{
             turnOff();
         }
@@ -46,32 +47,42 @@ Abstraction: focusing on the essentials without worrying about the small details
 
 
 Car Task:
-abstract Car:
-make, model, color, year, price....
-start();
-stop()
-Honda extends Car:
-start(): twist the key to ignition
-Adui extends Car:
-start(): push the start button
-Tesla extends Car:
-start(): Say "Start"
+        abstract Car:
+            make, model, color, year, price....
+            start();
+            stop();
+
+        Honda extends Car:
+            start(): twist the key to ignition
+
+        Audi extends Car:
+            start(): push the start button
+
+        Tesla extends Car:
+            start(): Say "Start"
+
+
 Employee task:
-abstract Person:
-name, age, gender(final)
-eat();
-sleep();
-abstract Employee extends Person:
- id(final), jobTitle, salary...
-work();
-Tester
-work(): testing
-Developer
-work(): developing
-Teacher
-work(): teaching
-Driver
-work(): driving
+        abstract Person:
+            name, age, gender(final)
+            eat();
+            sleep();
+
+        abstract Employee extends Person:
+             id(final), jobTitle, salary...
+            work();
+
+        Tester
+            work(): testing
+
+        Developer
+            work(): developing
+
+        Teacher
+            work(): teaching
+
+        Driver
+            work(): driving
 ...
 Shape task:
 Shape:
