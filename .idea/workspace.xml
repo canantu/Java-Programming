@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day42 Exceptions Continue">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/ThrowKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/ThrowKeyword2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/CustomExceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/day42_class_notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/day42_class_notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,20 @@
       <recent name="week13_12_03_2022.accessModifiers.pac2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThrowKeyword2">
+  <component name="RunManager" selected="Application.CustomExceptions">
+    <configuration name="CustomExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day42_Exceptions.CustomExceptions" />
+      <module name="JavaProgrammingReviews_EU10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Core_Classes.day42_Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DisadvantageOfThrowsKeyword2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day42_Exceptions.DisadvantageOfThrowsKeyword2" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -110,19 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowsKeyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day42_Exceptions.ThrowsKeyword" />
-      <module name="JavaProgrammingReviews_EU10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day42_Exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThrowsKeyword2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day42_Exceptions.ThrowsKeyword2" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomExceptions" />
         <item itemvalue="Application.ThrowKeyword2" />
         <item itemvalue="Application.ThrowKeyword" />
         <item itemvalue="Application.DisadvantageOfThrowsKeyword2" />
         <item itemvalue="Application.ThrowsKeyword2" />
-        <item itemvalue="Application.ThrowsKeyword" />
       </list>
     </recent_temporary>
   </component>
@@ -197,14 +195,7 @@
       <workItem from="1671713188177" duration="3319000" />
       <workItem from="1671720473738" duration="11454000" />
       <workItem from="1671914478528" duration="5000" />
-      <workItem from="1671919991138" duration="4753000" />
-    </task>
-    <task id="LOCAL-00357" summary="day 36 Inheritance Intro">
-      <created>1669714388191</created>
-      <option name="number" value="00357" />
-      <option name="presentableId" value="LOCAL-00357" />
-      <option name="project" value="LOCAL" />
-      <updated>1669714388191</updated>
+      <workItem from="1671919991138" duration="5747000" />
     </task>
     <task id="LOCAL-00358" summary="day 36 Inheritance Intro">
       <created>1669715053929</created>
@@ -542,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671923458408</updated>
     </task>
-    <option name="localTasksCounter" value="406" />
+    <task id="LOCAL-00406" summary="day42 Exceptions Continue">
+      <created>1671975784721</created>
+      <option name="number" value="00406" />
+      <option name="presentableId" value="LOCAL-00406" />
+      <option name="project" value="LOCAL" />
+      <updated>1671975784721</updated>
+    </task>
+    <option name="localTasksCounter" value="407" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
