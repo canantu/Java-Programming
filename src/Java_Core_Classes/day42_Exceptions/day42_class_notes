@@ -25,8 +25,9 @@ Exception Handling:
                     - in custom methods, it is better to use try-catch method
                     - in main method, it is ok to use throws keyword since it is not callable
 
-throw keyword: used for manually throw exception
-                throw ExceptionObject
+throw keyword:  - used for manually throw exception
+                    throw ExceptionObject
+                - instead of using exit() methods, it is better to use exception
 
 String browser = "Cydeo";
 

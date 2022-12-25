@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="week16 Review - Final Keyword - Exceptions">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/DisadvantageOfThrowsKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/DisadvantageOfThrowsKeyword2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/MorningWorkOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/ThrowsKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/ThrowsKeyword2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/day42_class_notes" afterDir="false" />
+    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day42 Exceptions Continue">
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/ThrowKeyword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/ThrowKeyword2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/day42_class_notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day42_Exceptions/day42_class_notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,7 @@
       <recent name="week13_12_03_2022.accessModifiers.pac2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DisadvantageOfThrowsKeyword2">
+  <component name="RunManager" selected="Application.ThrowKeyword2">
     <configuration name="DisadvantageOfThrowsKeyword2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day42_Exceptions.DisadvantageOfThrowsKeyword2" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -87,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MorningWorkOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day42_Exceptions.MorningWorkOut" />
+    <configuration name="ThrowKeyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day42_Exceptions.ThrowKeyword" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
@@ -100,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiCatchBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week16_12_24_2022.Exceptions.MultiCatchBlock" />
+    <configuration name="ThrowKeyword2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day42_Exceptions.ThrowKeyword2" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week16_12_24_2022.Exceptions.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day42_Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThrowKeyword2" />
+        <item itemvalue="Application.ThrowKeyword" />
         <item itemvalue="Application.DisadvantageOfThrowsKeyword2" />
         <item itemvalue="Application.ThrowsKeyword2" />
         <item itemvalue="Application.ThrowsKeyword" />
-        <item itemvalue="Application.MorningWorkOut" />
-        <item itemvalue="Application.MultiCatchBlock" />
       </list>
     </recent_temporary>
   </component>
@@ -200,14 +197,7 @@
       <workItem from="1671713188177" duration="3319000" />
       <workItem from="1671720473738" duration="11454000" />
       <workItem from="1671914478528" duration="5000" />
-      <workItem from="1671919991138" duration="2862000" />
-    </task>
-    <task id="LOCAL-00356" summary="day 36 Inheritance Intro">
-      <created>1669713291337</created>
-      <option name="number" value="00356" />
-      <option name="presentableId" value="LOCAL-00356" />
-      <option name="project" value="LOCAL" />
-      <updated>1669713291337</updated>
+      <workItem from="1671919991138" duration="4753000" />
     </task>
     <task id="LOCAL-00357" summary="day 36 Inheritance Intro">
       <created>1669714388191</created>
@@ -545,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671911361190</updated>
     </task>
-    <option name="localTasksCounter" value="405" />
+    <task id="LOCAL-00405" summary="day42 Exceptions Continue">
+      <created>1671923458407</created>
+      <option name="number" value="00405" />
+      <option name="presentableId" value="LOCAL-00405" />
+      <option name="project" value="LOCAL" />
+      <updated>1671923458408</updated>
+    </task>
+    <option name="localTasksCounter" value="406" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day33 Statics" />
     <MESSAGE value="day33 Statics Practice Tasks" />
     <MESSAGE value="Office Hour Tasks" />
     <MESSAGE value="day34 Garbage Collection- Access Modifiers" />
@@ -620,7 +616,8 @@
     <MESSAGE value="day41 Exceptions" />
     <MESSAGE value="week14 Review - Final Keyword" />
     <MESSAGE value="week16 Review - Final Keyword - Exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="week16 Review - Final Keyword - Exceptions" />
+    <MESSAGE value="day42 Exceptions Continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="day42 Exceptions Continue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
