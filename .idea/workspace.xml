@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day43 Abstraction">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day43_Abstraction/car/Audi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day43_Abstraction/car/CarShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day43_Abstraction/car/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day43_Abstraction/employee/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day43_Abstraction/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day43_Abstraction/employee/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day43_Abstraction/employee/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day43_Abstraction/car/Honda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day43_Abstraction/car/Honda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day43_Abstraction/day43_classNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day43_Abstraction/day43_classNotes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,7 @@
       <recent name="week13_12_03_2022.accessModifiers.pac2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarShop">
+  <component name="RunManager" selected="Application.Company">
     <configuration name="CarShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day43_Abstraction.car.CarShop" />
       <module name="JavaProgrammingReviews_EU10" />
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pillow (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day43_Abstraction.Pillow" />
+    <configuration name="Company" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day43_Abstraction.employee.Company" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day43_Abstraction.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day43_Abstraction.employee.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Company" />
         <item itemvalue="Application.CarShop" />
         <item itemvalue="Application.Sport" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Pillow" />
-        <item itemvalue="Application.Pillow (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -199,14 +199,7 @@
       <workItem from="1671713188177" duration="3319000" />
       <workItem from="1671720473738" duration="11454000" />
       <workItem from="1671914478528" duration="5000" />
-      <workItem from="1671919991138" duration="14229000" />
-    </task>
-    <task id="LOCAL-00361" summary="day 36 Inheritance Intro">
-      <created>1669725619231</created>
-      <option name="number" value="00361" />
-      <option name="presentableId" value="LOCAL-00361" />
-      <option name="project" value="LOCAL" />
-      <updated>1669725619231</updated>
+      <workItem from="1671919991138" duration="15943000" />
     </task>
     <task id="LOCAL-00362" summary="day 36 Inheritance">
       <created>1669799766930</created>
@@ -544,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671989109528</updated>
     </task>
-    <option name="localTasksCounter" value="410" />
+    <task id="LOCAL-00410" summary="day43 Abstraction">
+      <created>1672004431198</created>
+      <option name="number" value="00410" />
+      <option name="presentableId" value="LOCAL-00410" />
+      <option name="project" value="LOCAL" />
+      <updated>1672004431198</updated>
+    </task>
+    <option name="localTasksCounter" value="411" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

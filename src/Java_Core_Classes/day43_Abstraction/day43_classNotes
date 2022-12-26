@@ -31,21 +31,28 @@ Abstraction Topics:
 
 Abstraction: focusing on the essentials without worrying about the small details(implementations) of the method
                    - abstract classes are meant to be parent class, not to create object
+                   - abstract classes can not be instantiated
+                   - they are incomplete, not concrete classes
+---------------------------
 
-        abstract class Device{
+** abstract classes can be inherited by another abstract class
+
+        abstract class Device{      // can not be instantiated since it is abstract
             turnOff();
         }
 
-        abstract class Phone extends Device{
+        abstract class Phone extends Device{      // can not be instantiated since it is abstract
             call();
         }
 
-        class Iphone extends Phone{
+        class Iphone extends Phone{    // inherits 2 abstract methods
         }
 
-        class Samsung extends Phone{
+        class Samsung extends Phone{         // inherits 2 abstract methods
         }
 
+***  Parent classes are not meant to create an object
+---------------------------------------------
 
 Car Task:
         abstract Car:
@@ -62,6 +69,7 @@ Car Task:
         Tesla extends Car:
             start(): Say "Start"
 
+---------------------------------------------------
 
 Employee task:
         abstract Person:
@@ -70,7 +78,7 @@ Employee task:
             sleep();
 
         abstract Employee extends Person:
-             id(final), jobTitle, salary...
+            id(final), jobTitle, salary...
             work();
 
         Tester
@@ -84,30 +92,39 @@ Employee task:
 
         Driver
             work(): driving
-...
+................
+
 Shape task:
-Shape:
-name
-Encapsulate the fields
-Add constructor to set the fields
-area()
-perimeter()
-toString(): name, area, perimeter
-Create the following subclasses of Shape and add the aditional
-features that are needed:
-Rectangle:
-area(): w * l
-perimeter(): 2 * (w+l)
-Square:
-area(): s * s
-perimeter: 4 * s
-Circle:
-area(): r * r * pi
-perimeter(): 2 * r * pi
-Animnal task:
-abstract Animal
-eat();
-Dog
-Cat
-Tiger
-Eagle
+        Shape:
+            name
+            Encapsulate the fields
+            Add constructor to set the fields
+            area()
+            perimeter()
+            toString(): name, area, perimeter
+
+        Create the following subclasses of Shape and add the additional features that are needed:
+
+        Rectangle:
+            area(): w * l
+            perimeter(): 2 * (w+l)
+
+        Square:
+            area(): s * s
+            perimeter: 4 * s
+
+        Circle:
+            area(): r * r * pi
+            perimeter(): 2 * r * pi
+
+
+Animal task:
+    abstract Animal
+        eat();
+
+    child classes:
+
+        Dog
+        Cat
+        Tiger
+        Eagle
