@@ -1,4 +1,4 @@
-package Java_Core_Classes.day44_Abstraction.AnimalTask;
+package Java_Core_Classes.day44_Abstraction_InterfaceIntro.AnimalTask;
 
 public abstract class Animal {
 
@@ -61,7 +61,7 @@ public abstract class Animal {
     }
 
     public void setSize(String size) {
-        if (size.equalsIgnoreCase("small") || size.equalsIgnoreCase("large"))
+        if (!(size.equalsIgnoreCase("small") || size.equalsIgnoreCase("large")))
             throw new RuntimeException("Invalid size!");
         this.size = size;
     }
