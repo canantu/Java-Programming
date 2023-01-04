@@ -1,6 +1,6 @@
 package Java_Core_Classes.day44_Abstraction_InterfaceIntro.AnimalTask;
 
-public final class Tiger extends Animal{
+public final class Tiger extends Animal implements WildAnimal{
     @Override
     public void eat() {
         System.out.println(getName() + " eats deer");
@@ -11,5 +11,8 @@ public final class Tiger extends Animal{
     }
 
 
-
+    @Override
+    public void hunt() {
+        System.out.println(getName() + " is hunting deer");
+    }
 }

@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day44 Abstraction">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/AnimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Eagle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Parrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Playable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/WildAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day45_Abstraction_Interface/PropertiesOfInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction/AnimalTask/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction/day44_classNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/day44_classNotes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Parrot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Tiger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day44_Abstraction_InterfaceIntro/AnimalTask/Tiger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -203,14 +205,7 @@
       <workItem from="1671720473738" duration="11454000" />
       <workItem from="1671914478528" duration="5000" />
       <workItem from="1671919991138" duration="16282000" />
-      <workItem from="1672689656505" duration="5108000" />
-    </task>
-    <task id="LOCAL-00365" summary="day 35 Encapsulation Practice Tasks">
-      <created>1669803233573</created>
-      <option name="number" value="00365" />
-      <option name="presentableId" value="LOCAL-00365" />
-      <option name="project" value="LOCAL" />
-      <updated>1669803233573</updated>
+      <workItem from="1672689656505" duration="8007000" />
     </task>
     <task id="LOCAL-00366" summary="day 36 Inheritance Practice Tasks">
       <created>1669803890715</created>
@@ -548,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672699134171</updated>
     </task>
-    <option name="localTasksCounter" value="414" />
+    <task id="LOCAL-00414" summary="day44 Abstraction">
+      <created>1672747644551</created>
+      <option name="number" value="00414" />
+      <option name="presentableId" value="LOCAL-00414" />
+      <option name="project" value="LOCAL" />
+      <updated>1672747644551</updated>
+    </task>
+    <option name="localTasksCounter" value="415" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
