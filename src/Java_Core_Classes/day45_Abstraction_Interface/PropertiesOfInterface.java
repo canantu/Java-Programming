@@ -30,14 +30,31 @@ public interface  PropertiesOfInterface {
 
  */
 
-    public static void method2(){
-        System.out.println("static method");
+    public static void method2() {
+        System.out.println("static method");   //no need to implement in child class
     }
 
-    public abstract void method3();
+    void method3();   //should be implemented
 
-    // if the implementation is same for all subclasses, we introduce default method
-    public default void method4(){
-        System.out.println("default method");
+    // if the implementation is same for all subclasses,
+    // we introduce default method, because interface can not have instance methods
+    default void method4(){
+        System.out.println("default method");   //called by its subclasses' object, there is no object of interface
+    }
+}
+// since interface is not a class, we can not create objects from it
+// multiple inheritance is possible with interfaces
+
+class Test implements PropertiesOfInterface{
+
+
+    @Override
+    public void method3() {
+
+    }
+
+    public static void main(String[] args) {
+
+        new Test().method4();
     }
 }
