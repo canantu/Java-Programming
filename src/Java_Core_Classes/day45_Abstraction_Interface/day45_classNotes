@@ -78,15 +78,18 @@ extends vs implements: both are used for inheritance
 
 
 interface AutoPark:
-autoPark();
+        autoPark();
+
 interface AutoPilot extends AutoPark
-selfDriver();
+        selfDriver();
+
 interface SearchContext:
-findElement();
-findElements();
+        findElement();
+        findElements();
+
 interface WebDriver extends SearchContext:
-get()
-close()
+        get()
+        close()
 
 
 Remaining topics:
