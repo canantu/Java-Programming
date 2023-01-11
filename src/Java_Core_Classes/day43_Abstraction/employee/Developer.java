@@ -8,11 +8,11 @@ public class Developer extends Employee{
 
     @Override
     public void work() {
-
+        System.out.println(getName() + " is coding");
     }
 
     @Override
     public void sleep() {
-
+        System.out.println(getName() + " sleeps 6 hours");
     }
 }

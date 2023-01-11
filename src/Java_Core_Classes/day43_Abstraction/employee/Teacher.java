@@ -7,11 +7,11 @@ public class Teacher extends Employee{
 
     @Override
     public void work() {
-
+        System.out.println(getName() + " is teaching");
     }
 
     @Override
     public void sleep() {
-
+        System.out.println(getName() + " sleeps 7 hours");
     }
 }
