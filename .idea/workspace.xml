@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day45 Abstraction">
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day45_Abstraction_Interface/shape/Pentagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day45_Abstraction_Interface/shape/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day45_Abstraction_Interface/shape/Sphere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day45_Abstraction_Interface/shape/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day45_Abstraction_Interface/shape/Volume.java" afterDir="false" />
+    <list default="true" id="7ad30f7a-5194-4261-b7f0-ca8b36f79035" name="Changes" comment="day46 PolymorphismIntro">
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day46_Polymorphism/PracticeTasks/BrowserTask/ChromeDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day46_Polymorphism/PracticeTasks/BrowserTask/DriverObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day46_Polymorphism/PracticeTasks/BrowserTask/EdgeDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day46_Polymorphism/PracticeTasks/BrowserTask/FirefoxDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day46_Polymorphism/PracticeTasks/BrowserTask/JavaScriptExecuter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day46_Polymorphism/PracticeTasks/BrowserTask/OperaDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day46_Polymorphism/PracticeTasks/BrowserTask/RemoteWebDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day46_Polymorphism/PracticeTasks/BrowserTask/SafariDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day46_Polymorphism/PracticeTasks/BrowserTask/SearchContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day46_Polymorphism/PracticeTasks/BrowserTask/TakeScreenShot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day46_Polymorphism/PracticeTasks/BrowserTask/WebDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day45_Abstraction_Interface/day45_classNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day45_Abstraction_Interface/day45_classNotes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day45_Abstraction_Interface/shape/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day45_Abstraction_Interface/shape/Cube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java_Core_Classes/day45_Abstraction_Interface/shape/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Core_Classes/day45_Abstraction_Interface/shape/Cylinder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,7 +68,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -76,13 +79,13 @@
       <recent name="week13_12_03_2022.accessModifiers.pac2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimalTest">
-    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day44_Abstraction_InterfaceIntro.AnimalTask.AnimalTest" />
+  <component name="RunManager" selected="Application.DriverObjects">
+    <configuration name="CustomException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week17_12_31_2022.CustomException" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day44_Abstraction_InterfaceIntro.AnimalTask.*" />
+          <option name="PATTERN" value="week17_12_31_2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day43_Abstraction.car.CarShop" />
+    <configuration name="DriverObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day46_Polymorphism.PracticeTasks.BrowserTask.DriverObjects" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day43_Abstraction.car.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day46_Polymorphism.PracticeTasks.BrowserTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Company" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day43_Abstraction.employee.Company" />
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day46_Polymorphism.MyClass" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day43_Abstraction.employee.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day46_Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day43_Abstraction.Sport" />
+    <configuration name="PolymorphismIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day46_Polymorphism.PolymorphismIntro" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day43_Abstraction.*" />
+          <option name="PATTERN" value="Java_Core_Classes.day46_Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Core_Classes.day43_Abstraction.Test" />
+    <configuration name="TestOracle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week18_01_07_2023.abstraction.TestOracle" />
       <module name="JavaProgrammingReviews_EU10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Core_Classes.day43_Abstraction.*" />
+          <option name="PATTERN" value="week18_01_07_2023.abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnimalTest" />
-        <item itemvalue="Application.Company" />
-        <item itemvalue="Application.CarShop" />
-        <item itemvalue="Application.Sport" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.DriverObjects" />
+        <item itemvalue="Application.PolymorphismIntro" />
+        <item itemvalue="Application.MyClass" />
+        <item itemvalue="Application.TestOracle" />
+        <item itemvalue="Application.CustomException" />
       </list>
     </recent_temporary>
   </component>
@@ -205,56 +208,10 @@
       <workItem from="1671914478528" duration="5000" />
       <workItem from="1671919991138" duration="16282000" />
       <workItem from="1672689656505" duration="13294000" />
-      <workItem from="1672861786108" duration="1692000" />
-    </task>
-    <task id="LOCAL-00369" summary="week13 review">
-      <created>1670089851228</created>
-      <option name="number" value="00369" />
-      <option name="presentableId" value="LOCAL-00369" />
-      <option name="project" value="LOCAL" />
-      <updated>1670089851228</updated>
-    </task>
-    <task id="LOCAL-00370" summary="week13 review">
-      <created>1670090253741</created>
-      <option name="number" value="00370" />
-      <option name="presentableId" value="LOCAL-00370" />
-      <option name="project" value="LOCAL" />
-      <updated>1670090253741</updated>
-    </task>
-    <task id="LOCAL-00371" summary="week13 review">
-      <created>1670100147204</created>
-      <option name="number" value="00371" />
-      <option name="presentableId" value="LOCAL-00371" />
-      <option name="project" value="LOCAL" />
-      <updated>1670100147204</updated>
-    </task>
-    <task id="LOCAL-00372" summary="week13 review">
-      <created>1670687101520</created>
-      <option name="number" value="00372" />
-      <option name="presentableId" value="LOCAL-00372" />
-      <option name="project" value="LOCAL" />
-      <updated>1670687101520</updated>
-    </task>
-    <task id="LOCAL-00373" summary="Revert &quot;Delete .idea directory&quot;&#10;&#10;This reverts commit 63edb57b">
-      <created>1670687291825</created>
-      <option name="number" value="00373" />
-      <option name="presentableId" value="LOCAL-00373" />
-      <option name="project" value="LOCAL" />
-      <updated>1670687291825</updated>
-    </task>
-    <task id="LOCAL-00374" summary="day38 Inheritance">
-      <created>1670930763668</created>
-      <option name="number" value="00374" />
-      <option name="presentableId" value="LOCAL-00374" />
-      <option name="project" value="LOCAL" />
-      <updated>1670930763669</updated>
-    </task>
-    <task id="LOCAL-00375" summary="day38 Inheritance">
-      <created>1670930867163</created>
-      <option name="number" value="00375" />
-      <option name="presentableId" value="LOCAL-00375" />
-      <option name="project" value="LOCAL" />
-      <updated>1670930867163</updated>
+      <workItem from="1672861786108" duration="2042000" />
+      <workItem from="1672946031855" duration="1581000" />
+      <workItem from="1673104186900" duration="6863000" />
+      <workItem from="1673439160661" duration="5957000" />
     </task>
     <task id="LOCAL-00376" summary="day38 Inheritance">
       <created>1670932572980</created>
@@ -550,7 +507,56 @@
       <option name="project" value="LOCAL" />
       <updated>1672855722839</updated>
     </task>
-    <option name="localTasksCounter" value="418" />
+    <task id="LOCAL-00418" summary="day45 Abstraction">
+      <created>1672918084638</created>
+      <option name="number" value="00418" />
+      <option name="presentableId" value="LOCAL-00418" />
+      <option name="project" value="LOCAL" />
+      <updated>1672918084638</updated>
+    </task>
+    <task id="LOCAL-00419" summary="week17 Exceptions">
+      <created>1673108832529</created>
+      <option name="number" value="00419" />
+      <option name="presentableId" value="LOCAL-00419" />
+      <option name="project" value="LOCAL" />
+      <updated>1673108832529</updated>
+    </task>
+    <task id="LOCAL-00420" summary="week18 Abstraction">
+      <created>1673444222426</created>
+      <option name="number" value="00420" />
+      <option name="presentableId" value="LOCAL-00420" />
+      <option name="project" value="LOCAL" />
+      <updated>1673444222427</updated>
+    </task>
+    <task id="LOCAL-00421" summary="day43">
+      <created>1673444261083</created>
+      <option name="number" value="00421" />
+      <option name="presentableId" value="LOCAL-00421" />
+      <option name="project" value="LOCAL" />
+      <updated>1673444261083</updated>
+    </task>
+    <task id="LOCAL-00422" summary="day43">
+      <created>1673444423322</created>
+      <option name="number" value="00422" />
+      <option name="presentableId" value="LOCAL-00422" />
+      <option name="project" value="LOCAL" />
+      <updated>1673444423322</updated>
+    </task>
+    <task id="LOCAL-00423" summary="day43">
+      <created>1673445069666</created>
+      <option name="number" value="00423" />
+      <option name="presentableId" value="LOCAL-00423" />
+      <option name="project" value="LOCAL" />
+      <updated>1673445069667</updated>
+    </task>
+    <task id="LOCAL-00424" summary="day46 PolymorphismIntro">
+      <created>1673446214122</created>
+      <option name="number" value="00424" />
+      <option name="presentableId" value="LOCAL-00424" />
+      <option name="project" value="LOCAL" />
+      <updated>1673446214122</updated>
+    </task>
+    <option name="localTasksCounter" value="425" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,10 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day34 Garbage Collection - Access Modifiers" />
-    <MESSAGE value="week 12 Constructor Overloading Review" />
-    <MESSAGE value="week 12 Statics Review" />
-    <MESSAGE value="day 35 Encapsulation" />
     <MESSAGE value="day 36 Inheritance Intro" />
     <MESSAGE value="day 36 Inheritance" />
     <MESSAGE value="day 35 Encapsulation Practice Tasks" />
@@ -625,7 +627,11 @@
     <MESSAGE value="day43 Abstraction" />
     <MESSAGE value="day44 Abstraction" />
     <MESSAGE value="day45 Abstraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="day45 Abstraction" />
+    <MESSAGE value="week17 Exceptions" />
+    <MESSAGE value="week18 Abstraction" />
+    <MESSAGE value="day43" />
+    <MESSAGE value="day46 PolymorphismIntro" />
+    <option name="LAST_COMMIT_MESSAGE" value="day46 PolymorphismIntro" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
