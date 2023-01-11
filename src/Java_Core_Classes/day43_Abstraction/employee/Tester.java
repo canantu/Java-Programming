@@ -2,8 +2,9 @@ package Java_Core_Classes.day43_Abstraction.employee;
 
 public class Tester extends Employee{
 
-    public Tester(String name, char gender, int age, String id, double salary) {
-        super(name, gender, age, id, "Tester", salary);
+
+    public Tester(String name, char gender, int age, String id, String jobTitle, double salary) {
+        super(name, gender, age, id, jobTitle, salary);
     }
 
     @Override
