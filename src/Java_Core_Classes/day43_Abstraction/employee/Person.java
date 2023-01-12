@@ -3,17 +3,13 @@ package Java_Core_Classes.day43_Abstraction.employee;
 public abstract class Person {
 
     private String name;
-    private final char gender;
     private int age;
+    private char gender;
 
-    public Person(String name, char gender, int age) {
+    public Person(String name, int age, char gender) {
         setName(name);
-        if (!(gender == 'M' || gender == 'F')){
-            throw new RuntimeException("Invalid gender: " + gender);
-        }
-        this.gender = gender;
         setAge(age);
-
+        setGender(gender);
     }
 
     public String getName() {
@@ -24,32 +20,41 @@ public abstract class Person {
         this.name = name;
     }
 
-    public char getGender() {
-        return gender;
-    }
-
     public int getAge() {
         return age;
     }
 
     public void setAge(int age) {
-        if (age < 0){
-            throw new RuntimeException("Invalid age: " + age);
+        if(age <= 0){
+            throw new RuntimeException("Invalid age: "+age);
         }
         this.age = age;
     }
 
-    public  void eat(){
-        System.out.println(name + " eats baklava");
+    public char getGender() {
+        return gender;
     }
+
+    public void setGender(char gender) {
+        this.gender = gender;
+    }
+
+
     public abstract void sleep();
+
+    public void eat(){
+        System.out.println(name+" is eating baklava");
+    }
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Person{" +
                 "name='" + name + '\'' +
-                ", gender=" + gender +
                 ", age=" + age +
+                ", gender=" + gender +
                 '}';
     }
+
+
+
 }

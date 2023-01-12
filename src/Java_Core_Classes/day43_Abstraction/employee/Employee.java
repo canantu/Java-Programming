@@ -2,18 +2,21 @@ package Java_Core_Classes.day43_Abstraction.employee;
 
 public abstract class Employee extends Person{
 
-    private final String id;
+    private final int id;
     private String jobTitle;
     private double salary;
 
-    public Employee(String name, char gender, int age, String id, String jobTitle, double salary) {
-        super(name, gender, age);
+    public Employee(String name, int age, char gender, int id, String jobTitle, double salary) {
+        super(name, age, gender);
+        if(id <= 0){
+            throw new RuntimeException("Invalid ID: "+id);
+        }
         this.id = id;
         setJobTitle(jobTitle);
         setSalary(salary);
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
@@ -33,17 +36,19 @@ public abstract class Employee extends Person{
         this.salary = salary;
     }
 
+
     public abstract void work();
 
-    @Override
     public String toString() {
         return "Employee{" +
-                "name='" + getName() + '\'' +
-                ", gender='" + getGender() + '\'' +
+                "name=" + getName() +
                 ", age=" + getAge() +
-                ", id='" + id + '\'' +
+                ", gender=" + getGender() +
+                ", id=" + id +
                 ", jobTitle='" + jobTitle + '\'' +
                 ", salary=" + salary +
                 '}';
     }
+
+
 }

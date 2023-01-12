@@ -1,18 +1,27 @@
 package Java_Core_Classes.day43_Abstraction.employee;
 
-public class Developer extends Employee{
+public final class Developer extends Employee{
 
-    public Developer(String name, char gender, int age, String id, String jobTitle, double salary) {
-        super(name, gender, age, id, jobTitle, salary);
+
+    public Developer(String name, int age, char gender, int id, String jobTitle, double salary) {
+        super(name, age, gender, id, jobTitle, salary);
     }
 
     @Override
     public void work() {
-        System.out.println(getName() + " is coding");
+        System.out.println(getName()+" is developing application");
     }
+
 
     @Override
     public void sleep() {
-        System.out.println(getName() + " sleeps 6 hours");
+        System.out.println(getName()+" sleeps 6 hours");
     }
+
+    public void unitTest(){
+        System.out.println(getName()+" is unit testing");
+    }
+
+
+
 }
