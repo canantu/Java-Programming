@@ -102,48 +102,60 @@ OOP tasks:
                     setter (write)
                     If private data is final, we can not generate setter
 
-POJO
+                    POJO: a custom class to be used in API class
 
 2. Inheritance: Building "IS A" relationship (parent & child)
                 child class: inherits all the variable & methods (that are visible) from the parent class
                 parent class: does not inherit any thing from child class
                 Object class is the parent of all the classes by default
 
+(if we have common features, child can inherit from the parent, we don't need to declare them again and again.)
+(constructor can not be inherited (class names are different), default parent constructor is called implicitly from the child.
+if parent class constructor is not default, then child class must call it explicitly with super keyword)
+(disadvantage: everything that is visible will be inherited)
+(final class can not be inherited)
 
-abstract TestBase
-driver
-setUp (@BeforeMethod):
-set the driver
-open the browser
-maximize the
-window
-implicitWait
-navigateToURL
-tearDown (@AfterMethod):
-TakeScreenShot
-(If stailed)
-Quit
-TestClass1 extends TestBase
-TestClass2 extends TestBase
-abstract BasePage
+
+
+
+
+
+        abstract TestBase
+            driver
+
+            setUp (@BeforeMethod):
+                set the driver
+                open the browser
+                maximize the window
+                implicitWait
+                navigateToURL
+
+            tearDown (@AfterMethod):
+                TakeScreenShot (If failed)
+                Quit
+
+        TestClass1 extends TestBase
+        TestClass2 extends TestBase
+        abstract BasePage
+
 3. Abstraction: hiding the implementation details
-Abstract method: method
-without the body
-meant to be overriden
+
+Abstract method:    method without the body
+                    meant to be overridden
 2 ways:
-Abstract class:
-not concrete ==> No objects
-meant to be parent
-class can extend one abstract class ONLY
-Interface: NOT a
-class. meant to be implemented
-used for providing additional methods that classes need
-100% abstraction
-public is the ONLY access modifier
-class can implement multiple interfaces
-Can Have:
-Variable: static & final ONLY
-Methods: abstract method, static method, default method
+    Abstract class: not concrete ==> No objects
+                    meant to be parent
+                    class can extend one abstract class ONLY
+
+    Interface:  NOT a class. meant to be implemented
+                used for providing additional methods that classes need
+                100% abstraction
+                public is the ONLY access modifier
+                class can implement multiple interfaces
+
+                Can Have:
+                    Variable: static & final ONLY
+                    Methods: abstract method, static method, default method
 WebDriver
 WebElement
 TakeScreenShot
@@ -152,21 +164,34 @@ List
 Set
 ...
 4. Polymorphism: Ability of the objects to take on many
-forms
-Shape shape = new
-Circle();
-shape.area()
-Method Overriding vs Method Overloading
-Employee employee = new Tester();
-employee.testing()
+        forms
+        Shape shape = new
+        Circle();
+        shape.area()
+
+        Method Overriding vs Method Overloading
+        Employee employee = new Tester();
+        employee.testing()
+
+--------------------
+Method Hiding:
+- When parent and child have the same static method,
+child class hide the method of parent class and only execute child class method.
+Because method overriding is not possible with static methods.
+
 ParentClass
-static void method1(){
-"Parent version"
-}
+    static void method1(){
+        "Parent version"
+    }
+
 ChildClass extends ParentClass
-static void method1(){
-"Child version"
-}
+    static void method1(){
+        "Child version"
+    }
+---------------------
+* instance block vs constructor (initialization of instance variables but constructor is best way)
+
+
 Short videos:
 1.Thread, Process, Synchronized
 2. Collection Intro
