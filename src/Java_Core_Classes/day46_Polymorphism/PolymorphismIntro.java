@@ -33,9 +33,9 @@ public class PolymorphismIntro {
 
          */
 
-        Employee tester = new Tester("canan", 'F', 37, "123", "SDET", 60000);
-        Employee developer = new Developer("ali", 'M', 49, "223", "Java Developer", 70000);
-        Employee teacher = new Teacher("veli", 'M', 23, "223", "Math Teacher", 50000);
+        Employee tester = new Tester("canan", 37, 'F', 1, "SDET", 60000);
+        Employee developer = new Developer("ali", 49, 'M', 2, "Java Developer", 70000);
+        Employee teacher = new Teacher("veli", 23, 'M', 3, "Math Teacher", 50000);
 
         ArrayList<Employee> cydeoEmployees = new ArrayList<>();
 
@@ -48,7 +48,7 @@ public class PolymorphismIntro {
 
         System.out.println("-----------------------------------------------------------------");
 
-        Employee employee = new Tester("canan", 'F', 37, "123", "SDET", 60000);
+        Employee employee = new Tester("canan", 23, 'F', 4, "SDET", 60000);
         employee.work();
     //    employee.bugReport();   can not reach subclass' methods
 
