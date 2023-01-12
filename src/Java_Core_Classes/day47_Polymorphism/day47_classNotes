@@ -156,20 +156,36 @@ Abstract method:    method without the body
                 Can Have:
                     Variable: static & final ONLY
                     Methods: abstract method, static method, default method
-WebDriver
-WebElement
-TakeScreenShot
-JavaScriptExecuter
-List
-Set
-...
-4. Polymorphism: Ability of the objects to take on many
-        forms
+
+                    Interface examples:
+                        WebDriver
+                        WebElement
+                        TakeScreenShot
+                        JavaScriptExecuter
+                        List
+                        Set
+                        ...
+
+4. Polymorphism: Ability of the objects to take on many forms
+        - reference type decide the methods/variables that will be called
+        - if the method is overridden, always the child version of that method is called
+        - if not overridden, parent version is called
+        - object type decide which implementation will be called
+
         Shape shape = new
         Circle();
         shape.area()
 
+----------------------------------
         Method Overriding vs Method Overloading
+        Method Overriding: One method multiple implementation, inheritance required. static methods can not be overridden.
+        static means only one copy. so there can not be multiple implementation.
+        Instance methods that are not private and final can be overridden.
+        Access modifier must be same or more visible. Return type must be same.
+
+        Method Overloading: creating different methods with the same name, any method can be overloaded. No inheritance is required.
+        return type can be same or different.
+
         Employee employee = new Tester();
         employee.testing()
 

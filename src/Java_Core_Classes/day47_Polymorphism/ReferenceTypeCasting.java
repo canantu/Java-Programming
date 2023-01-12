@@ -50,7 +50,7 @@ public class ReferenceTypeCasting {
 
         System.out.println("--------------------------------------------------");
 
-        Employee employee = new Tester("canan", 'F', 37, "123", "SDET", 60000);
+        Employee employee = new Tester("canan", 23, 'F', 4, "SDET", 60000);
         ((Tester)employee).bugReport();
 
      //   Teacher teacher = (Teacher) employee;   ClassCastException
